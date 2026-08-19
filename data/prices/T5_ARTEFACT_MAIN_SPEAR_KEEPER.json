@@ -1420,12 +1420,42 @@
       "buyPrice": null,
       "sellPriceFormatted": "297",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T23:07:27.340Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 996,
+      "buyPrice": null,
+      "sellPriceFormatted": "996",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T23:07:27.340Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 9999,
+      "buyPrice": null,
+      "sellPriceFormatted": "10",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T23:07:27.340Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 297,
+      "buyPrice": null,
+      "sellPriceFormatted": "297",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
+        "timestamp": "2026-08-19T23:07:27.340Z",
         "sellPrice": 297,
         "buyPrice": null,
         "sellPriceFormatted": "297",
@@ -1443,10 +1473,19 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
+        "timestamp": "2026-08-19T23:07:27.340Z",
         "sellPrice": 9999,
         "buyPrice": null,
         "sellPriceFormatted": "10",
+        "buyPriceFormatted": null
+      }
+    },
+    "caerleon": {
+      "1": {
+        "timestamp": "2026-08-19T23:07:27.340Z",
+        "sellPrice": 996,
+        "buyPrice": null,
+        "sellPriceFormatted": "996",
         "buyPriceFormatted": null
       }
     }

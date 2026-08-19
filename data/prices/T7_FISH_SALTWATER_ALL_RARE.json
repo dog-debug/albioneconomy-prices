@@ -2730,13 +2730,63 @@
       "buyPrice": null,
       "sellPriceFormatted": "25",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T23:07:27.340Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 26744,
+      "buyPrice": null,
+      "sellPriceFormatted": "26.7K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T23:07:27.340Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 21995,
+      "buyPrice": 14001,
+      "sellPriceFormatted": "22",
+      "buyPriceFormatted": "14"
+    },
+    {
+      "timestamp": "2026-08-19T23:07:27.340Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 29995,
+      "buyPrice": null,
+      "sellPriceFormatted": "30",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T23:07:27.340Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 24256,
+      "buyPrice": 15013,
+      "sellPriceFormatted": "24.3K",
+      "buyPriceFormatted": "15"
+    },
+    {
+      "timestamp": "2026-08-19T23:07:27.340Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 24984,
+      "buyPrice": null,
+      "sellPriceFormatted": "25",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
-        "sellPrice": 21996,
+        "timestamp": "2026-08-19T23:07:27.340Z",
+        "sellPrice": 21995,
         "buyPrice": 14001,
         "sellPriceFormatted": "22",
         "buyPriceFormatted": "14"
@@ -2753,7 +2803,7 @@
     },
     "thetford": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
+        "timestamp": "2026-08-19T23:07:27.340Z",
         "sellPrice": 24984,
         "buyPrice": null,
         "sellPriceFormatted": "25",
@@ -2762,7 +2812,7 @@
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
+        "timestamp": "2026-08-19T23:07:27.340Z",
         "sellPrice": 26744,
         "buyPrice": null,
         "sellPriceFormatted": "26.7K",
@@ -2771,11 +2821,20 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
+        "timestamp": "2026-08-19T23:07:27.340Z",
         "sellPrice": 29995,
         "buyPrice": null,
         "sellPriceFormatted": "30",
         "buyPriceFormatted": null
+      }
+    },
+    "lymhurst": {
+      "1": {
+        "timestamp": "2026-08-19T23:07:27.340Z",
+        "sellPrice": 24256,
+        "buyPrice": 15013,
+        "sellPriceFormatted": "24.3K",
+        "buyPriceFormatted": "15"
       }
     }
   }

@@ -690,16 +690,64 @@
       "buyPrice": null,
       "sellPriceFormatted": "17",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T23:07:27.340Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 28997,
+      "buyPrice": null,
+      "sellPriceFormatted": "29",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T23:07:27.340Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 17000,
+      "buyPrice": null,
+      "sellPriceFormatted": "17",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T23:07:27.340Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 28989,
+      "buyPrice": 1011,
+      "sellPriceFormatted": "29",
+      "buyPriceFormatted": "1"
     }
   ],
   "latest": {
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
+        "timestamp": "2026-08-19T23:07:27.340Z",
         "sellPrice": 17000,
         "buyPrice": null,
         "sellPriceFormatted": "17",
         "buyPriceFormatted": null
+      }
+    },
+    "bridgewatch": {
+      "1": {
+        "timestamp": "2026-08-19T23:07:27.340Z",
+        "sellPrice": 28997,
+        "buyPrice": null,
+        "sellPriceFormatted": "29",
+        "buyPriceFormatted": null
+      }
+    },
+    "lymhurst": {
+      "1": {
+        "timestamp": "2026-08-19T23:07:27.340Z",
+        "sellPrice": 28989,
+        "buyPrice": 1011,
+        "sellPriceFormatted": "29",
+        "buyPriceFormatted": "1"
       }
     }
   }
