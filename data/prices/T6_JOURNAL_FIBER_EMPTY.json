@@ -360,21 +360,71 @@
       "buyPrice": 6083,
       "sellPriceFormatted": "7",
       "buyPriceFormatted": "6.1K"
+    },
+    {
+      "timestamp": "2026-08-19T06:23:44.443Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 14384,
+      "buyPrice": 5500,
+      "sellPriceFormatted": "14.4K",
+      "buyPriceFormatted": "5.5K"
+    },
+    {
+      "timestamp": "2026-08-19T06:23:44.443Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 13497,
+      "buyPrice": null,
+      "sellPriceFormatted": "13.5K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T06:23:44.443Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 8000,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "8"
+    },
+    {
+      "timestamp": "2026-08-19T06:23:44.443Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 6987,
+      "buyPrice": 6083,
+      "sellPriceFormatted": "7",
+      "buyPriceFormatted": "6.1K"
+    },
+    {
+      "timestamp": "2026-08-19T06:23:44.443Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 10500,
+      "buyPrice": 8000,
+      "sellPriceFormatted": "10.5K",
+      "buyPriceFormatted": "8"
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-19T03:59:29.479Z",
-        "sellPrice": 14385,
-        "buyPrice": null,
+        "timestamp": "2026-08-19T06:23:44.443Z",
+        "sellPrice": 14384,
+        "buyPrice": 5500,
         "sellPriceFormatted": "14.4K",
-        "buyPriceFormatted": null
+        "buyPriceFormatted": "5.5K"
       }
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-19T03:59:29.479Z",
+        "timestamp": "2026-08-19T06:23:44.443Z",
         "sellPrice": 13497,
         "buyPrice": null,
         "sellPriceFormatted": "13.5K",
@@ -383,7 +433,7 @@
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-19T03:59:29.479Z",
+        "timestamp": "2026-08-19T06:23:44.443Z",
         "sellPrice": null,
         "buyPrice": 8000,
         "sellPriceFormatted": null,
@@ -392,11 +442,20 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-19T03:59:29.479Z",
+        "timestamp": "2026-08-19T06:23:44.443Z",
         "sellPrice": 6987,
         "buyPrice": 6083,
         "sellPriceFormatted": "7",
         "buyPriceFormatted": "6.1K"
+      }
+    },
+    "martlock": {
+      "1": {
+        "timestamp": "2026-08-19T06:23:44.443Z",
+        "sellPrice": 10500,
+        "buyPrice": 8000,
+        "sellPriceFormatted": "10.5K",
+        "buyPriceFormatted": "8"
       }
     }
   }
