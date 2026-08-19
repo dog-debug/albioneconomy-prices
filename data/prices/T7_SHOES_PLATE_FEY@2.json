@@ -600,23 +600,103 @@
       "buyPrice": null,
       "sellPriceFormatted": "1000",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T17:39:29.560Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 199760,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "199.8K"
+    },
+    {
+      "timestamp": "2026-08-19T17:39:29.560Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 254240,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "254.2K"
+    },
+    {
+      "timestamp": "2026-08-19T17:39:29.560Z",
+      "city": "bridgewatch",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 655000,
+      "buyPrice": null,
+      "sellPriceFormatted": "655",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T17:39:29.560Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 698566,
+      "buyPrice": null,
+      "sellPriceFormatted": "698.6K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T17:39:29.560Z",
+      "city": "caerleon",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 290560,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "290.6K"
+    },
+    {
+      "timestamp": "2026-08-19T17:39:29.560Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 261504,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "261.5K"
+    },
+    {
+      "timestamp": "2026-08-19T17:39:29.560Z",
+      "city": "caerleon",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 257872,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "257.9K"
+    },
+    {
+      "timestamp": "2026-08-19T17:39:29.560Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 999998,
+      "buyPrice": null,
+      "sellPriceFormatted": "1000",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-19T12:09:30.928Z",
+        "timestamp": "2026-08-19T17:39:29.560Z",
         "sellPrice": null,
-        "buyPrice": 159808,
+        "buyPrice": 199760,
         "sellPriceFormatted": null,
-        "buyPriceFormatted": "159.8K"
+        "buyPriceFormatted": "199.8K"
       },
       "2": {
-        "timestamp": "2026-08-19T12:09:30.928Z",
+        "timestamp": "2026-08-19T17:39:29.560Z",
         "sellPrice": null,
-        "buyPrice": 250608,
+        "buyPrice": 254240,
         "sellPriceFormatted": null,
-        "buyPriceFormatted": "250.6K"
+        "buyPriceFormatted": "254.2K"
       }
     },
     "caerleon": {
@@ -628,21 +708,21 @@
         "buyPriceFormatted": "421.3K"
       },
       "3": {
-        "timestamp": "2026-08-19T12:09:30.928Z",
+        "timestamp": "2026-08-19T17:39:29.560Z",
         "sellPrice": null,
         "buyPrice": 290560,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "290.6K"
       },
       "4": {
-        "timestamp": "2026-08-19T12:09:30.928Z",
+        "timestamp": "2026-08-19T17:39:29.560Z",
         "sellPrice": null,
-        "buyPrice": 257872,
+        "buyPrice": 261504,
         "sellPriceFormatted": null,
-        "buyPriceFormatted": "257.9K"
+        "buyPriceFormatted": "261.5K"
       },
       "5": {
-        "timestamp": "2026-08-19T12:09:30.928Z",
+        "timestamp": "2026-08-19T17:39:29.560Z",
         "sellPrice": null,
         "buyPrice": 257872,
         "sellPriceFormatted": null,
@@ -651,10 +731,26 @@
     },
     "lymhurst": {
       "4": {
-        "timestamp": "2026-08-19T12:09:30.928Z",
+        "timestamp": "2026-08-19T17:39:29.560Z",
         "sellPrice": 999998,
         "buyPrice": null,
         "sellPriceFormatted": "1000",
+        "buyPriceFormatted": null
+      }
+    },
+    "bridgewatch": {
+      "2": {
+        "timestamp": "2026-08-19T17:39:29.560Z",
+        "sellPrice": 655000,
+        "buyPrice": null,
+        "sellPriceFormatted": "655",
+        "buyPriceFormatted": null
+      },
+      "4": {
+        "timestamp": "2026-08-19T17:39:29.560Z",
+        "sellPrice": 698566,
+        "buyPrice": null,
+        "sellPriceFormatted": "698.6K",
         "buyPriceFormatted": null
       }
     }
