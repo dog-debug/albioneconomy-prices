@@ -450,6 +450,36 @@
       "buyPrice": 25242,
       "sellPriceFormatted": "75",
       "buyPriceFormatted": "25.2K"
+    },
+    {
+      "timestamp": "2026-08-19T05:11:08.021Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 50000,
+      "buyPrice": null,
+      "sellPriceFormatted": "50",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T05:11:08.021Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 74331,
+      "buyPrice": 45963,
+      "sellPriceFormatted": "74.3K",
+      "buyPriceFormatted": "46"
+    },
+    {
+      "timestamp": "2026-08-19T05:11:08.021Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 74983,
+      "buyPrice": 25242,
+      "sellPriceFormatted": "75",
+      "buyPriceFormatted": "25.2K"
     }
   ],
   "latest": {
@@ -482,7 +512,7 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-19T03:59:29.479Z",
+        "timestamp": "2026-08-19T05:11:08.021Z",
         "sellPrice": 74331,
         "buyPrice": 45963,
         "sellPriceFormatted": "74.3K",
@@ -491,11 +521,20 @@
     },
     "thetford": {
       "1": {
-        "timestamp": "2026-08-19T03:59:29.479Z",
+        "timestamp": "2026-08-19T05:11:08.021Z",
         "sellPrice": 74983,
         "buyPrice": 25242,
         "sellPriceFormatted": "75",
         "buyPriceFormatted": "25.2K"
+      }
+    },
+    "caerleon": {
+      "1": {
+        "timestamp": "2026-08-19T05:11:08.021Z",
+        "sellPrice": 50000,
+        "buyPrice": null,
+        "sellPriceFormatted": "50",
+        "buyPriceFormatted": null
       }
     }
   }

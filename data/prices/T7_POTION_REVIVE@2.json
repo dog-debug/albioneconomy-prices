@@ -450,12 +450,52 @@
       "buyPrice": 36891,
       "sellPriceFormatted": "99.9K",
       "buyPriceFormatted": "36.9K"
+    },
+    {
+      "timestamp": "2026-08-19T05:11:08.021Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 63291,
+      "buyPrice": null,
+      "sellPriceFormatted": "63.3K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T05:11:08.021Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 54990,
+      "buyPrice": null,
+      "sellPriceFormatted": "55",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T05:11:08.021Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 77611,
+      "buyPrice": null,
+      "sellPriceFormatted": "77.6K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T05:11:08.021Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 65802,
+      "buyPrice": null,
+      "sellPriceFormatted": "65.8K",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-19T03:59:29.479Z",
+        "timestamp": "2026-08-19T05:11:08.021Z",
         "sellPrice": 63291,
         "buyPrice": null,
         "sellPriceFormatted": "63.3K",
@@ -464,7 +504,7 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-19T03:59:29.479Z",
+        "timestamp": "2026-08-19T05:11:08.021Z",
         "sellPrice": 77611,
         "buyPrice": null,
         "sellPriceFormatted": "77.6K",
@@ -482,11 +522,11 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-19T03:59:29.479Z",
+        "timestamp": "2026-08-19T05:11:08.021Z",
         "sellPrice": 65802,
-        "buyPrice": 41221,
+        "buyPrice": null,
         "sellPriceFormatted": "65.8K",
-        "buyPriceFormatted": "41.2K"
+        "buyPriceFormatted": null
       }
     },
     "thetford": {
@@ -496,6 +536,15 @@
         "buyPrice": 36891,
         "sellPriceFormatted": "99.9K",
         "buyPriceFormatted": "36.9K"
+      }
+    },
+    "caerleon": {
+      "1": {
+        "timestamp": "2026-08-19T05:11:08.021Z",
+        "sellPrice": 54990,
+        "buyPrice": null,
+        "sellPriceFormatted": "55",
+        "buyPriceFormatted": null
       }
     }
   }
