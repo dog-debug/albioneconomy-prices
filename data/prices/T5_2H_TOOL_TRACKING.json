@@ -1520,6 +1520,46 @@
       "buyPrice": null,
       "sellPriceFormatted": "18",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T21:39:42.702Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 12598,
+      "buyPrice": null,
+      "sellPriceFormatted": "12.6K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T21:39:42.702Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 12220,
+      "buyPrice": 9130,
+      "sellPriceFormatted": "12.2K",
+      "buyPriceFormatted": "9.1K"
+    },
+    {
+      "timestamp": "2026-08-19T21:39:42.702Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 15000,
+      "buyPrice": 8850,
+      "sellPriceFormatted": "15",
+      "buyPriceFormatted": "8.8K"
+    },
+    {
+      "timestamp": "2026-08-19T21:39:42.702Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 17961,
+      "buyPrice": null,
+      "sellPriceFormatted": "18",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
@@ -1543,7 +1583,7 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-19T21:22:28.107Z",
+        "timestamp": "2026-08-19T21:39:42.702Z",
         "sellPrice": 12220,
         "buyPrice": 9130,
         "sellPriceFormatted": "12.2K",
@@ -1552,7 +1592,7 @@
     },
     "thetford": {
       "1": {
-        "timestamp": "2026-08-19T21:22:28.107Z",
+        "timestamp": "2026-08-19T21:39:42.702Z",
         "sellPrice": 17961,
         "buyPrice": null,
         "sellPriceFormatted": "18",
@@ -1561,11 +1601,20 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-19T21:22:28.107Z",
+        "timestamp": "2026-08-19T21:39:42.702Z",
         "sellPrice": 15000,
         "buyPrice": 8850,
         "sellPriceFormatted": "15",
         "buyPriceFormatted": "8.8K"
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-08-19T21:39:42.702Z",
+        "sellPrice": 12598,
+        "buyPrice": null,
+        "sellPriceFormatted": "12.6K",
+        "buyPriceFormatted": null
       }
     }
   }
