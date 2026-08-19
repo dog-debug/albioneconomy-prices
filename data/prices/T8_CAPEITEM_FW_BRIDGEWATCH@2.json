@@ -630,42 +630,112 @@
       "buyPrice": null,
       "sellPriceFormatted": "2",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 794612,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "794.6K"
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1471106,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "1.5M"
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1116752,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "1.1M"
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 531531,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "531.5K"
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1712711,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "1.7M"
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1549997,
+      "buyPrice": null,
+      "sellPriceFormatted": "1.5M",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "martlock",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1600000,
+      "buyPrice": null,
+      "sellPriceFormatted": "1.6M",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-19T11:07:46.508Z",
+        "timestamp": "2026-08-19T15:53:51.515Z",
         "sellPrice": null,
-        "buyPrice": 1250977,
+        "buyPrice": 794612,
         "sellPriceFormatted": null,
-        "buyPriceFormatted": "1.3M"
+        "buyPriceFormatted": "794.6K"
       },
       "2": {
-        "timestamp": "2026-08-19T11:07:46.508Z",
+        "timestamp": "2026-08-19T15:53:51.515Z",
         "sellPrice": null,
-        "buyPrice": 1095276,
+        "buyPrice": 1471106,
+        "sellPriceFormatted": null,
+        "buyPriceFormatted": "1.5M"
+      },
+      "3": {
+        "timestamp": "2026-08-19T15:53:51.515Z",
+        "sellPrice": null,
+        "buyPrice": 1116752,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "1.1M"
       },
-      "3": {
-        "timestamp": "2026-08-19T11:07:46.508Z",
-        "sellPrice": null,
-        "buyPrice": 1030848,
-        "sellPriceFormatted": null,
-        "buyPriceFormatted": "1"
-      },
       "4": {
-        "timestamp": "2026-08-19T11:07:46.508Z",
+        "timestamp": "2026-08-19T15:53:51.515Z",
         "sellPrice": null,
         "buyPrice": 531531,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "531.5K"
       },
       "5": {
-        "timestamp": "2026-08-19T11:07:46.508Z",
+        "timestamp": "2026-08-19T15:53:51.515Z",
         "sellPrice": null,
-        "buyPrice": 1707342,
+        "buyPrice": 1712711,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "1.7M"
       }
@@ -683,6 +753,22 @@
         "sellPrice": 1999900,
         "buyPrice": null,
         "sellPriceFormatted": "2",
+        "buyPriceFormatted": null
+      }
+    },
+    "martlock": {
+      "1": {
+        "timestamp": "2026-08-19T15:53:51.515Z",
+        "sellPrice": 1549997,
+        "buyPrice": null,
+        "sellPriceFormatted": "1.5M",
+        "buyPriceFormatted": null
+      },
+      "2": {
+        "timestamp": "2026-08-19T15:53:51.515Z",
+        "sellPrice": 1600000,
+        "buyPrice": null,
+        "sellPriceFormatted": "1.6M",
         "buyPriceFormatted": null
       }
     }

@@ -450,26 +450,86 @@
       "buyPrice": null,
       "sellPriceFormatted": "68",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 2242200,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "2.2M"
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 358752,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "358.8K"
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 179376,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "179.4K"
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 65000000,
+      "buyPrice": null,
+      "sellPriceFormatted": "65",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 63999999,
+      "buyPrice": null,
+      "sellPriceFormatted": "64",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T15:53:51.515Z",
+      "city": "thetford",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 67999999,
+      "buyPrice": null,
+      "sellPriceFormatted": "68",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "blackmarket": {
       "3": {
-        "timestamp": "2026-08-19T13:19:53.667Z",
+        "timestamp": "2026-08-19T15:53:51.515Z",
         "sellPrice": null,
         "buyPrice": 2242200,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "2.2M"
       },
       "4": {
-        "timestamp": "2026-08-19T13:19:53.667Z",
+        "timestamp": "2026-08-19T15:53:51.515Z",
         "sellPrice": null,
         "buyPrice": 358752,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "358.8K"
       },
       "5": {
-        "timestamp": "2026-08-19T13:19:53.667Z",
+        "timestamp": "2026-08-19T15:53:51.515Z",
         "sellPrice": null,
         "buyPrice": 179376,
         "sellPriceFormatted": null,
@@ -478,7 +538,7 @@
     },
     "lymhurst": {
       "4": {
-        "timestamp": "2026-08-19T13:19:53.667Z",
+        "timestamp": "2026-08-19T15:53:51.515Z",
         "sellPrice": 65000000,
         "buyPrice": null,
         "sellPriceFormatted": "65",
@@ -487,10 +547,19 @@
     },
     "thetford": {
       "4": {
-        "timestamp": "2026-08-19T13:19:53.667Z",
+        "timestamp": "2026-08-19T15:53:51.515Z",
         "sellPrice": 67999999,
         "buyPrice": null,
         "sellPriceFormatted": "68",
+        "buyPriceFormatted": null
+      }
+    },
+    "martlock": {
+      "4": {
+        "timestamp": "2026-08-19T15:53:51.515Z",
+        "sellPrice": 63999999,
+        "buyPrice": null,
+        "sellPriceFormatted": "64",
         "buyPriceFormatted": null
       }
     }
