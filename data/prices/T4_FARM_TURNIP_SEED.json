@@ -1150,12 +1150,52 @@
       "buyPrice": 8000,
       "sellPriceFormatted": "8.7K",
       "buyPriceFormatted": "8"
+    },
+    {
+      "timestamp": "2026-08-19T22:22:23.246Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 8345,
+      "buyPrice": 5082,
+      "sellPriceFormatted": "8.3K",
+      "buyPriceFormatted": "5.1K"
+    },
+    {
+      "timestamp": "2026-08-19T22:22:23.246Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 9648,
+      "buyPrice": null,
+      "sellPriceFormatted": "9.6K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T22:22:23.246Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 8965,
+      "buyPrice": 8234,
+      "sellPriceFormatted": "9",
+      "buyPriceFormatted": "8.2K"
+    },
+    {
+      "timestamp": "2026-08-19T22:22:23.246Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 8656,
+      "buyPrice": 8000,
+      "sellPriceFormatted": "8.7K",
+      "buyPriceFormatted": "8"
     }
   ],
   "latest": {
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-19T22:07:15.129Z",
+        "timestamp": "2026-08-19T22:22:23.246Z",
         "sellPrice": 9648,
         "buyPrice": null,
         "sellPriceFormatted": "9.6K",
@@ -1164,7 +1204,7 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-19T22:07:15.129Z",
+        "timestamp": "2026-08-19T22:22:23.246Z",
         "sellPrice": 8656,
         "buyPrice": 8000,
         "sellPriceFormatted": "8.7K",
@@ -1173,11 +1213,20 @@
     },
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-19T22:07:15.129Z",
+        "timestamp": "2026-08-19T22:22:23.246Z",
         "sellPrice": 8345,
         "buyPrice": 5082,
         "sellPriceFormatted": "8.3K",
         "buyPriceFormatted": "5.1K"
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-08-19T22:22:23.246Z",
+        "sellPrice": 8965,
+        "buyPrice": 8234,
+        "sellPriceFormatted": "9",
+        "buyPriceFormatted": "8.2K"
       }
     }
   }
