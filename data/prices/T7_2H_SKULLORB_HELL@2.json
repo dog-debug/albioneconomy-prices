@@ -420,40 +420,120 @@
       "buyPrice": null,
       "sellPriceFormatted": "1.8M",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 216000,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "216"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 696000,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "696"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 780000,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "780"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 792000,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "792"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 348000,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "348"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "bridgewatch",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1799998,
+      "buyPrice": null,
+      "sellPriceFormatted": "1.8M",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1899989,
+      "buyPrice": null,
+      "sellPriceFormatted": "1.9M",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "martlock",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1800000,
+      "buyPrice": null,
+      "sellPriceFormatted": "1.8M",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-19T13:59:07.001Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
-        "buyPrice": 60000,
+        "buyPrice": 216000,
         "sellPriceFormatted": null,
-        "buyPriceFormatted": "60"
+        "buyPriceFormatted": "216"
       },
       "2": {
-        "timestamp": "2026-08-19T13:59:07.001Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
-        "buyPrice": 624000,
+        "buyPrice": 696000,
         "sellPriceFormatted": null,
-        "buyPriceFormatted": "624"
+        "buyPriceFormatted": "696"
       },
       "3": {
-        "timestamp": "2026-08-19T13:59:07.001Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
-        "buyPrice": 768000,
+        "buyPrice": 780000,
         "sellPriceFormatted": null,
-        "buyPriceFormatted": "768"
+        "buyPriceFormatted": "780"
       },
       "4": {
-        "timestamp": "2026-08-19T13:59:07.001Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
         "buyPrice": 792000,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "792"
       },
       "5": {
-        "timestamp": "2026-08-19T13:59:07.001Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
         "buyPrice": 348000,
         "sellPriceFormatted": null,
@@ -462,7 +542,7 @@
     },
     "bridgewatch": {
       "2": {
-        "timestamp": "2026-08-19T13:59:07.001Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": 1799998,
         "buyPrice": null,
         "sellPriceFormatted": "1.8M",
@@ -471,10 +551,19 @@
     },
     "martlock": {
       "2": {
-        "timestamp": "2026-08-19T13:59:07.001Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": 1800000,
         "buyPrice": null,
         "sellPriceFormatted": "1.8M",
+        "buyPriceFormatted": null
+      }
+    },
+    "forsterling": {
+      "4": {
+        "timestamp": "2026-08-19T16:23:06.345Z",
+        "sellPrice": 1899989,
+        "buyPrice": null,
+        "sellPriceFormatted": "1.9M",
         "buyPriceFormatted": null
       }
     }

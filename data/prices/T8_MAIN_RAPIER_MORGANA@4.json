@@ -640,33 +640,113 @@
       "buyPrice": null,
       "sellPriceFormatted": "46",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 25309791,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "25.3M"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 19705920,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "19.7M"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 26541411,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "26.5M"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 307905,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "307.9K"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 49999998,
+      "buyPrice": null,
+      "sellPriceFormatted": "50",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 48000000,
+      "buyPrice": null,
+      "sellPriceFormatted": "48",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 46500000,
+      "buyPrice": null,
+      "sellPriceFormatted": "46.5M",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "thetford",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 45999999,
+      "buyPrice": null,
+      "sellPriceFormatted": "46",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-19T13:19:53.667Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
-        "buyPrice": 25186629,
+        "buyPrice": 25309791,
         "sellPriceFormatted": null,
-        "buyPriceFormatted": "25.2M"
+        "buyPriceFormatted": "25.3M"
       },
       "2": {
-        "timestamp": "2026-08-19T13:19:53.667Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
         "buyPrice": 19705920,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "19.7M"
       },
       "3": {
-        "timestamp": "2026-08-19T13:19:53.667Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
         "buyPrice": 26541411,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "26.5M"
       },
       "5": {
-        "timestamp": "2026-08-19T13:19:53.667Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
         "buyPrice": 307905,
         "sellPriceFormatted": null,
@@ -675,7 +755,7 @@
     },
     "lymhurst": {
       "4": {
-        "timestamp": "2026-08-19T13:19:53.667Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": 46500000,
         "buyPrice": null,
         "sellPriceFormatted": "46.5M",
@@ -684,7 +764,7 @@
     },
     "thetford": {
       "4": {
-        "timestamp": "2026-08-19T13:19:53.667Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": 45999999,
         "buyPrice": null,
         "sellPriceFormatted": "46",
@@ -693,10 +773,19 @@
     },
     "bridgewatch": {
       "4": {
-        "timestamp": "2026-08-19T13:19:53.667Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": 49999998,
         "buyPrice": null,
         "sellPriceFormatted": "50",
+        "buyPriceFormatted": null
+      }
+    },
+    "forsterling": {
+      "4": {
+        "timestamp": "2026-08-19T16:23:06.345Z",
+        "sellPrice": 48000000,
+        "buyPrice": null,
+        "sellPriceFormatted": "48",
         "buyPriceFormatted": null
       }
     }

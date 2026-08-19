@@ -430,40 +430,130 @@
       "buyPrice": null,
       "sellPriceFormatted": "1.2M",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 934148,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "934.1K"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1191844,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "1.2M"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 402650,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "402.6K"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 909989,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "910"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 434862,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "434.9K"
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1293984,
+      "buyPrice": null,
+      "sellPriceFormatted": "1.3M",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1294961,
+      "buyPrice": null,
+      "sellPriceFormatted": "1.3M",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1499977,
+      "buyPrice": null,
+      "sellPriceFormatted": "1.5M",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T16:23:06.345Z",
+      "city": "martlock",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1200000,
+      "buyPrice": null,
+      "sellPriceFormatted": "1.2M",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-19T15:23:14.295Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
         "buyPrice": 934148,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "934.1K"
       },
       "2": {
-        "timestamp": "2026-08-19T15:23:14.295Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
         "buyPrice": 1191844,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "1.2M"
       },
       "3": {
-        "timestamp": "2026-08-19T15:23:14.295Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
         "buyPrice": 402650,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "402.6K"
       },
       "4": {
-        "timestamp": "2026-08-19T15:23:14.295Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
         "buyPrice": 909989,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "910"
       },
       "5": {
-        "timestamp": "2026-08-19T15:23:14.295Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": null,
         "buyPrice": 434862,
         "sellPriceFormatted": null,
@@ -481,10 +571,33 @@
     },
     "martlock": {
       "2": {
-        "timestamp": "2026-08-19T15:23:14.295Z",
+        "timestamp": "2026-08-19T16:23:06.345Z",
         "sellPrice": 1200000,
         "buyPrice": null,
         "sellPriceFormatted": "1.2M",
+        "buyPriceFormatted": null
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-08-19T16:23:06.345Z",
+        "sellPrice": 1293984,
+        "buyPrice": null,
+        "sellPriceFormatted": "1.3M",
+        "buyPriceFormatted": null
+      },
+      "2": {
+        "timestamp": "2026-08-19T16:23:06.345Z",
+        "sellPrice": 1294961,
+        "buyPrice": null,
+        "sellPriceFormatted": "1.3M",
+        "buyPriceFormatted": null
+      },
+      "4": {
+        "timestamp": "2026-08-19T16:23:06.345Z",
+        "sellPrice": 1499977,
+        "buyPrice": null,
+        "sellPriceFormatted": "1.5M",
         "buyPriceFormatted": null
       }
     }
