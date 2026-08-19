@@ -1660,12 +1660,42 @@
       "buyPrice": null,
       "sellPriceFormatted": "9.1K",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T23:22:05.741Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 8957,
+      "buyPrice": null,
+      "sellPriceFormatted": "9",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T23:22:05.741Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 9140,
+      "buyPrice": null,
+      "sellPriceFormatted": "9.1K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T23:22:05.741Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 7162,
+      "buyPrice": 5577,
+      "sellPriceFormatted": "7.2K",
+      "buyPriceFormatted": "5.6K"
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-19T23:07:27.340Z",
+        "timestamp": "2026-08-19T23:22:05.741Z",
         "sellPrice": 8957,
         "buyPrice": null,
         "sellPriceFormatted": "9",
@@ -1683,11 +1713,20 @@
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-19T23:07:27.340Z",
+        "timestamp": "2026-08-19T23:22:05.741Z",
         "sellPrice": 9140,
         "buyPrice": null,
         "sellPriceFormatted": "9.1K",
         "buyPriceFormatted": null
+      }
+    },
+    "lymhurst": {
+      "1": {
+        "timestamp": "2026-08-19T23:22:05.741Z",
+        "sellPrice": 7162,
+        "buyPrice": 5577,
+        "sellPriceFormatted": "7.2K",
+        "buyPriceFormatted": "5.6K"
       }
     }
   }
