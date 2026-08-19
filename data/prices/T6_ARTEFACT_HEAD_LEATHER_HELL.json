@@ -170,12 +170,52 @@
       "buyPrice": null,
       "sellPriceFormatted": "15.1K",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T21:51:50.329Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 24980,
+      "buyPrice": 5172,
+      "sellPriceFormatted": "25",
+      "buyPriceFormatted": "5.2K"
+    },
+    {
+      "timestamp": "2026-08-19T21:51:50.329Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 15082,
+      "buyPrice": null,
+      "sellPriceFormatted": "15.1K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T21:51:50.329Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 5007,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "5"
+    },
+    {
+      "timestamp": "2026-08-19T21:51:50.329Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 21662,
+      "buyPrice": 6267,
+      "sellPriceFormatted": "21.7K",
+      "buyPriceFormatted": "6.3K"
     }
   ],
   "latest": {
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-19T18:08:56.896Z",
+        "timestamp": "2026-08-19T21:51:50.329Z",
         "sellPrice": 15082,
         "buyPrice": null,
         "sellPriceFormatted": "15.1K",
@@ -184,11 +224,29 @@
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-19T18:08:56.896Z",
-        "sellPrice": 24983,
+        "timestamp": "2026-08-19T21:51:50.329Z",
+        "sellPrice": 24980,
         "buyPrice": 5172,
         "sellPriceFormatted": "25",
         "buyPriceFormatted": "5.2K"
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-08-19T21:51:50.329Z",
+        "sellPrice": null,
+        "buyPrice": 5007,
+        "sellPriceFormatted": null,
+        "buyPriceFormatted": "5"
+      }
+    },
+    "lymhurst": {
+      "1": {
+        "timestamp": "2026-08-19T21:51:50.329Z",
+        "sellPrice": 21662,
+        "buyPrice": 6267,
+        "sellPriceFormatted": "21.7K",
+        "buyPriceFormatted": "6.3K"
       }
     }
   }
