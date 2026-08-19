@@ -270,12 +270,32 @@
       "buyPrice": null,
       "sellPriceFormatted": "3.7K",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T17:22:44.117Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3890,
+      "buyPrice": 2503,
+      "sellPriceFormatted": "3.9K",
+      "buyPriceFormatted": "2.5K"
+    },
+    {
+      "timestamp": "2026-08-19T17:22:44.117Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3667,
+      "buyPrice": null,
+      "sellPriceFormatted": "3.7K",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-19T15:42:24.776Z",
+        "timestamp": "2026-08-19T17:22:44.117Z",
         "sellPrice": 3667,
         "buyPrice": null,
         "sellPriceFormatted": "3.7K",
@@ -284,11 +304,11 @@
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-19T15:42:24.776Z",
-        "sellPrice": 3884,
-        "buyPrice": null,
+        "timestamp": "2026-08-19T17:22:44.117Z",
+        "sellPrice": 3890,
+        "buyPrice": 2503,
         "sellPriceFormatted": "3.9K",
-        "buyPriceFormatted": null
+        "buyPriceFormatted": "2.5K"
       }
     }
   }

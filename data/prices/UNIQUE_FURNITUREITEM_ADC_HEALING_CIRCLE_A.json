@@ -170,12 +170,32 @@
       "buyPrice": null,
       "sellPriceFormatted": "9",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T17:22:44.117Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 11999,
+      "buyPrice": null,
+      "sellPriceFormatted": "12",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T17:22:44.117Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 7793,
+      "buyPrice": 500,
+      "sellPriceFormatted": "7.8K",
+      "buyPriceFormatted": "500"
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-19T12:09:30.928Z",
+        "timestamp": "2026-08-19T17:22:44.117Z",
         "sellPrice": 11999,
         "buyPrice": null,
         "sellPriceFormatted": "12",
@@ -184,11 +204,11 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-19T12:09:30.928Z",
-        "sellPrice": 8981,
-        "buyPrice": null,
-        "sellPriceFormatted": "9",
-        "buyPriceFormatted": null
+        "timestamp": "2026-08-19T17:22:44.117Z",
+        "sellPrice": 7793,
+        "buyPrice": 500,
+        "sellPriceFormatted": "7.8K",
+        "buyPriceFormatted": "500"
       }
     }
   }

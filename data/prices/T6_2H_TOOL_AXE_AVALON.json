@@ -140,12 +140,52 @@
       "buyPrice": null,
       "sellPriceFormatted": "800",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T17:22:44.117Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1111111,
+      "buyPrice": 452000,
+      "sellPriceFormatted": "1.1M",
+      "buyPriceFormatted": "452"
+    },
+    {
+      "timestamp": "2026-08-19T17:22:44.117Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 999962,
+      "buyPrice": 365013,
+      "sellPriceFormatted": "1000",
+      "buyPriceFormatted": "365"
+    },
+    {
+      "timestamp": "2026-08-19T17:22:44.117Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 799991,
+      "buyPrice": null,
+      "sellPriceFormatted": "800",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T17:22:44.117Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 780991,
+      "buyPrice": null,
+      "sellPriceFormatted": "781",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-19T11:07:46.508Z",
+        "timestamp": "2026-08-19T17:22:44.117Z",
         "sellPrice": 1111111,
         "buyPrice": 452000,
         "sellPriceFormatted": "1.1M",
@@ -154,10 +194,28 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-19T11:07:46.508Z",
+        "timestamp": "2026-08-19T17:22:44.117Z",
         "sellPrice": 799991,
         "buyPrice": null,
         "sellPriceFormatted": "800",
+        "buyPriceFormatted": null
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-08-19T17:22:44.117Z",
+        "sellPrice": 999962,
+        "buyPrice": 365013,
+        "sellPriceFormatted": "1000",
+        "buyPriceFormatted": "365"
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-19T17:22:44.117Z",
+        "sellPrice": 780991,
+        "buyPrice": null,
+        "sellPriceFormatted": "781",
         "buyPriceFormatted": null
       }
     }
