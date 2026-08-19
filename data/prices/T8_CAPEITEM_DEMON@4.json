@@ -690,33 +690,103 @@
       "buyPrice": null,
       "sellPriceFormatted": "160",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T22:39:43.335Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 8765029,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "8.8M"
+    },
+    {
+      "timestamp": "2026-08-19T22:39:43.335Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 7163923,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "7.2M"
+    },
+    {
+      "timestamp": "2026-08-19T22:39:43.335Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 6219681,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "6.2M"
+    },
+    {
+      "timestamp": "2026-08-19T22:39:43.335Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 2668510,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "2.7M"
+    },
+    {
+      "timestamp": "2026-08-19T22:39:43.335Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 16499999,
+      "buyPrice": null,
+      "sellPriceFormatted": "16.5M",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T22:39:43.335Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 15000000,
+      "buyPrice": null,
+      "sellPriceFormatted": "15",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T22:39:43.335Z",
+      "city": "forsterling",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 160000000,
+      "buyPrice": null,
+      "sellPriceFormatted": "160",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-19T21:39:42.702Z",
+        "timestamp": "2026-08-19T22:39:43.335Z",
         "sellPrice": null,
         "buyPrice": 8765029,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "8.8M"
       },
       "2": {
-        "timestamp": "2026-08-19T21:39:42.702Z",
+        "timestamp": "2026-08-19T22:39:43.335Z",
         "sellPrice": null,
         "buyPrice": 7163923,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "7.2M"
       },
       "3": {
-        "timestamp": "2026-08-19T21:39:42.702Z",
+        "timestamp": "2026-08-19T22:39:43.335Z",
         "sellPrice": null,
         "buyPrice": 6219681,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "6.2M"
       },
       "5": {
-        "timestamp": "2026-08-19T21:39:42.702Z",
+        "timestamp": "2026-08-19T22:39:43.335Z",
         "sellPrice": null,
         "buyPrice": 2668510,
         "sellPriceFormatted": null,
@@ -725,7 +795,7 @@
     },
     "caerleon": {
       "4": {
-        "timestamp": "2026-08-19T21:39:42.702Z",
+        "timestamp": "2026-08-19T22:39:43.335Z",
         "sellPrice": 15000000,
         "buyPrice": null,
         "sellPriceFormatted": "15",
@@ -734,10 +804,19 @@
     },
     "forsterling": {
       "5": {
-        "timestamp": "2026-08-19T21:39:42.702Z",
+        "timestamp": "2026-08-19T22:39:43.335Z",
         "sellPrice": 160000000,
         "buyPrice": null,
         "sellPriceFormatted": "160",
+        "buyPriceFormatted": null
+      }
+    },
+    "bridgewatch": {
+      "4": {
+        "timestamp": "2026-08-19T22:39:43.335Z",
+        "sellPrice": 16499999,
+        "buyPrice": null,
+        "sellPriceFormatted": "16.5M",
         "buyPriceFormatted": null
       }
     }

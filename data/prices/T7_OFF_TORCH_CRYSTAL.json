@@ -150,15 +150,44 @@
       "buyPrice": null,
       "sellPriceFormatted": "3",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T22:39:43.335Z",
+      "city": "bridgewatch",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3700000,
+      "buyPrice": null,
+      "sellPriceFormatted": "3.7M",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T22:39:43.335Z",
+      "city": "caerleon",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3000000,
+      "buyPrice": null,
+      "sellPriceFormatted": "3",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "caerleon": {
       "2": {
-        "timestamp": "2026-08-19T21:51:50.329Z",
+        "timestamp": "2026-08-19T22:39:43.335Z",
         "sellPrice": 3000000,
         "buyPrice": null,
         "sellPriceFormatted": "3",
+        "buyPriceFormatted": null
+      }
+    },
+    "bridgewatch": {
+      "2": {
+        "timestamp": "2026-08-19T22:39:43.335Z",
+        "sellPrice": 3700000,
+        "buyPrice": null,
+        "sellPriceFormatted": "3.7M",
         "buyPriceFormatted": null
       }
     }
