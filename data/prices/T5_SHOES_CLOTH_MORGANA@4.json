@@ -10,16 +10,79 @@
       "buyPrice": null,
       "sellPriceFormatted": "525",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T03:05:25.990Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 201816,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "201.8K"
+    },
+    {
+      "timestamp": "2026-08-19T03:05:25.990Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 137347,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "137.3K"
+    },
+    {
+      "timestamp": "2026-08-19T03:05:25.990Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 201816,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "201.8K"
+    },
+    {
+      "timestamp": "2026-08-19T03:05:25.990Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 524997,
+      "buyPrice": null,
+      "sellPriceFormatted": "525",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "forsterling": {
       "4": {
-        "timestamp": "2026-08-19T01:49:17.231Z",
+        "timestamp": "2026-08-19T03:05:25.990Z",
         "sellPrice": 524997,
         "buyPrice": null,
         "sellPriceFormatted": "525",
         "buyPriceFormatted": null
+      }
+    },
+    "blackmarket": {
+      "1": {
+        "timestamp": "2026-08-19T03:05:25.990Z",
+        "sellPrice": null,
+        "buyPrice": 201816,
+        "sellPriceFormatted": null,
+        "buyPriceFormatted": "201.8K"
+      },
+      "2": {
+        "timestamp": "2026-08-19T03:05:25.990Z",
+        "sellPrice": null,
+        "buyPrice": 137347,
+        "sellPriceFormatted": null,
+        "buyPriceFormatted": "137.3K"
+      },
+      "4": {
+        "timestamp": "2026-08-19T03:05:25.990Z",
+        "sellPrice": null,
+        "buyPrice": 201816,
+        "sellPriceFormatted": null,
+        "buyPriceFormatted": "201.8K"
       }
     }
   }

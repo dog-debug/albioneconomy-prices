@@ -110,19 +110,96 @@
       "buyPrice": null,
       "sellPriceFormatted": "100",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T03:05:25.990Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 70092,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "70.1K"
+    },
+    {
+      "timestamp": "2026-08-19T03:05:25.990Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 77499,
+      "buyPrice": 74349,
+      "sellPriceFormatted": "77.5K",
+      "buyPriceFormatted": "74.3K"
+    },
+    {
+      "timestamp": "2026-08-19T03:05:25.990Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 75438,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "75.4K"
+    },
+    {
+      "timestamp": "2026-08-19T03:05:25.990Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 109208,
+      "buyPrice": 30902,
+      "sellPriceFormatted": "109.2K",
+      "buyPriceFormatted": "30.9K"
+    },
+    {
+      "timestamp": "2026-08-19T03:05:25.990Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 109212,
+      "buyPrice": 31103,
+      "sellPriceFormatted": "109.2K",
+      "buyPriceFormatted": "31.1K"
+    },
+    {
+      "timestamp": "2026-08-19T03:05:25.990Z",
+      "city": "lymhurst",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 109969,
+      "buyPrice": null,
+      "sellPriceFormatted": "110",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T03:05:25.990Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 99990,
+      "buyPrice": null,
+      "sellPriceFormatted": "100",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "blackmarket": {
+      "1": {
+        "timestamp": "2026-08-19T03:05:25.990Z",
+        "sellPrice": null,
+        "buyPrice": 70092,
+        "sellPriceFormatted": null,
+        "buyPriceFormatted": "70.1K"
+      },
       "2": {
-        "timestamp": "2026-08-19T01:49:17.231Z",
+        "timestamp": "2026-08-19T03:05:25.990Z",
         "sellPrice": 77499,
         "buyPrice": 74349,
         "sellPriceFormatted": "77.5K",
         "buyPriceFormatted": "74.3K"
       },
       "3": {
-        "timestamp": "2026-08-19T01:49:17.231Z",
+        "timestamp": "2026-08-19T03:05:25.990Z",
         "sellPrice": null,
         "buyPrice": 75438,
         "sellPriceFormatted": null,
@@ -161,25 +238,25 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-19T01:49:17.231Z",
+        "timestamp": "2026-08-19T03:05:25.990Z",
         "sellPrice": 109208,
+        "buyPrice": 30902,
+        "sellPriceFormatted": "109.2K",
+        "buyPriceFormatted": "30.9K"
+      },
+      "2": {
+        "timestamp": "2026-08-19T03:05:25.990Z",
+        "sellPrice": 109212,
         "buyPrice": 31103,
         "sellPriceFormatted": "109.2K",
         "buyPriceFormatted": "31.1K"
       },
-      "2": {
-        "timestamp": "2026-08-19T01:49:17.231Z",
-        "sellPrice": 109212,
-        "buyPrice": 31035,
-        "sellPriceFormatted": "109.2K",
-        "buyPriceFormatted": "31"
-      },
       "3": {
-        "timestamp": "2026-08-19T01:49:17.231Z",
+        "timestamp": "2026-08-19T03:05:25.990Z",
         "sellPrice": 109969,
-        "buyPrice": 45025,
+        "buyPrice": null,
         "sellPriceFormatted": "110",
-        "buyPriceFormatted": "45"
+        "buyPriceFormatted": null
       },
       "4": {
         "timestamp": "2026-08-19T01:49:17.231Z",
@@ -191,7 +268,7 @@
     },
     "martlock": {
       "4": {
-        "timestamp": "2026-08-19T01:49:17.231Z",
+        "timestamp": "2026-08-19T03:05:25.990Z",
         "sellPrice": 99990,
         "buyPrice": null,
         "sellPriceFormatted": "100",
