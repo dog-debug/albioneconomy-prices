@@ -20,16 +20,45 @@
       "buyPrice": null,
       "sellPriceFormatted": "20.3K",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T20:07:05.650Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 20280,
+      "buyPrice": null,
+      "sellPriceFormatted": "20.3K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T20:07:05.650Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 16944,
+      "buyPrice": 12739,
+      "sellPriceFormatted": "16.9K",
+      "buyPriceFormatted": "12.7K"
     }
   ],
   "latest": {
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-19T18:57:02.316Z",
+        "timestamp": "2026-08-19T20:07:05.650Z",
         "sellPrice": 20280,
         "buyPrice": null,
         "sellPriceFormatted": "20.3K",
         "buyPriceFormatted": null
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-19T20:07:05.650Z",
+        "sellPrice": 16944,
+        "buyPrice": 12739,
+        "sellPriceFormatted": "16.9K",
+        "buyPriceFormatted": "12.7K"
       }
     }
   }
