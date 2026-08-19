@@ -180,23 +180,93 @@
       "buyPrice": null,
       "sellPriceFormatted": "100",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T03:59:29.479Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 70092,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "70.1K"
+    },
+    {
+      "timestamp": "2026-08-19T03:59:29.479Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 77499,
+      "buyPrice": null,
+      "sellPriceFormatted": "77.5K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T03:59:29.479Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 109208,
+      "buyPrice": 30902,
+      "sellPriceFormatted": "109.2K",
+      "buyPriceFormatted": "30.9K"
+    },
+    {
+      "timestamp": "2026-08-19T03:59:29.479Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 109212,
+      "buyPrice": 31103,
+      "sellPriceFormatted": "109.2K",
+      "buyPriceFormatted": "31.1K"
+    },
+    {
+      "timestamp": "2026-08-19T03:59:29.479Z",
+      "city": "lymhurst",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 109969,
+      "buyPrice": null,
+      "sellPriceFormatted": "110",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T03:59:29.479Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 99990,
+      "buyPrice": null,
+      "sellPriceFormatted": "100",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T03:59:29.479Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 36697,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "36.7K"
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-19T03:05:25.990Z",
+        "timestamp": "2026-08-19T03:59:29.479Z",
         "sellPrice": null,
         "buyPrice": 70092,
         "sellPriceFormatted": null,
         "buyPriceFormatted": "70.1K"
       },
       "2": {
-        "timestamp": "2026-08-19T03:05:25.990Z",
+        "timestamp": "2026-08-19T03:59:29.479Z",
         "sellPrice": 77499,
-        "buyPrice": 74349,
+        "buyPrice": null,
         "sellPriceFormatted": "77.5K",
-        "buyPriceFormatted": "74.3K"
+        "buyPriceFormatted": null
       },
       "3": {
         "timestamp": "2026-08-19T03:05:25.990Z",
@@ -238,21 +308,21 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-19T03:05:25.990Z",
+        "timestamp": "2026-08-19T03:59:29.479Z",
         "sellPrice": 109208,
         "buyPrice": 30902,
         "sellPriceFormatted": "109.2K",
         "buyPriceFormatted": "30.9K"
       },
       "2": {
-        "timestamp": "2026-08-19T03:05:25.990Z",
+        "timestamp": "2026-08-19T03:59:29.479Z",
         "sellPrice": 109212,
         "buyPrice": 31103,
         "sellPriceFormatted": "109.2K",
         "buyPriceFormatted": "31.1K"
       },
       "3": {
-        "timestamp": "2026-08-19T03:05:25.990Z",
+        "timestamp": "2026-08-19T03:59:29.479Z",
         "sellPrice": 109969,
         "buyPrice": null,
         "sellPriceFormatted": "110",
@@ -268,11 +338,20 @@
     },
     "martlock": {
       "4": {
-        "timestamp": "2026-08-19T03:05:25.990Z",
+        "timestamp": "2026-08-19T03:59:29.479Z",
         "sellPrice": 99990,
         "buyPrice": null,
         "sellPriceFormatted": "100",
         "buyPriceFormatted": null
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-19T03:59:29.479Z",
+        "sellPrice": null,
+        "buyPrice": 36697,
+        "sellPriceFormatted": null,
+        "buyPriceFormatted": "36.7K"
       }
     }
   }

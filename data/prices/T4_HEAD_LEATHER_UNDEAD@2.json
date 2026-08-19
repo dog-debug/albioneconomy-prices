@@ -40,16 +40,96 @@
       "buyPrice": null,
       "sellPriceFormatted": "57",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T03:59:29.479Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 32678,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "32.7K"
+    },
+    {
+      "timestamp": "2026-08-19T03:59:29.479Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 32680,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "32.7K"
+    },
+    {
+      "timestamp": "2026-08-19T03:59:29.479Z",
+      "city": "forsterling",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 32693,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "32.7K"
+    },
+    {
+      "timestamp": "2026-08-19T03:59:29.479Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 70983,
+      "buyPrice": 32700,
+      "sellPriceFormatted": "71",
+      "buyPriceFormatted": "32.7K"
+    },
+    {
+      "timestamp": "2026-08-19T03:59:29.479Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 56967,
+      "buyPrice": null,
+      "sellPriceFormatted": "57",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "lymhurst": {
       "2": {
-        "timestamp": "2026-08-19T03:46:31.538Z",
+        "timestamp": "2026-08-19T03:59:29.479Z",
         "sellPrice": 56967,
         "buyPrice": null,
         "sellPriceFormatted": "57",
         "buyPriceFormatted": null
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-08-19T03:59:29.479Z",
+        "sellPrice": null,
+        "buyPrice": 32678,
+        "sellPriceFormatted": null,
+        "buyPriceFormatted": "32.7K"
+      },
+      "2": {
+        "timestamp": "2026-08-19T03:59:29.479Z",
+        "sellPrice": null,
+        "buyPrice": 32680,
+        "sellPriceFormatted": null,
+        "buyPriceFormatted": "32.7K"
+      },
+      "3": {
+        "timestamp": "2026-08-19T03:59:29.479Z",
+        "sellPrice": null,
+        "buyPrice": 32693,
+        "sellPriceFormatted": null,
+        "buyPriceFormatted": "32.7K"
+      },
+      "4": {
+        "timestamp": "2026-08-19T03:59:29.479Z",
+        "sellPrice": 70983,
+        "buyPrice": 32700,
+        "sellPriceFormatted": "71",
+        "buyPriceFormatted": "32.7K"
       }
     }
   }
