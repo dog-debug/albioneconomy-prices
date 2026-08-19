@@ -30,21 +30,61 @@
       "buyPrice": null,
       "sellPriceFormatted": "3",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T02:27:34.571Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3431,
+      "buyPrice": null,
+      "sellPriceFormatted": "3.4K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T02:27:34.571Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2723,
+      "buyPrice": null,
+      "sellPriceFormatted": "2.7K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T02:27:34.571Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2761,
+      "buyPrice": 2203,
+      "sellPriceFormatted": "2.8K",
+      "buyPriceFormatted": "2.2K"
+    },
+    {
+      "timestamp": "2026-08-19T02:27:34.571Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2966,
+      "buyPrice": null,
+      "sellPriceFormatted": "3",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-19T01:49:17.231Z",
-        "sellPrice": 2795,
+        "timestamp": "2026-08-19T02:27:34.571Z",
+        "sellPrice": 2723,
         "buyPrice": null,
-        "sellPriceFormatted": "2.8K",
+        "sellPriceFormatted": "2.7K",
         "buyPriceFormatted": null
       }
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-19T01:49:17.231Z",
+        "timestamp": "2026-08-19T02:27:34.571Z",
         "sellPrice": 2761,
         "buyPrice": 2203,
         "sellPriceFormatted": "2.8K",
@@ -53,10 +93,19 @@
     },
     "thetford": {
       "1": {
-        "timestamp": "2026-08-19T01:49:17.231Z",
+        "timestamp": "2026-08-19T02:27:34.571Z",
         "sellPrice": 2966,
         "buyPrice": null,
         "sellPriceFormatted": "3",
+        "buyPriceFormatted": null
+      }
+    },
+    "brecilien": {
+      "1": {
+        "timestamp": "2026-08-19T02:27:34.571Z",
+        "sellPrice": 3431,
+        "buyPrice": null,
+        "sellPriceFormatted": "3.4K",
         "buyPriceFormatted": null
       }
     }
