@@ -1,0 +1,45 @@
+{
+  "itemId": "T2_MEAL_SALAD@1",
+  "priceHistory": [
+    {
+      "timestamp": "2026-08-19T01:49:17.231Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 7500,
+      "buyPrice": null,
+      "sellPriceFormatted": "7.5K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T01:49:17.231Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 4000,
+      "buyPrice": 5,
+      "sellPriceFormatted": "4",
+      "buyPriceFormatted": "5"
+    }
+  ],
+  "latest": {
+    "brecilien": {
+      "1": {
+        "timestamp": "2026-08-19T01:49:17.231Z",
+        "sellPrice": 7500,
+        "buyPrice": null,
+        "sellPriceFormatted": "7.5K",
+        "buyPriceFormatted": null
+      }
+    },
+    "bridgewatch": {
+      "1": {
+        "timestamp": "2026-08-19T01:49:17.231Z",
+        "sellPrice": 4000,
+        "buyPrice": 5,
+        "sellPriceFormatted": "4",
+        "buyPriceFormatted": "5"
+      }
+    }
+  }
+}

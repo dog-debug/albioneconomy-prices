@@ -1,0 +1,45 @@
+{
+  "itemId": "T5_MEAL_ROAST_FISH@1",
+  "priceHistory": [
+    {
+      "timestamp": "2026-08-19T01:49:17.231Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 39999,
+      "buyPrice": 31010,
+      "sellPriceFormatted": "40",
+      "buyPriceFormatted": "31"
+    },
+    {
+      "timestamp": "2026-08-19T01:49:17.231Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 49615,
+      "buyPrice": null,
+      "sellPriceFormatted": "49.6K",
+      "buyPriceFormatted": null
+    }
+  ],
+  "latest": {
+    "brecilien": {
+      "1": {
+        "timestamp": "2026-08-19T01:49:17.231Z",
+        "sellPrice": 39999,
+        "buyPrice": 31010,
+        "sellPriceFormatted": "40",
+        "buyPriceFormatted": "31"
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-19T01:49:17.231Z",
+        "sellPrice": 49615,
+        "buyPrice": null,
+        "sellPriceFormatted": "49.6K",
+        "buyPriceFormatted": null
+      }
+    }
+  }
+}
