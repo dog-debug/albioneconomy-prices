@@ -840,6 +840,36 @@
       "buyPrice": null,
       "sellPriceFormatted": "149",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T22:07:15.129Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 149992,
+      "buyPrice": 144527,
+      "sellPriceFormatted": "150",
+      "buyPriceFormatted": "144.5K"
+    },
+    {
+      "timestamp": "2026-08-19T22:07:15.129Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 163499,
+      "buyPrice": 142012,
+      "sellPriceFormatted": "163.5K",
+      "buyPriceFormatted": "142"
+    },
+    {
+      "timestamp": "2026-08-19T22:07:15.129Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 148999,
+      "buyPrice": null,
+      "sellPriceFormatted": "149",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
@@ -854,7 +884,7 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-19T21:39:42.702Z",
+        "timestamp": "2026-08-19T22:07:15.129Z",
         "sellPrice": 163499,
         "buyPrice": 142012,
         "sellPriceFormatted": "163.5K",
@@ -863,11 +893,20 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-19T21:39:42.702Z",
+        "timestamp": "2026-08-19T22:07:15.129Z",
         "sellPrice": 148999,
         "buyPrice": null,
         "sellPriceFormatted": "149",
         "buyPriceFormatted": null
+      }
+    },
+    "bridgewatch": {
+      "1": {
+        "timestamp": "2026-08-19T22:07:15.129Z",
+        "sellPrice": 149992,
+        "buyPrice": 144527,
+        "sellPriceFormatted": "150",
+        "buyPriceFormatted": "144.5K"
       }
     }
   }

@@ -1290,12 +1290,42 @@
       "buyPrice": null,
       "sellPriceFormatted": "5.7K",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T22:07:15.129Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 7968,
+      "buyPrice": null,
+      "sellPriceFormatted": "8",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T22:07:15.129Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 5689,
+      "buyPrice": null,
+      "sellPriceFormatted": "5.7K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T22:07:15.129Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 3824,
+      "sellPriceFormatted": null,
+      "buyPriceFormatted": "3.8K"
     }
   ],
   "latest": {
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-19T21:51:50.329Z",
+        "timestamp": "2026-08-19T22:07:15.129Z",
         "sellPrice": 7968,
         "buyPrice": null,
         "sellPriceFormatted": "8",
@@ -1304,11 +1334,20 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-19T21:51:50.329Z",
+        "timestamp": "2026-08-19T22:07:15.129Z",
         "sellPrice": 5689,
         "buyPrice": null,
         "sellPriceFormatted": "5.7K",
         "buyPriceFormatted": null
+      }
+    },
+    "martlock": {
+      "1": {
+        "timestamp": "2026-08-19T22:07:15.129Z",
+        "sellPrice": null,
+        "buyPrice": 3824,
+        "sellPriceFormatted": null,
+        "buyPriceFormatted": "3.8K"
       }
     }
   }
