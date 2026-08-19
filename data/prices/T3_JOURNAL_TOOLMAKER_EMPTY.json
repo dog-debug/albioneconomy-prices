@@ -480,12 +480,52 @@
       "buyPrice": null,
       "sellPriceFormatted": "1.4K",
       "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T15:10:28.339Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3800,
+      "buyPrice": null,
+      "sellPriceFormatted": "3.8K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T15:10:28.339Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1844,
+      "buyPrice": 51,
+      "sellPriceFormatted": "1.8K",
+      "buyPriceFormatted": "51"
+    },
+    {
+      "timestamp": "2026-08-19T15:10:28.339Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1197,
+      "buyPrice": null,
+      "sellPriceFormatted": "1.2K",
+      "buyPriceFormatted": null
+    },
+    {
+      "timestamp": "2026-08-19T15:10:28.339Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1411,
+      "buyPrice": null,
+      "sellPriceFormatted": "1.4K",
+      "buyPriceFormatted": null
     }
   ],
   "latest": {
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-19T13:30:17.809Z",
+        "timestamp": "2026-08-19T15:10:28.339Z",
         "sellPrice": 1197,
         "buyPrice": null,
         "sellPriceFormatted": "1.2K",
@@ -494,7 +534,7 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-19T13:30:17.809Z",
+        "timestamp": "2026-08-19T15:10:28.339Z",
         "sellPrice": 1411,
         "buyPrice": null,
         "sellPriceFormatted": "1.4K",
@@ -503,11 +543,20 @@
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-19T13:30:17.809Z",
+        "timestamp": "2026-08-19T15:10:28.339Z",
         "sellPrice": 3800,
         "buyPrice": null,
         "sellPriceFormatted": "3.8K",
         "buyPriceFormatted": null
+      }
+    },
+    "caerleon": {
+      "1": {
+        "timestamp": "2026-08-19T15:10:28.339Z",
+        "sellPrice": 1844,
+        "buyPrice": 51,
+        "sellPriceFormatted": "1.8K",
+        "buyPriceFormatted": "51"
       }
     }
   }
