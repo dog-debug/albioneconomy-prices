@@ -456,12 +456,52 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 1290000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "brecilien",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1198984,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1290000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "martlock",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1298995,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 999878,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "martlock",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 7499998,
+      "buyPrice": null
     }
   ],
   "latest": {
     "caerleon": {
       "4": {
-        "timestamp": "2026-08-20T05:13:49.901Z",
+        "timestamp": "2026-08-20T19:02:51.958Z",
         "sellPrice": 1290000,
         "buyPrice": null
       }
@@ -478,9 +518,26 @@
         "buyPrice": 163353
       },
       "4": {
-        "timestamp": "2026-08-20T05:13:49.901Z",
+        "timestamp": "2026-08-20T19:02:51.958Z",
         "sellPrice": 1198984,
-        "buyPrice": 163341
+        "buyPrice": null
+      }
+    },
+    "martlock": {
+      "3": {
+        "timestamp": "2026-08-20T19:02:51.958Z",
+        "sellPrice": 1298995,
+        "buyPrice": null
+      },
+      "4": {
+        "timestamp": "2026-08-20T19:02:51.958Z",
+        "sellPrice": 999878,
+        "buyPrice": null
+      },
+      "5": {
+        "timestamp": "2026-08-20T19:02:51.958Z",
+        "sellPrice": 7499998,
+        "buyPrice": null
       }
     }
   }

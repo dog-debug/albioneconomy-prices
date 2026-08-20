@@ -760,34 +760,89 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 50445
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1933725
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 554895
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 594130
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 689415
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 50445
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2799979,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-20T05:13:49.901Z",
+        "timestamp": "2026-08-20T19:02:51.958Z",
         "sellPrice": null,
-        "buyPrice": 1928120
+        "buyPrice": 1933725
       },
       "2": {
-        "timestamp": "2026-08-20T05:13:49.901Z",
+        "timestamp": "2026-08-20T19:02:51.958Z",
         "sellPrice": null,
-        "buyPrice": 532475
+        "buyPrice": 554895
       },
       "3": {
-        "timestamp": "2026-08-20T05:13:49.901Z",
+        "timestamp": "2026-08-20T19:02:51.958Z",
         "sellPrice": null,
         "buyPrice": 594130
       },
       "4": {
-        "timestamp": "2026-08-20T05:13:49.901Z",
+        "timestamp": "2026-08-20T19:02:51.958Z",
         "sellPrice": null,
         "buyPrice": 689415
       },
       "5": {
-        "timestamp": "2026-08-20T05:13:49.901Z",
+        "timestamp": "2026-08-20T19:02:51.958Z",
         "sellPrice": null,
         "buyPrice": 50445
+      }
+    },
+    "martlock": {
+      "4": {
+        "timestamp": "2026-08-20T19:02:51.958Z",
+        "sellPrice": 2799979,
+        "buyPrice": null
       }
     }
   }

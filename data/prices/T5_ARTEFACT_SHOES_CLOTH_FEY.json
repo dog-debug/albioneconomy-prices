@@ -144,6 +144,22 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 199999,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 199999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T19:02:51.958Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 119984,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -156,8 +172,15 @@
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-20T05:13:49.901Z",
+        "timestamp": "2026-08-20T19:02:51.958Z",
         "sellPrice": 199999,
+        "buyPrice": null
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-20T19:02:51.958Z",
+        "sellPrice": 119984,
         "buyPrice": null
       }
     }
