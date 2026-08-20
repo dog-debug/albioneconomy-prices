@@ -41,6 +41,8 @@ async function fetchAodpPrices(server, itemIds) {
 }
 
 function formatPrice(price) {
+  // DEPRECATED: Keeping for reference but no longer used
+  // App now uses raw numbers directly for calculations
   if (price >= 1000000) {
     const m = price / 1000000;
     const formatted = m.toFixed(1);
@@ -169,8 +171,6 @@ async function capturePrices() {
         server: primaryServer,
         sellPrice: sellPrice > 0 ? sellPrice : null,
         buyPrice: buyPrice > 0 ? buyPrice : null,
-        sellPriceFormatted: sellPrice > 0 ? formatPrice(sellPrice) : null,
-        buyPriceFormatted: buyPrice > 0 ? formatPrice(buyPrice) : null,
       };
 
       const existingEntry = itemData.priceHistory.find(
@@ -197,7 +197,7 @@ async function capturePrices() {
 
         itemData.priceHistory.push(newEntry);
 
-        // Update latest prices
+        // Update latest prices (raw numbers only)
         if (!itemData.latest) itemData.latest = {};
         if (!itemData.latest[city]) itemData.latest[city] = {};
         
@@ -205,8 +205,6 @@ async function capturePrices() {
           timestamp: runTimestamp,
           sellPrice: newEntry.sellPrice,
           buyPrice: newEntry.buyPrice,
-          sellPriceFormatted: newEntry.sellPriceFormatted,
-          buyPriceFormatted: newEntry.buyPriceFormatted,
         };
       }
     }

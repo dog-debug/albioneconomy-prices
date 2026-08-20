@@ -1,0 +1,29 @@
+name: Cleanup Prices (Manual Only)
+
+on:
+  workflow_dispatch:  # Manual trigger only
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup-prices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Configure git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+      - name: Remove all formatted price fields
+        run: node scripts/cleanup-prices.js
+
+      - name: Log completion
+        run: echo "Price cleanup completed successfully"
