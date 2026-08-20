@@ -24,13 +24,36 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 100000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T17:42:18.731Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 100000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T17:42:18.731Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 51995,
+      "buyPrice": null
     }
   ],
   "latest": {
     "forsterling": {
       "4": {
-        "timestamp": "2026-08-20T11:23:16.366Z",
+        "timestamp": "2026-08-20T17:42:18.731Z",
         "sellPrice": 100000,
+        "buyPrice": null
+      }
+    },
+    "lymhurst": {
+      "2": {
+        "timestamp": "2026-08-20T17:42:18.731Z",
+        "sellPrice": 51995,
         "buyPrice": null
       }
     }
