@@ -216,21 +216,82 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 399999,
       "buyPrice": 180006
+    },
+    {
+      "timestamp": "2026-08-20T04:02:20.849Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 349999,
+      "buyPrice": 189999
+    },
+    {
+      "timestamp": "2026-08-20T04:02:20.849Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 249964,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T04:02:20.849Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 399997,
+      "buyPrice": 180006
+    },
+    {
+      "timestamp": "2026-08-20T04:02:20.849Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 649996,
+      "buyPrice": 199999
+    },
+    {
+      "timestamp": "2026-08-20T04:02:20.849Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 325900,
+      "buyPrice": 179586
     }
   ],
   "latest": {
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
-        "sellPrice": 399999,
+        "timestamp": "2026-08-20T04:02:20.849Z",
+        "sellPrice": 399997,
         "buyPrice": 180006
       }
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T04:02:20.849Z",
         "sellPrice": 249964,
         "buyPrice": null
+      }
+    },
+    "bridgewatch": {
+      "1": {
+        "timestamp": "2026-08-20T04:02:20.849Z",
+        "sellPrice": 349999,
+        "buyPrice": 189999
+      }
+    },
+    "martlock": {
+      "1": {
+        "timestamp": "2026-08-20T04:02:20.849Z",
+        "sellPrice": 649996,
+        "buyPrice": 199999
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-20T04:02:20.849Z",
+        "sellPrice": 325900,
+        "buyPrice": 179586
       }
     }
   }
