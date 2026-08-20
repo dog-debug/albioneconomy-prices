@@ -60,6 +60,30 @@ function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function validatePrice(price, fieldName, itemId, city) {
+  // Return null if price is falsy (null, undefined, 0)
+  if (!price) return null;
+  
+  // Check if price is a valid number
+  if (!Number.isFinite(price)) {
+    console.warn(`⚠️  Invalid ${fieldName} for ${itemId} in ${city}: ${price} (not a valid number)`);
+    return null;
+  }
+  
+  // Reject negative prices
+  if (price < 0) {
+    console.warn(`⚠️  Negative ${fieldName} for ${itemId} in ${city}: ${price} (rejected)`);
+    return null;
+  }
+  
+  // Warn about extremely high prices (possible corrupted data)
+  if (price > 1000000000) {
+    console.warn(`⚠️  Unusually high ${fieldName} for ${itemId} in ${city}: ${price} (possible corrupt data, but including)`);
+  }
+  
+  return price;
+}
+
 async function capturePrices() {
   const runTimestamp = new Date().toISOString();
   const primaryServer = AODP_SERVERS[0];
@@ -153,10 +177,12 @@ async function capturePrices() {
     let hasNewData = false;
 
     for (const row of priceRows) {
-      const sellPrice = row.sell_price_min;
-      const buyPrice = row.buy_price_max;
+      // Validate prices before using them
+      const sellPrice = validatePrice(row.sell_price_min, 'sellPrice', itemId, row.city);
+      const buyPrice = validatePrice(row.buy_price_max, 'buyPrice', itemId, row.city);
 
-      if (!((sellPrice && sellPrice > 0) || (buyPrice && buyPrice > 0))) {
+      // Skip if both prices are invalid/null
+      if (sellPrice === null && buyPrice === null) {
         continue;
       }
 
@@ -169,8 +195,8 @@ async function capturePrices() {
         city,
         quality,
         server: primaryServer,
-        sellPrice: sellPrice > 0 ? sellPrice : null,
-        buyPrice: buyPrice > 0 ? buyPrice : null,
+        sellPrice: sellPrice,
+        buyPrice: buyPrice,
       };
 
       const existingEntry = itemData.priceHistory.find(
