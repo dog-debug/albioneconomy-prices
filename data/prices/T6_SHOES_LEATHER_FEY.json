@@ -1568,32 +1568,96 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 149998,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T20:10:23.899Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 193564
+    },
+    {
+      "timestamp": "2026-08-20T20:10:23.899Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 125860
+    },
+    {
+      "timestamp": "2026-08-20T20:10:23.899Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 65968
+    },
+    {
+      "timestamp": "2026-08-20T20:10:23.899Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 40796
+    },
+    {
+      "timestamp": "2026-08-20T20:10:23.899Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 282968
+    },
+    {
+      "timestamp": "2026-08-20T20:10:23.899Z",
+      "city": "lymhurst",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 248999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T20:10:23.899Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 199986,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T20:10:23.899Z",
+      "city": "thetford",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 199990,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-20T16:24:31.121Z",
+        "timestamp": "2026-08-20T20:10:23.899Z",
         "sellPrice": null,
-        "buyPrice": 157108
+        "buyPrice": 193564
       },
       "2": {
-        "timestamp": "2026-08-20T16:24:31.121Z",
+        "timestamp": "2026-08-20T20:10:23.899Z",
+        "sellPrice": null,
+        "buyPrice": 125860
+      },
+      "3": {
+        "timestamp": "2026-08-20T20:10:23.899Z",
         "sellPrice": null,
         "buyPrice": 65968
       },
-      "3": {
-        "timestamp": "2026-08-20T16:24:31.121Z",
-        "sellPrice": null,
-        "buyPrice": 17360
-      },
       "4": {
-        "timestamp": "2026-08-20T16:24:31.121Z",
+        "timestamp": "2026-08-20T20:10:23.899Z",
         "sellPrice": null,
-        "buyPrice": 27776
+        "buyPrice": 40796
       },
       "5": {
-        "timestamp": "2026-08-20T16:24:31.121Z",
+        "timestamp": "2026-08-20T20:10:23.899Z",
         "sellPrice": null,
         "buyPrice": 282968
       }
@@ -1643,8 +1707,20 @@
     },
     "lymhurst": {
       "3": {
-        "timestamp": "2026-08-20T16:24:31.121Z",
-        "sellPrice": 149998,
+        "timestamp": "2026-08-20T20:10:23.899Z",
+        "sellPrice": 248999,
+        "buyPrice": null
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-20T20:10:23.899Z",
+        "sellPrice": 199986,
+        "buyPrice": null
+      },
+      "2": {
+        "timestamp": "2026-08-20T20:10:23.899Z",
+        "sellPrice": 199990,
         "buyPrice": null
       }
     }
