@@ -76,11 +76,6 @@ function validatePrice(price, fieldName, itemId, city) {
     return null;
   }
   
-  // Warn about extremely high prices (possible corrupted data)
-  if (price > 1000000000) {
-    console.warn(`⚠️  Unusually high ${fieldName} for ${itemId} in ${city}: ${price} (possible corrupt data, but including)`);
-  }
-  
   return price;
 }
 
