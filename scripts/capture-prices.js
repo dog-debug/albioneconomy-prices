@@ -46,12 +46,14 @@ async function fetchAodpPrices(server, itemIds) {
 }
 
 async function fetchWithRetry(server, itemIds, maxRetries = 3) {
+  const backoffTimes = [5000, 10000, 0]; // 5s, 10s, (no backoff on last)
+  
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
       return await fetchAodpPrices(server, itemIds);
     } catch (e) {
       const isLastAttempt = attempt === maxRetries;
-      const backoffMs = Math.pow(2, attempt - 1) * 1000; // 1s, 2s, 4s
+      const backoffMs = backoffTimes[attempt - 1];
       
       if (isLastAttempt) {
         console.warn(`❌ All ${maxRetries} retries failed for ${itemIds.length} items`);
