@@ -568,32 +568,112 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 239978,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T14:02:02.011Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 94419
+    },
+    {
+      "timestamp": "2026-08-20T14:02:02.011Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 58104
+    },
+    {
+      "timestamp": "2026-08-20T14:02:02.011Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 65367
+    },
+    {
+      "timestamp": "2026-08-20T14:02:02.011Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 29052
+    },
+    {
+      "timestamp": "2026-08-20T14:02:02.011Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 254205
+    },
+    {
+      "timestamp": "2026-08-20T14:02:02.011Z",
+      "city": "caerleon",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 248999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T14:02:02.011Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 9000
+    },
+    {
+      "timestamp": "2026-08-20T14:02:02.011Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 7702
+    },
+    {
+      "timestamp": "2026-08-20T14:02:02.011Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 200000,
+      "buyPrice": 7702
+    },
+    {
+      "timestamp": "2026-08-20T14:02:02.011Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 239978,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-19T20:07:05.650Z",
+        "timestamp": "2026-08-20T14:02:02.011Z",
         "sellPrice": null,
-        "buyPrice": 145260
+        "buyPrice": 94419
       },
       "2": {
-        "timestamp": "2026-08-19T20:07:05.650Z",
+        "timestamp": "2026-08-20T14:02:02.011Z",
         "sellPrice": null,
-        "buyPrice": 7263
+        "buyPrice": 58104
       },
       "3": {
-        "timestamp": "2026-08-19T20:07:05.650Z",
+        "timestamp": "2026-08-20T14:02:02.011Z",
         "sellPrice": null,
-        "buyPrice": 50841
+        "buyPrice": 65367
       },
       "4": {
-        "timestamp": "2026-08-19T20:07:05.650Z",
+        "timestamp": "2026-08-20T14:02:02.011Z",
         "sellPrice": null,
         "buyPrice": 29052
       },
       "5": {
-        "timestamp": "2026-08-19T20:07:05.650Z",
+        "timestamp": "2026-08-20T14:02:02.011Z",
         "sellPrice": null,
         "buyPrice": 254205
       }
@@ -605,16 +685,33 @@
         "buyPrice": null
       },
       "3": {
-        "timestamp": "2026-08-19T20:07:05.650Z",
+        "timestamp": "2026-08-20T14:02:02.011Z",
         "sellPrice": 248999,
         "buyPrice": null
       }
     },
     "lymhurst": {
       "4": {
-        "timestamp": "2026-08-19T20:07:05.650Z",
+        "timestamp": "2026-08-20T14:02:02.011Z",
         "sellPrice": 239978,
         "buyPrice": null
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-08-20T14:02:02.011Z",
+        "sellPrice": null,
+        "buyPrice": 9000
+      },
+      "2": {
+        "timestamp": "2026-08-20T14:02:02.011Z",
+        "sellPrice": null,
+        "buyPrice": 7702
+      },
+      "4": {
+        "timestamp": "2026-08-20T14:02:02.011Z",
+        "sellPrice": 200000,
+        "buyPrice": 7702
       }
     }
   }
