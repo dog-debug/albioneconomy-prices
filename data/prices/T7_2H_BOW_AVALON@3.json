@@ -1656,39 +1656,119 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 8000000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 148425
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1038975
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 712440
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 474960
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 29685
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "brecilien",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 8999440,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "bridgewatch",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 11991885,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "caerleon",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 12999889,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 5000000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 5344430,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": null,
         "buyPrice": 148425
       },
       "2": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": null,
         "buyPrice": 1038975
       },
       "3": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": null,
         "buyPrice": 712440
       },
       "4": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": null,
         "buyPrice": 474960
       },
       "5": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": null,
         "buyPrice": 29685
       }
     },
     "caerleon": {
       "5": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": 12999889,
         "buyPrice": null
       }
@@ -1744,15 +1824,27 @@
     },
     "brecilien": {
       "4": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": 8999440,
         "buyPrice": null
       }
     },
     "bridgewatch": {
       "5": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": 11991885,
+        "buyPrice": null
+      }
+    },
+    "lymhurst": {
+      "2": {
+        "timestamp": "2026-08-20T11:23:16.366Z",
+        "sellPrice": 5000000,
+        "buyPrice": null
+      },
+      "4": {
+        "timestamp": "2026-08-20T11:23:16.366Z",
+        "sellPrice": 5344430,
         "buyPrice": null
       }
     }

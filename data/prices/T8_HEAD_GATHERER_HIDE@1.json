@@ -304,19 +304,50 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 2526
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 10104
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 2526
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "thetford",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 600000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-20T04:02:20.849Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": null,
         "buyPrice": 10104
       },
       "2": {
-        "timestamp": "2026-08-20T04:02:20.849Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": null,
         "buyPrice": 2526
+      }
+    },
+    "thetford": {
+      "4": {
+        "timestamp": "2026-08-20T11:23:16.366Z",
+        "sellPrice": 600000,
+        "buyPrice": null
       }
     }
   }

@@ -712,50 +712,142 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 1000000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 132250
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 26450
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 439070
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 100510
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 58190
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1085984,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "forsterling",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1085983,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1000000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1181968,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T11:23:16.366Z",
+      "city": "thetford",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 999997,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": null,
-        "buyPrice": 116380
+        "buyPrice": 132250
       },
       "2": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": null,
         "buyPrice": 26450
       },
       "3": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": null,
-        "buyPrice": 433780
+        "buyPrice": 439070
       },
       "4": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": null,
         "buyPrice": 100510
       },
       "5": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": null,
         "buyPrice": 58190
       }
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": 1085984,
         "buyPrice": null
       },
       "3": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": 1085983,
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-08-20T00:43:16.950Z",
+        "timestamp": "2026-08-20T11:23:16.366Z",
         "sellPrice": 1000000,
+        "buyPrice": null
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-20T11:23:16.366Z",
+        "sellPrice": 1181968,
+        "buyPrice": null
+      },
+      "4": {
+        "timestamp": "2026-08-20T11:23:16.366Z",
+        "sellPrice": 999997,
         "buyPrice": null
       }
     }
