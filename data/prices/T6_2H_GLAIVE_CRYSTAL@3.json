@@ -352,12 +352,52 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 3266666,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T05:13:49.901Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3000000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T05:13:49.901Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 405030
+    },
+    {
+      "timestamp": "2026-08-20T05:13:49.901Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 411111
+    },
+    {
+      "timestamp": "2026-08-20T05:13:49.901Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2699996,
+      "buyPrice": 1639027
+    },
+    {
+      "timestamp": "2026-08-20T05:13:49.901Z",
+      "city": "lymhurst",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 4500000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "caerleon": {
       "4": {
-        "timestamp": "2026-08-19T18:08:56.896Z",
+        "timestamp": "2026-08-20T05:13:49.901Z",
         "sellPrice": 3000000,
         "buyPrice": null
       }
@@ -376,6 +416,28 @@
       "4": {
         "timestamp": "2026-08-19T18:08:56.896Z",
         "sellPrice": 3266666,
+        "buyPrice": null
+      }
+    },
+    "lymhurst": {
+      "1": {
+        "timestamp": "2026-08-20T05:13:49.901Z",
+        "sellPrice": null,
+        "buyPrice": 405030
+      },
+      "2": {
+        "timestamp": "2026-08-20T05:13:49.901Z",
+        "sellPrice": null,
+        "buyPrice": 411111
+      },
+      "4": {
+        "timestamp": "2026-08-20T05:13:49.901Z",
+        "sellPrice": 2699996,
+        "buyPrice": 1639027
+      },
+      "5": {
+        "timestamp": "2026-08-20T05:13:49.901Z",
+        "sellPrice": 4500000,
         "buyPrice": null
       }
     }

@@ -496,21 +496,53 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 125000,
       "buyPrice": 115013
+    },
+    {
+      "timestamp": "2026-08-20T05:13:49.901Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 120687,
+      "buyPrice": 99020
+    },
+    {
+      "timestamp": "2026-08-20T05:13:49.901Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 117998,
+      "buyPrice": 111006
+    },
+    {
+      "timestamp": "2026-08-20T05:13:49.901Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 219998,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T05:13:49.901Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 122980,
+      "buyPrice": 115013
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
+        "timestamp": "2026-08-20T05:13:49.901Z",
         "sellPrice": 120687,
         "buyPrice": 99020
       }
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
-        "sellPrice": 130999,
-        "buyPrice": 110005
+        "timestamp": "2026-08-20T05:13:49.901Z",
+        "sellPrice": 117998,
+        "buyPrice": 111006
       }
     },
     "forsterling": {
@@ -522,8 +554,8 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
-        "sellPrice": 125000,
+        "timestamp": "2026-08-20T05:13:49.901Z",
+        "sellPrice": 122980,
         "buyPrice": 115013
       }
     },
@@ -539,6 +571,13 @@
         "timestamp": "2026-08-19T12:23:57.845Z",
         "sellPrice": 127997,
         "buyPrice": 88003
+      }
+    },
+    "caerleon": {
+      "1": {
+        "timestamp": "2026-08-20T05:13:49.901Z",
+        "sellPrice": 219998,
+        "buyPrice": null
       }
     }
   }
