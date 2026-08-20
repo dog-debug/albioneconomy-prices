@@ -1368,32 +1368,112 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 48000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T02:48:42.318Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 27342
+    },
+    {
+      "timestamp": "2026-08-20T02:48:42.318Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 13454
+    },
+    {
+      "timestamp": "2026-08-20T02:48:42.318Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 19096
+    },
+    {
+      "timestamp": "2026-08-20T02:48:42.318Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 24304
+    },
+    {
+      "timestamp": "2026-08-20T02:48:42.318Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 20398
+    },
+    {
+      "timestamp": "2026-08-20T02:48:42.318Z",
+      "city": "caerleon",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 69993,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T02:48:42.318Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 6070
+    },
+    {
+      "timestamp": "2026-08-20T02:48:42.318Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 39896,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T02:48:42.318Z",
+      "city": "martlock",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 39899,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-20T02:48:42.318Z",
+      "city": "martlock",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 49988,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
+        "timestamp": "2026-08-20T02:48:42.318Z",
         "sellPrice": null,
         "buyPrice": 27342
       },
       "2": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
+        "timestamp": "2026-08-20T02:48:42.318Z",
         "sellPrice": null,
-        "buyPrice": 27342
+        "buyPrice": 13454
       },
       "3": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
+        "timestamp": "2026-08-20T02:48:42.318Z",
         "sellPrice": null,
-        "buyPrice": 18445
+        "buyPrice": 19096
       },
       "4": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
+        "timestamp": "2026-08-20T02:48:42.318Z",
         "sellPrice": null,
-        "buyPrice": 23870
+        "buyPrice": 24304
       },
       "5": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
+        "timestamp": "2026-08-20T02:48:42.318Z",
         "sellPrice": null,
         "buyPrice": 20398
       }
@@ -1436,9 +1516,33 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
-        "sellPrice": 48000,
+        "timestamp": "2026-08-20T02:48:42.318Z",
+        "sellPrice": 39896,
         "buyPrice": null
+      },
+      "2": {
+        "timestamp": "2026-08-20T02:48:42.318Z",
+        "sellPrice": 39899,
+        "buyPrice": null
+      },
+      "3": {
+        "timestamp": "2026-08-20T02:48:42.318Z",
+        "sellPrice": 49988,
+        "buyPrice": null
+      }
+    },
+    "caerleon": {
+      "2": {
+        "timestamp": "2026-08-20T02:48:42.318Z",
+        "sellPrice": 69993,
+        "buyPrice": null
+      }
+    },
+    "lymhurst": {
+      "4": {
+        "timestamp": "2026-08-20T02:48:42.318Z",
+        "sellPrice": null,
+        "buyPrice": 6070
       }
     }
   }
