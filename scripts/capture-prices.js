@@ -31,6 +31,11 @@ async function fetchAodpPrices(server, itemIds) {
       res.on('data', (chunk) => { data += chunk; });
       res.on('end', () => {
         try {
+          // Check if we got a valid JSON response (not HTML error page)
+          if (res.statusCode !== 200) {
+            reject(new Error(`HTTP ${res.statusCode}`));
+            return;
+          }
           resolve(JSON.parse(data));
         } catch (e) {
           reject(e);
@@ -38,6 +43,25 @@ async function fetchAodpPrices(server, itemIds) {
       });
     }).on('error', reject);
   });
+}
+
+async function fetchWithRetry(server, itemIds, maxRetries = 3) {
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      return await fetchAodpPrices(server, itemIds);
+    } catch (e) {
+      const isLastAttempt = attempt === maxRetries;
+      const backoffMs = Math.pow(2, attempt - 1) * 1000; // 1s, 2s, 4s
+      
+      if (isLastAttempt) {
+        console.warn(`❌ All ${maxRetries} retries failed for ${itemIds.length} items`);
+        throw e;
+      }
+      
+      console.warn(`⚠️  Retry ${attempt}/${maxRetries} for ${itemIds.length} items (${e.message}) - waiting ${backoffMs}ms`);
+      await delay(backoffMs);
+    }
+  }
 }
 
 function formatPrice(price) {
@@ -121,7 +145,7 @@ async function capturePrices() {
     const chunk = itemIdArray.slice(i, i + chunkSize);
     
     try {
-      const prices = await fetchAodpPrices(primaryServer, chunk);
+      const prices = await fetchWithRetry(primaryServer, chunk);
       for (const priceRow of prices) {
         const itemId = priceRow.item_id;
         if (!pricesData[itemId]) {
