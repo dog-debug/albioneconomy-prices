@@ -1456,6 +1456,46 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 65888,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 40015
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 60953,
+      "buyPrice": 40029
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "forsterling",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 41014
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 75976,
+      "buyPrice": 48013
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 80000,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -1517,8 +1557,8 @@
     },
     "martlock": {
       "4": {
-        "timestamp": "2026-08-20T17:42:18.731Z",
-        "sellPrice": 65888,
+        "timestamp": "2026-08-21T15:13:20.850Z",
+        "sellPrice": 80000,
         "buyPrice": null
       }
     },
@@ -1542,6 +1582,28 @@
         "timestamp": "2026-08-20T17:42:18.731Z",
         "sellPrice": 44000,
         "buyPrice": null
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-08-21T15:13:20.850Z",
+        "sellPrice": null,
+        "buyPrice": 40015
+      },
+      "2": {
+        "timestamp": "2026-08-21T15:13:20.850Z",
+        "sellPrice": 60953,
+        "buyPrice": 40029
+      },
+      "3": {
+        "timestamp": "2026-08-21T15:13:20.850Z",
+        "sellPrice": null,
+        "buyPrice": 41014
+      },
+      "4": {
+        "timestamp": "2026-08-21T15:13:20.850Z",
+        "sellPrice": 75976,
+        "buyPrice": 48013
       }
     }
   }

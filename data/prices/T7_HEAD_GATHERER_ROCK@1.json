@@ -176,20 +176,51 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 113998,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 3789
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 114994,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 113998,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-20T17:42:18.731Z",
+        "timestamp": "2026-08-21T15:13:20.850Z",
         "sellPrice": null,
         "buyPrice": 3789
       }
     },
     "lymhurst": {
       "2": {
-        "timestamp": "2026-08-20T17:42:18.731Z",
+        "timestamp": "2026-08-21T15:13:20.850Z",
         "sellPrice": 113998,
+        "buyPrice": null
+      }
+    },
+    "forsterling": {
+      "4": {
+        "timestamp": "2026-08-21T15:13:20.850Z",
+        "sellPrice": 114994,
         "buyPrice": null
       }
     }

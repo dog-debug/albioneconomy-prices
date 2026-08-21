@@ -368,12 +368,52 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 139989,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1263
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 159984,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 149991,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "martlock",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 134999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T15:13:20.850Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 139989,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "5": {
-        "timestamp": "2026-08-20T17:42:18.731Z",
+        "timestamp": "2026-08-21T15:13:20.850Z",
         "sellPrice": null,
         "buyPrice": 1263
       }
@@ -387,20 +427,27 @@
     },
     "martlock": {
       "2": {
-        "timestamp": "2026-08-20T17:42:18.731Z",
+        "timestamp": "2026-08-21T15:13:20.850Z",
         "sellPrice": 134999,
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-08-20T17:42:18.731Z",
+        "timestamp": "2026-08-21T15:13:20.850Z",
         "sellPrice": 139989,
         "buyPrice": null
       }
     },
     "lymhurst": {
       "4": {
-        "timestamp": "2026-08-20T17:42:18.731Z",
+        "timestamp": "2026-08-21T15:13:20.850Z",
         "sellPrice": 149991,
+        "buyPrice": null
+      }
+    },
+    "forsterling": {
+      "2": {
+        "timestamp": "2026-08-21T15:13:20.850Z",
+        "sellPrice": 159984,
         "buyPrice": null
       }
     }
