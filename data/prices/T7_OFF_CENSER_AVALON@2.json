@@ -1528,12 +1528,52 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 669996,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 249645
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 146850
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 650000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 899998,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 669990,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": null,
         "buyPrice": 249645
       },
@@ -1553,19 +1593,19 @@
         "buyPrice": 58740
       },
       "5": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": null,
         "buyPrice": 146850
       }
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": 650000,
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": 899998,
         "buyPrice": null
       }
@@ -1591,8 +1631,8 @@
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
-        "sellPrice": 669996,
+        "timestamp": "2026-08-21T17:41:44.312Z",
+        "sellPrice": 669990,
         "buyPrice": null
       }
     }

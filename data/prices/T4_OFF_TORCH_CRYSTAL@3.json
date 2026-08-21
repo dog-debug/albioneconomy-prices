@@ -1808,6 +1808,38 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 700000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 400957,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 391000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "martlock",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 390998,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 449996,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -1893,14 +1925,14 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": 391000,
-        "buyPrice": 78306
+        "buyPrice": null
       },
       "2": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": 390998,
-        "buyPrice": 79779
+        "buyPrice": null
       },
       "3": {
         "timestamp": "2026-08-21T10:11:47.517Z",
@@ -1908,13 +1940,20 @@
         "buyPrice": 82779
       },
       "4": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": 449996,
         "buyPrice": null
       },
       "5": {
         "timestamp": "2026-08-21T10:11:47.517Z",
         "sellPrice": 700000,
+        "buyPrice": null
+      }
+    },
+    "lymhurst": {
+      "4": {
+        "timestamp": "2026-08-21T17:41:44.312Z",
+        "sellPrice": 400957,
         "buyPrice": null
       }
     }

@@ -3608,32 +3608,112 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 5972,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 10744
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 10744
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1896
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 11156,
+      "buyPrice": 7900
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 11377,
+      "buyPrice": 11060
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 8986,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "bridgewatch",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 8987,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "bridgewatch",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 8993,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 9000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T17:41:44.312Z",
+      "city": "thetford",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 5972,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-21T14:01:36.057Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": null,
-        "buyPrice": 9796
+        "buyPrice": 10744
       },
       "2": {
-        "timestamp": "2026-08-21T14:01:36.057Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": null,
         "buyPrice": 10744
       },
       "3": {
-        "timestamp": "2026-08-21T14:01:36.057Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": null,
         "buyPrice": 1896
       },
       "4": {
-        "timestamp": "2026-08-21T14:01:36.057Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": 11156,
         "buyPrice": 7900
       },
       "5": {
-        "timestamp": "2026-08-21T14:01:36.057Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": 11377,
         "buyPrice": 11060
       }
@@ -3740,8 +3820,30 @@
     },
     "thetford": {
       "2": {
-        "timestamp": "2026-08-21T14:01:36.057Z",
+        "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": 5972,
+        "buyPrice": null
+      }
+    },
+    "bridgewatch": {
+      "1": {
+        "timestamp": "2026-08-21T17:41:44.312Z",
+        "sellPrice": 8986,
+        "buyPrice": null
+      },
+      "2": {
+        "timestamp": "2026-08-21T17:41:44.312Z",
+        "sellPrice": 8987,
+        "buyPrice": null
+      },
+      "3": {
+        "timestamp": "2026-08-21T17:41:44.312Z",
+        "sellPrice": 8993,
+        "buyPrice": null
+      },
+      "4": {
+        "timestamp": "2026-08-21T17:41:44.312Z",
+        "sellPrice": 9000,
         "buyPrice": null
       }
     }
