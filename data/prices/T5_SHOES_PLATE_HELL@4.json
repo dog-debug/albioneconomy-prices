@@ -1272,14 +1272,46 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 140185
+    },
+    {
+      "timestamp": "2026-08-21T22:40:37.427Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 341205
+    },
+    {
+      "timestamp": "2026-08-21T22:40:37.427Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 391460
+    },
+    {
+      "timestamp": "2026-08-21T22:40:37.427Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1293999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T22:40:37.427Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1293998,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-21T14:01:36.057Z",
+        "timestamp": "2026-08-21T22:40:37.427Z",
         "sellPrice": null,
-        "buyPrice": 227470
+        "buyPrice": 341205
       },
       "2": {
         "timestamp": "2026-08-21T14:01:36.057Z",
@@ -1287,9 +1319,9 @@
         "buyPrice": 34385
       },
       "3": {
-        "timestamp": "2026-08-21T14:01:36.057Z",
+        "timestamp": "2026-08-21T22:40:37.427Z",
         "sellPrice": null,
-        "buyPrice": 383525
+        "buyPrice": 391460
       },
       "4": {
         "timestamp": "2026-08-21T14:01:36.057Z",
@@ -1300,6 +1332,18 @@
         "timestamp": "2026-08-21T14:01:36.057Z",
         "sellPrice": null,
         "buyPrice": 140185
+      }
+    },
+    "bridgewatch": {
+      "1": {
+        "timestamp": "2026-08-21T22:40:37.427Z",
+        "sellPrice": 1293999,
+        "buyPrice": null
+      },
+      "4": {
+        "timestamp": "2026-08-21T22:40:37.427Z",
+        "sellPrice": 1293998,
+        "buyPrice": null
       }
     }
   }
