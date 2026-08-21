@@ -1,0 +1,63 @@
+{
+  "itemId": "T6_2H_SCYTHE_CRYSTAL@1",
+  "priceHistory": [
+    {
+      "timestamp": "2026-08-21T04:02:58.017Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 257000
+    },
+    {
+      "timestamp": "2026-08-21T04:02:58.017Z",
+      "city": "bridgewatch",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 23
+    },
+    {
+      "timestamp": "2026-08-21T04:02:58.017Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2345678,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T04:02:58.017Z",
+      "city": "thetford",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1279998,
+      "buyPrice": null
+    }
+  ],
+  "latest": {
+    "bridgewatch": {
+      "1": {
+        "timestamp": "2026-08-21T04:02:58.017Z",
+        "sellPrice": null,
+        "buyPrice": 257000
+      },
+      "2": {
+        "timestamp": "2026-08-21T04:02:58.017Z",
+        "sellPrice": null,
+        "buyPrice": 23
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-21T04:02:58.017Z",
+        "sellPrice": 2345678,
+        "buyPrice": null
+      },
+      "2": {
+        "timestamp": "2026-08-21T04:02:58.017Z",
+        "sellPrice": 1279998,
+        "buyPrice": null
+      }
+    }
+  }
+}

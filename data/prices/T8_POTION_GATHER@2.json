@@ -2464,12 +2464,28 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 79977,
       "buyPrice": 52074
+    },
+    {
+      "timestamp": "2026-08-21T04:02:58.017Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 79977,
+      "buyPrice": 52074
+    },
+    {
+      "timestamp": "2026-08-21T04:02:58.017Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 76538,
+      "buyPrice": null
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-21T02:51:39.353Z",
+        "timestamp": "2026-08-21T04:02:58.017Z",
         "sellPrice": 79977,
         "buyPrice": 52074
       }
@@ -2507,6 +2523,13 @@
         "timestamp": "2026-08-19T03:59:29.479Z",
         "sellPrice": 89892,
         "buyPrice": 40009
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-08-21T04:02:58.017Z",
+        "sellPrice": 76538,
+        "buyPrice": null
       }
     }
   }
