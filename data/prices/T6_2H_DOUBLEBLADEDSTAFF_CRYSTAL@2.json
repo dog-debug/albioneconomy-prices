@@ -128,6 +128,30 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 3199997,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T06:24:57.946Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2499983,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T06:24:57.946Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3199997,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T06:24:57.946Z",
+      "city": "thetford",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2389999,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -147,13 +171,20 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-20T19:02:51.958Z",
+        "timestamp": "2026-08-21T06:24:57.946Z",
         "sellPrice": 2499983,
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-08-20T19:02:51.958Z",
+        "timestamp": "2026-08-21T06:24:57.946Z",
         "sellPrice": 3199997,
+        "buyPrice": null
+      }
+    },
+    "thetford": {
+      "4": {
+        "timestamp": "2026-08-21T06:24:57.946Z",
+        "sellPrice": 2389999,
         "buyPrice": null
       }
     }
