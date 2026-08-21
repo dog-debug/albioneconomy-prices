@@ -1288,39 +1288,111 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 1222222,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T11:23:05.301Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1087155
+    },
+    {
+      "timestamp": "2026-08-21T11:23:05.301Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1479949,
+      "buyPrice": 128848
+    },
+    {
+      "timestamp": "2026-08-21T11:23:05.301Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1479952,
+      "buyPrice": 1127420
+    },
+    {
+      "timestamp": "2026-08-21T11:23:05.301Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2100994,
+      "buyPrice": 338226
+    },
+    {
+      "timestamp": "2026-08-21T11:23:05.301Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1143526
+    },
+    {
+      "timestamp": "2026-08-21T11:23:05.301Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2100999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T11:23:05.301Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1249996,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T11:23:05.301Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 699999
+    },
+    {
+      "timestamp": "2026-08-21T11:23:05.301Z",
+      "city": "martlock",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1222222,
+      "buyPrice": 26
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-20T14:02:02.011Z",
+        "timestamp": "2026-08-21T11:23:05.301Z",
         "sellPrice": null,
-        "buyPrice": 587869
+        "buyPrice": 1087155
       },
       "2": {
-        "timestamp": "2026-08-20T14:02:02.011Z",
-        "sellPrice": null,
-        "buyPrice": 1352904
+        "timestamp": "2026-08-21T11:23:05.301Z",
+        "sellPrice": 1479949,
+        "buyPrice": 128848
       },
       "3": {
-        "timestamp": "2026-08-20T14:02:02.011Z",
-        "sellPrice": null,
-        "buyPrice": 1111314
+        "timestamp": "2026-08-21T11:23:05.301Z",
+        "sellPrice": 1479952,
+        "buyPrice": 1127420
       },
       "4": {
-        "timestamp": "2026-08-20T14:02:02.011Z",
-        "sellPrice": null,
-        "buyPrice": 330173
+        "timestamp": "2026-08-21T11:23:05.301Z",
+        "sellPrice": 2100994,
+        "buyPrice": 338226
       },
       "5": {
-        "timestamp": "2026-08-20T14:02:02.011Z",
+        "timestamp": "2026-08-21T11:23:05.301Z",
         "sellPrice": null,
         "buyPrice": 1143526
       }
     },
     "caerleon": {
       "4": {
-        "timestamp": "2026-08-20T14:02:02.011Z",
+        "timestamp": "2026-08-21T11:23:05.301Z",
         "sellPrice": 2100999,
         "buyPrice": null
       }
@@ -1343,6 +1415,11 @@
       }
     },
     "forsterling": {
+      "1": {
+        "timestamp": "2026-08-21T11:23:05.301Z",
+        "sellPrice": 1249996,
+        "buyPrice": null
+      },
       "2": {
         "timestamp": "2026-08-20T14:02:02.011Z",
         "sellPrice": 1249996,
@@ -1360,10 +1437,15 @@
       }
     },
     "martlock": {
+      "1": {
+        "timestamp": "2026-08-21T11:23:05.301Z",
+        "sellPrice": null,
+        "buyPrice": 699999
+      },
       "2": {
-        "timestamp": "2026-08-20T14:02:02.011Z",
+        "timestamp": "2026-08-21T11:23:05.301Z",
         "sellPrice": 1222222,
-        "buyPrice": null
+        "buyPrice": 26
       }
     }
   }
