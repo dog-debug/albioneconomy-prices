@@ -2008,12 +2008,36 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 205000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T16:24:23.487Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 230732
+    },
+    {
+      "timestamp": "2026-08-21T16:24:23.487Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1559
+    },
+    {
+      "timestamp": "2026-08-21T16:24:23.487Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 205000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-21T15:13:20.850Z",
+        "timestamp": "2026-08-21T16:24:23.487Z",
         "sellPrice": null,
         "buyPrice": 230732
       },
@@ -2033,7 +2057,7 @@
         "buyPrice": 10913
       },
       "5": {
-        "timestamp": "2026-08-21T15:13:20.850Z",
+        "timestamp": "2026-08-21T16:24:23.487Z",
         "sellPrice": null,
         "buyPrice": 1559
       }
@@ -2093,7 +2117,7 @@
     },
     "lymhurst": {
       "4": {
-        "timestamp": "2026-08-21T15:13:20.850Z",
+        "timestamp": "2026-08-21T16:24:23.487Z",
         "sellPrice": 205000,
         "buyPrice": null
       }
