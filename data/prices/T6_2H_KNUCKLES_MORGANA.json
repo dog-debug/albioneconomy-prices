@@ -1376,32 +1376,112 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 58958,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T10:11:47.517Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 90324
+    },
+    {
+      "timestamp": "2026-08-21T10:11:47.517Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 83376
+    },
+    {
+      "timestamp": "2026-08-21T10:11:47.517Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 83376
+    },
+    {
+      "timestamp": "2026-08-21T10:11:47.517Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 48636
+    },
+    {
+      "timestamp": "2026-08-21T10:11:47.517Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 194544
+    },
+    {
+      "timestamp": "2026-08-21T10:11:47.517Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 25053
+    },
+    {
+      "timestamp": "2026-08-21T10:11:47.517Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 25061
+    },
+    {
+      "timestamp": "2026-08-21T10:11:47.517Z",
+      "city": "lymhurst",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 20
+    },
+    {
+      "timestamp": "2026-08-21T10:11:47.517Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 199978,
+      "buyPrice": 55000
+    },
+    {
+      "timestamp": "2026-08-21T10:11:47.517Z",
+      "city": "thetford",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 58958,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-21T02:51:39.353Z",
+        "timestamp": "2026-08-21T10:11:47.517Z",
         "sellPrice": null,
         "buyPrice": 90324
       },
       "2": {
-        "timestamp": "2026-08-21T02:51:39.353Z",
+        "timestamp": "2026-08-21T10:11:47.517Z",
         "sellPrice": null,
         "buyPrice": 83376
       },
       "3": {
-        "timestamp": "2026-08-21T02:51:39.353Z",
+        "timestamp": "2026-08-21T10:11:47.517Z",
         "sellPrice": null,
         "buyPrice": 83376
       },
       "4": {
-        "timestamp": "2026-08-21T02:51:39.353Z",
+        "timestamp": "2026-08-21T10:11:47.517Z",
         "sellPrice": null,
         "buyPrice": 48636
       },
       "5": {
-        "timestamp": "2026-08-21T02:51:39.353Z",
+        "timestamp": "2026-08-21T10:11:47.517Z",
         "sellPrice": null,
         "buyPrice": 194544
       }
@@ -1441,10 +1521,25 @@
       }
     },
     "lymhurst": {
+      "1": {
+        "timestamp": "2026-08-21T10:11:47.517Z",
+        "sellPrice": null,
+        "buyPrice": 25053
+      },
+      "2": {
+        "timestamp": "2026-08-21T10:11:47.517Z",
+        "sellPrice": null,
+        "buyPrice": 25061
+      },
       "3": {
-        "timestamp": "2026-08-21T02:51:39.353Z",
-        "sellPrice": 199000,
-        "buyPrice": null
+        "timestamp": "2026-08-21T10:11:47.517Z",
+        "sellPrice": null,
+        "buyPrice": 20
+      },
+      "4": {
+        "timestamp": "2026-08-21T10:11:47.517Z",
+        "sellPrice": 199978,
+        "buyPrice": 55000
       }
     },
     "martlock": {
@@ -1471,7 +1566,7 @@
     },
     "thetford": {
       "3": {
-        "timestamp": "2026-08-21T02:51:39.353Z",
+        "timestamp": "2026-08-21T10:11:47.517Z",
         "sellPrice": 58958,
         "buyPrice": null
       }
