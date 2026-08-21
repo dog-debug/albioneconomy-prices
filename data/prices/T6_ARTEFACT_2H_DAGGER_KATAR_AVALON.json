@@ -808,6 +808,14 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 18995,
       "buyPrice": 5689
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 10000,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -823,6 +831,13 @@
         "timestamp": "2026-08-21T16:24:23.487Z",
         "sellPrice": 18995,
         "buyPrice": 5689
+      }
+    },
+    "martlock": {
+      "1": {
+        "timestamp": "2026-08-21T21:22:51.466Z",
+        "sellPrice": 10000,
+        "buyPrice": null
       }
     }
   }

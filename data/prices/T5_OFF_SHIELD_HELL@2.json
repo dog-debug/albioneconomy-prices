@@ -1272,14 +1272,46 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 45000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 75750
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 65250
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 74994,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "martlock",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 45000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
+        "timestamp": "2026-08-21T21:22:51.466Z",
         "sellPrice": null,
-        "buyPrice": 6000
+        "buyPrice": 75750
       },
       "2": {
         "timestamp": "2026-08-21T10:11:47.517Z",
@@ -1292,9 +1324,9 @@
         "buyPrice": 66750
       },
       "4": {
-        "timestamp": "2026-08-21T17:41:44.312Z",
+        "timestamp": "2026-08-21T21:22:51.466Z",
         "sellPrice": null,
-        "buyPrice": 58500
+        "buyPrice": 65250
       },
       "5": {
         "timestamp": "2026-08-20T23:53:46.818Z",
@@ -1326,7 +1358,7 @@
     },
     "lymhurst": {
       "4": {
-        "timestamp": "2026-08-21T17:41:44.312Z",
+        "timestamp": "2026-08-21T21:22:51.466Z",
         "sellPrice": 74994,
         "buyPrice": null
       }
@@ -1340,7 +1372,7 @@
     },
     "martlock": {
       "3": {
-        "timestamp": "2026-08-21T17:41:44.312Z",
+        "timestamp": "2026-08-21T21:22:51.466Z",
         "sellPrice": 45000,
         "buyPrice": null
       }

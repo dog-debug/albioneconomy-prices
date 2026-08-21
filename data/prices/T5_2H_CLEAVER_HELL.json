@@ -1208,34 +1208,114 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 72009,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 65000,
+      "buyPrice": 56355
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 66489,
+      "buyPrice": 62985
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 65997,
+      "buyPrice": 57460
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 85000,
+      "buyPrice": 61880
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 64090
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 73982,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 44595,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 44888,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "lymhurst",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 44896,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-21T21:22:51.466Z",
+      "city": "martlock",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 72009,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-21T06:24:57.946Z",
-        "sellPrice": null,
-        "buyPrice": 65195
+        "timestamp": "2026-08-21T21:22:51.466Z",
+        "sellPrice": 65000,
+        "buyPrice": 56355
       },
       "2": {
-        "timestamp": "2026-08-21T04:02:58.017Z",
-        "sellPrice": null,
-        "buyPrice": 19890
+        "timestamp": "2026-08-21T21:22:51.466Z",
+        "sellPrice": 66489,
+        "buyPrice": 62985
       },
       "3": {
-        "timestamp": "2026-08-20T19:02:51.958Z",
-        "sellPrice": null,
-        "buyPrice": 50830
+        "timestamp": "2026-08-21T21:22:51.466Z",
+        "sellPrice": 65997,
+        "buyPrice": 57460
       },
       "4": {
-        "timestamp": "2026-08-20T19:02:51.958Z",
-        "sellPrice": null,
-        "buyPrice": 6630
+        "timestamp": "2026-08-21T21:22:51.466Z",
+        "sellPrice": 85000,
+        "buyPrice": 61880
       },
       "5": {
-        "timestamp": "2026-08-21T06:24:57.946Z",
+        "timestamp": "2026-08-21T21:22:51.466Z",
         "sellPrice": null,
-        "buyPrice": 59670
+        "buyPrice": 64090
       }
     },
     "caerleon": {
@@ -1257,9 +1337,9 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-19T13:04:00.175Z",
-        "sellPrice": 73987,
-        "buyPrice": 17046
+        "timestamp": "2026-08-21T21:22:51.466Z",
+        "sellPrice": 73982,
+        "buyPrice": null
       },
       "2": {
         "timestamp": "2026-08-19T13:04:00.175Z",
@@ -1274,8 +1354,25 @@
     },
     "martlock": {
       "3": {
-        "timestamp": "2026-08-21T06:24:57.946Z",
+        "timestamp": "2026-08-21T21:22:51.466Z",
         "sellPrice": 72009,
+        "buyPrice": null
+      }
+    },
+    "lymhurst": {
+      "1": {
+        "timestamp": "2026-08-21T21:22:51.466Z",
+        "sellPrice": 44595,
+        "buyPrice": null
+      },
+      "2": {
+        "timestamp": "2026-08-21T21:22:51.466Z",
+        "sellPrice": 44888,
+        "buyPrice": null
+      },
+      "3": {
+        "timestamp": "2026-08-21T21:22:51.466Z",
+        "sellPrice": 44896,
         "buyPrice": null
       }
     }
