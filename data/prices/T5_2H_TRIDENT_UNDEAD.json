@@ -1072,14 +1072,86 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 109891,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 19107
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 41688
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 29529
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 39951
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 59000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 57979,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "lymhurst",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 109891,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 79500,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "martlock",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 79990,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-21T21:22:51.466Z",
+        "timestamp": "2026-08-22T08:56:52.606Z",
         "sellPrice": null,
-        "buyPrice": 79902
+        "buyPrice": 19107
       },
       "2": {
         "timestamp": "2026-08-21T04:02:58.017Z",
@@ -1087,17 +1159,17 @@
         "buyPrice": 43425
       },
       "3": {
-        "timestamp": "2026-08-21T21:22:51.466Z",
+        "timestamp": "2026-08-22T08:56:52.606Z",
         "sellPrice": null,
-        "buyPrice": 24318
+        "buyPrice": 41688
       },
       "4": {
-        "timestamp": "2026-08-21T21:22:51.466Z",
+        "timestamp": "2026-08-22T08:56:52.606Z",
         "sellPrice": null,
-        "buyPrice": 26055
+        "buyPrice": 29529
       },
       "5": {
-        "timestamp": "2026-08-21T21:22:51.466Z",
+        "timestamp": "2026-08-22T08:56:52.606Z",
         "sellPrice": null,
         "buyPrice": 39951
       }
@@ -1126,12 +1198,12 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-21T21:22:51.466Z",
+        "timestamp": "2026-08-22T08:56:52.606Z",
         "sellPrice": 57979,
         "buyPrice": null
       },
       "3": {
-        "timestamp": "2026-08-21T21:22:51.466Z",
+        "timestamp": "2026-08-22T08:56:52.606Z",
         "sellPrice": 109891,
         "buyPrice": null
       },
@@ -1143,8 +1215,8 @@
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-20T14:02:02.011Z",
-        "sellPrice": 39998,
+        "timestamp": "2026-08-22T08:56:52.606Z",
+        "sellPrice": 59000,
         "buyPrice": null
       },
       "2": {
@@ -1189,6 +1261,18 @@
       "3": {
         "timestamp": "2026-08-21T06:24:57.946Z",
         "sellPrice": 70992,
+        "buyPrice": null
+      }
+    },
+    "martlock": {
+      "1": {
+        "timestamp": "2026-08-22T08:56:52.606Z",
+        "sellPrice": 79500,
+        "buyPrice": null
+      },
+      "2": {
+        "timestamp": "2026-08-22T08:56:52.606Z",
+        "sellPrice": 79990,
         "buyPrice": null
       }
     }

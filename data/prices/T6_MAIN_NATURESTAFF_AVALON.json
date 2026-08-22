@@ -1168,40 +1168,112 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 25695,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 31500
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 9000
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 9000
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 36000
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 58500
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "bridgewatch",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 40257,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 30000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 30977,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T08:56:52.606Z",
+      "city": "lymhurst",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 55245,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-21T06:24:57.946Z",
+        "timestamp": "2026-08-22T08:56:52.606Z",
         "sellPrice": null,
         "buyPrice": 31500
       },
       "2": {
-        "timestamp": "2026-08-21T06:24:57.946Z",
-        "sellPrice": 36987,
-        "buyPrice": 22500
+        "timestamp": "2026-08-22T08:56:52.606Z",
+        "sellPrice": null,
+        "buyPrice": 9000
       },
       "3": {
-        "timestamp": "2026-08-21T06:24:57.946Z",
-        "sellPrice": 35888,
+        "timestamp": "2026-08-22T08:56:52.606Z",
+        "sellPrice": null,
         "buyPrice": 9000
       },
       "4": {
-        "timestamp": "2026-08-21T06:24:57.946Z",
-        "sellPrice": 57980,
-        "buyPrice": null
+        "timestamp": "2026-08-22T08:56:52.606Z",
+        "sellPrice": null,
+        "buyPrice": 36000
       },
       "5": {
-        "timestamp": "2026-08-21T06:24:57.946Z",
-        "sellPrice": 150000,
+        "timestamp": "2026-08-22T08:56:52.606Z",
+        "sellPrice": null,
         "buyPrice": 58500
       }
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-20T14:02:02.011Z",
-        "sellPrice": 65961,
+        "timestamp": "2026-08-22T08:56:52.606Z",
+        "sellPrice": 30000,
         "buyPrice": null
       },
       "2": {
@@ -1239,8 +1311,13 @@
         "buyPrice": null
       },
       "2": {
-        "timestamp": "2026-08-21T06:24:57.946Z",
-        "sellPrice": 30978,
+        "timestamp": "2026-08-22T08:56:52.606Z",
+        "sellPrice": 30977,
+        "buyPrice": null
+      },
+      "3": {
+        "timestamp": "2026-08-22T08:56:52.606Z",
+        "sellPrice": 55245,
         "buyPrice": null
       }
     },
@@ -1265,6 +1342,13 @@
       "3": {
         "timestamp": "2026-08-21T06:24:57.946Z",
         "sellPrice": 25695,
+        "buyPrice": null
+      }
+    },
+    "bridgewatch": {
+      "2": {
+        "timestamp": "2026-08-22T08:56:52.606Z",
+        "sellPrice": 40257,
         "buyPrice": null
       }
     }
