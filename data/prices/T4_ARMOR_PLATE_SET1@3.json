@@ -5296,6 +5296,30 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 174990,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 159972,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 175557,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 139990,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -5408,6 +5432,11 @@
       }
     },
     "thetford": {
+      "1": {
+        "timestamp": "2026-08-22T04:00:43.249Z",
+        "sellPrice": 139990,
+        "buyPrice": null
+      },
       "4": {
         "timestamp": "2026-08-20T02:48:42.318Z",
         "sellPrice": 223999,
@@ -5442,9 +5471,19 @@
       }
     },
     "bridgewatch": {
+      "1": {
+        "timestamp": "2026-08-22T04:00:43.249Z",
+        "sellPrice": 159972,
+        "buyPrice": null
+      },
       "2": {
         "timestamp": "2026-08-20T22:41:37.632Z",
         "sellPrice": 159978,
+        "buyPrice": null
+      },
+      "4": {
+        "timestamp": "2026-08-22T04:00:43.249Z",
+        "sellPrice": 175557,
         "buyPrice": null
       }
     },

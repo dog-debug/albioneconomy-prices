@@ -3232,6 +3232,38 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 70337
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 199991,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "lymhurst",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 229949,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 70337
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "thetford",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 187891,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -3307,6 +3339,11 @@
       }
     },
     "thetford": {
+      "2": {
+        "timestamp": "2026-08-22T04:00:43.249Z",
+        "sellPrice": 187891,
+        "buyPrice": null
+      },
       "4": {
         "timestamp": "2026-08-20T02:48:42.318Z",
         "sellPrice": null,
@@ -3335,7 +3372,7 @@
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-08-22T00:20:46.405Z",
+        "timestamp": "2026-08-22T04:00:43.249Z",
         "sellPrice": null,
         "buyPrice": 70337
       },
@@ -3357,7 +3394,7 @@
         "buyPrice": 140114
       },
       "3": {
-        "timestamp": "2026-08-22T00:20:46.405Z",
+        "timestamp": "2026-08-22T04:00:43.249Z",
         "sellPrice": 229949,
         "buyPrice": null
       },
@@ -3386,6 +3423,13 @@
       "5": {
         "timestamp": "2026-08-22T00:20:46.405Z",
         "sellPrice": 204999,
+        "buyPrice": null
+      }
+    },
+    "bridgewatch": {
+      "4": {
+        "timestamp": "2026-08-22T04:00:43.249Z",
+        "sellPrice": 199991,
         "buyPrice": null
       }
     }

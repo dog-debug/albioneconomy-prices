@@ -24,6 +24,14 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 175631,
       "buyPrice": 100013
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 249999,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -32,6 +40,13 @@
         "timestamp": "2026-08-21T02:51:39.353Z",
         "sellPrice": 175631,
         "buyPrice": 100013
+      }
+    },
+    "lymhurst": {
+      "1": {
+        "timestamp": "2026-08-22T04:00:43.249Z",
+        "sellPrice": 249999,
+        "buyPrice": null
       }
     }
   }

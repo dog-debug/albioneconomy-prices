@@ -1504,6 +1504,86 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 219999,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 84000
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 170996,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 99979,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "caerleon",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 199955,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "caerleon",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 199999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 199967,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 219999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 168992,
+      "buyPrice": 20165
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "thetford",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 179999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "thetford",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 176985,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -1524,7 +1604,7 @@
         "buyPrice": 30000
       },
       "4": {
-        "timestamp": "2026-08-22T00:20:46.405Z",
+        "timestamp": "2026-08-22T04:00:43.249Z",
         "sellPrice": null,
         "buyPrice": 84000
       },
@@ -1536,22 +1616,22 @@
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-21T02:51:39.353Z",
-        "sellPrice": 99981,
+        "timestamp": "2026-08-22T04:00:43.249Z",
+        "sellPrice": 99979,
         "buyPrice": null
       },
       "2": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
+        "timestamp": "2026-08-22T04:00:43.249Z",
         "sellPrice": 199955,
         "buyPrice": null
       },
       "3": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
+        "timestamp": "2026-08-22T04:00:43.249Z",
         "sellPrice": 199999,
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
+        "timestamp": "2026-08-22T04:00:43.249Z",
         "sellPrice": 199967,
         "buyPrice": null
       }
@@ -1572,15 +1652,32 @@
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-22T00:20:46.405Z",
+        "timestamp": "2026-08-22T04:00:43.249Z",
         "sellPrice": 170996,
         "buyPrice": null
       }
     },
     "lymhurst": {
       "4": {
-        "timestamp": "2026-08-22T00:20:46.405Z",
+        "timestamp": "2026-08-22T04:00:43.249Z",
         "sellPrice": 219999,
+        "buyPrice": null
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-22T04:00:43.249Z",
+        "sellPrice": 168992,
+        "buyPrice": 20165
+      },
+      "2": {
+        "timestamp": "2026-08-22T04:00:43.249Z",
+        "sellPrice": 179999,
+        "buyPrice": null
+      },
+      "3": {
+        "timestamp": "2026-08-22T04:00:43.249Z",
+        "sellPrice": 176985,
         "buyPrice": null
       }
     }

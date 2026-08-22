@@ -856,6 +856,14 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 42006
+    },
+    {
+      "timestamp": "2026-08-22T04:00:43.249Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 70000,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -871,6 +879,13 @@
         "timestamp": "2026-08-21T16:24:23.487Z",
         "sellPrice": null,
         "buyPrice": 42006
+      }
+    },
+    "brecilien": {
+      "1": {
+        "timestamp": "2026-08-22T04:00:43.249Z",
+        "sellPrice": 70000,
+        "buyPrice": null
       }
     }
   }
