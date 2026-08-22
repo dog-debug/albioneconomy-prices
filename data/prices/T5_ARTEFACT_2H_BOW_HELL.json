@@ -728,6 +728,30 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 8849,
       "buyPrice": 325
+    },
+    {
+      "timestamp": "2026-08-22T01:47:34.109Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3989,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T01:47:34.109Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 4978,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T01:47:34.109Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 8849,
+      "buyPrice": 325
     }
   ],
   "latest": {
@@ -740,16 +764,23 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-22T00:20:46.405Z",
+        "timestamp": "2026-08-22T01:47:34.109Z",
         "sellPrice": 4978,
         "buyPrice": null
       }
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-22T00:20:46.405Z",
+        "timestamp": "2026-08-22T01:47:34.109Z",
         "sellPrice": 8849,
         "buyPrice": 325
+      }
+    },
+    "bridgewatch": {
+      "1": {
+        "timestamp": "2026-08-22T01:47:34.109Z",
+        "sellPrice": 3989,
+        "buyPrice": null
       }
     }
   }
