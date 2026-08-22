@@ -1112,14 +1112,46 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 799998,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T10:08:24.511Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 474710
+    },
+    {
+      "timestamp": "2026-08-22T10:08:24.511Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 372070
+    },
+    {
+      "timestamp": "2026-08-22T10:08:24.511Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 638934
+    },
+    {
+      "timestamp": "2026-08-22T10:08:24.511Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1199994,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-21T16:24:23.487Z",
+        "timestamp": "2026-08-22T10:08:24.511Z",
         "sellPrice": null,
-        "buyPrice": 792894
+        "buyPrice": 474710
       },
       "2": {
         "timestamp": "2026-08-21T16:24:23.487Z",
@@ -1127,9 +1159,9 @@
         "buyPrice": 48754
       },
       "3": {
-        "timestamp": "2026-08-21T16:24:23.487Z",
+        "timestamp": "2026-08-22T10:08:24.511Z",
         "sellPrice": null,
-        "buyPrice": 328448
+        "buyPrice": 372070
       },
       "4": {
         "timestamp": "2026-08-21T16:24:23.487Z",
@@ -1137,7 +1169,7 @@
         "buyPrice": 105206
       },
       "5": {
-        "timestamp": "2026-08-21T16:24:23.487Z",
+        "timestamp": "2026-08-22T10:08:24.511Z",
         "sellPrice": null,
         "buyPrice": 638934
       }
@@ -1151,6 +1183,13 @@
       "4": {
         "timestamp": "2026-08-21T16:24:23.487Z",
         "sellPrice": 799998,
+        "buyPrice": null
+      }
+    },
+    "bridgewatch": {
+      "4": {
+        "timestamp": "2026-08-22T10:08:24.511Z",
+        "sellPrice": 1199994,
         "buyPrice": null
       }
     }
