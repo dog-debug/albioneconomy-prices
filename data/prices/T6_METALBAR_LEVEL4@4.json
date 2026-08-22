@@ -4600,14 +4600,30 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 249999,
       "buyPrice": 100000
+    },
+    {
+      "timestamp": "2026-08-22T18:57:35.563Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 307000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T18:57:35.563Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 294886,
+      "buyPrice": 200000
     }
   ],
   "latest": {
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-22T17:38:27.786Z",
+        "timestamp": "2026-08-22T18:57:35.563Z",
         "sellPrice": 307000,
-        "buyPrice": 255888
+        "buyPrice": null
       }
     },
     "forsterling": {
@@ -4626,7 +4642,7 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-22T17:38:27.786Z",
+        "timestamp": "2026-08-22T18:57:35.563Z",
         "sellPrice": 294886,
         "buyPrice": 200000
       }
