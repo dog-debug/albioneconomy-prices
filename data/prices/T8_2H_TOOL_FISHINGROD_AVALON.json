@@ -1336,6 +1336,30 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 503976
+    },
+    {
+      "timestamp": "2026-08-22T16:22:38.867Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 503976
+    },
+    {
+      "timestamp": "2026-08-22T16:22:38.867Z",
+      "city": "caerleon",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1499991,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-22T16:22:38.867Z",
+      "city": "thetford",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 4000000
     }
   ],
   "latest": {
@@ -1380,8 +1404,8 @@
         "buyPrice": null
       },
       "3": {
-        "timestamp": "2026-08-21T02:51:39.353Z",
-        "sellPrice": 1400000,
+        "timestamp": "2026-08-22T16:22:38.867Z",
+        "sellPrice": 1499991,
         "buyPrice": null
       },
       "4": {
@@ -1392,7 +1416,7 @@
     },
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-22T04:00:43.249Z",
+        "timestamp": "2026-08-22T16:22:38.867Z",
         "sellPrice": null,
         "buyPrice": 503976
       },
@@ -1429,6 +1453,13 @@
         "timestamp": "2026-08-22T00:20:46.405Z",
         "sellPrice": 39999999,
         "buyPrice": null
+      }
+    },
+    "thetford": {
+      "5": {
+        "timestamp": "2026-08-22T16:22:38.867Z",
+        "sellPrice": null,
+        "buyPrice": 4000000
       }
     }
   }
