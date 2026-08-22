@@ -1216,19 +1216,51 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 1869610
+    },
+    {
+      "timestamp": "2026-08-22T22:39:09.305Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1000494
+    },
+    {
+      "timestamp": "2026-08-22T22:39:09.305Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 2193002
+    },
+    {
+      "timestamp": "2026-08-22T22:39:09.305Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1869610
+    },
+    {
+      "timestamp": "2026-08-22T22:39:09.305Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1704889,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-22T15:07:04.909Z",
-        "sellPrice": 3444428,
-        "buyPrice": 2667984
+        "timestamp": "2026-08-22T22:39:09.305Z",
+        "sellPrice": null,
+        "buyPrice": 1000494
       },
       "2": {
-        "timestamp": "2026-08-22T15:07:04.909Z",
-        "sellPrice": 3444429,
-        "buyPrice": 2112154
+        "timestamp": "2026-08-22T22:39:09.305Z",
+        "sellPrice": null,
+        "buyPrice": 2193002
       },
       "3": {
         "timestamp": "2026-08-22T15:07:04.909Z",
@@ -1241,7 +1273,7 @@
         "buyPrice": 303180
       },
       "5": {
-        "timestamp": "2026-08-22T15:07:04.909Z",
+        "timestamp": "2026-08-22T22:39:09.305Z",
         "sellPrice": null,
         "buyPrice": 1869610
       }
@@ -1269,6 +1301,13 @@
       "2": {
         "timestamp": "2026-08-20T14:02:02.011Z",
         "sellPrice": 3500000,
+        "buyPrice": null
+      }
+    },
+    "bridgewatch": {
+      "4": {
+        "timestamp": "2026-08-22T22:39:09.305Z",
+        "sellPrice": 1704889,
         "buyPrice": null
       }
     }
