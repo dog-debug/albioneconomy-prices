@@ -896,21 +896,61 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 28688,
       "buyPrice": 28000
+    },
+    {
+      "timestamp": "2026-08-23T02:51:46.825Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 26987,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-23T02:51:46.825Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 27029,
+      "buyPrice": 25333
+    },
+    {
+      "timestamp": "2026-08-23T02:51:46.825Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 32993,
+      "buyPrice": 5005
+    },
+    {
+      "timestamp": "2026-08-23T02:51:46.825Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 33968,
+      "buyPrice": 29555
+    },
+    {
+      "timestamp": "2026-08-23T02:51:46.825Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 31993,
+      "buyPrice": null
     }
   ],
   "latest": {
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-22T04:00:43.249Z",
-        "sellPrice": 28688,
-        "buyPrice": 28000
+        "timestamp": "2026-08-23T02:51:46.825Z",
+        "sellPrice": 27029,
+        "buyPrice": 25333
       }
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-20T02:48:42.318Z",
-        "sellPrice": 42000,
-        "buyPrice": null
+        "timestamp": "2026-08-23T02:51:46.825Z",
+        "sellPrice": 32993,
+        "buyPrice": 5005
       }
     },
     "forsterling": {
@@ -922,15 +962,29 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-21T10:11:47.517Z",
-        "sellPrice": 30797,
-        "buyPrice": null
+        "timestamp": "2026-08-23T02:51:46.825Z",
+        "sellPrice": 33968,
+        "buyPrice": 29555
       }
     },
     "thetford": {
       "1": {
         "timestamp": "2026-08-21T17:41:44.312Z",
         "sellPrice": 32000,
+        "buyPrice": null
+      }
+    },
+    "brecilien": {
+      "1": {
+        "timestamp": "2026-08-23T02:51:46.825Z",
+        "sellPrice": 26987,
+        "buyPrice": null
+      }
+    },
+    "martlock": {
+      "1": {
+        "timestamp": "2026-08-23T02:51:46.825Z",
+        "sellPrice": 31993,
         "buyPrice": null
       }
     }
