@@ -80,6 +80,14 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 46
+    },
+    {
+      "timestamp": "2026-08-23T11:22:20.812Z",
+      "city": "thetford",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 580000,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -93,6 +101,13 @@
         "timestamp": "2026-08-19T11:39:20.080Z",
         "sellPrice": null,
         "buyPrice": 46
+      }
+    },
+    "thetford": {
+      "2": {
+        "timestamp": "2026-08-23T11:22:20.812Z",
+        "sellPrice": 580000,
+        "buyPrice": null
       }
     }
   }
