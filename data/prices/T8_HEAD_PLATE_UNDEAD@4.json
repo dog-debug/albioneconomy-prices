@@ -2248,14 +2248,62 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 18000000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 11392485
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 4598048
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 13500000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 18000000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 14669996,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "thetford",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 18000000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-22T20:07:33.987Z",
+        "timestamp": "2026-08-23T10:08:41.073Z",
         "sellPrice": null,
-        "buyPrice": 10981945
+        "buyPrice": 11392485
       },
       "2": {
         "timestamp": "2026-08-22T20:07:33.987Z",
@@ -2263,9 +2311,9 @@
         "buyPrice": 1518998
       },
       "3": {
-        "timestamp": "2026-08-22T20:07:33.987Z",
+        "timestamp": "2026-08-23T10:08:41.073Z",
         "sellPrice": null,
-        "buyPrice": 4577521
+        "buyPrice": 4598048
       },
       "4": {
         "timestamp": "2026-08-22T20:07:33.987Z",
@@ -2280,7 +2328,7 @@
     },
     "forsterling": {
       "4": {
-        "timestamp": "2026-08-22T20:07:33.987Z",
+        "timestamp": "2026-08-23T10:08:41.073Z",
         "sellPrice": 13500000,
         "buyPrice": null
       }
@@ -2301,12 +2349,19 @@
     },
     "thetford": {
       "1": {
-        "timestamp": "2026-08-22T20:07:33.987Z",
+        "timestamp": "2026-08-23T10:08:41.073Z",
         "sellPrice": 14669996,
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-08-22T20:07:33.987Z",
+        "timestamp": "2026-08-23T10:08:41.073Z",
+        "sellPrice": 18000000,
+        "buyPrice": null
+      }
+    },
+    "martlock": {
+      "4": {
+        "timestamp": "2026-08-23T10:08:41.073Z",
         "sellPrice": 18000000,
         "buyPrice": null
       }

@@ -2000,32 +2000,96 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 28000000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 11763093
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 6063450
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 10065327
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 40423
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 7074025
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "martlock",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 31950889,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "thetford",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 14699978,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-23T10:08:41.073Z",
+      "city": "thetford",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 28000000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-23T08:56:48.815Z",
+        "timestamp": "2026-08-23T10:08:41.073Z",
         "sellPrice": null,
         "buyPrice": 11763093
       },
       "2": {
-        "timestamp": "2026-08-23T08:56:48.815Z",
+        "timestamp": "2026-08-23T10:08:41.073Z",
         "sellPrice": null,
         "buyPrice": 6063450
       },
       "3": {
-        "timestamp": "2026-08-23T08:56:48.815Z",
+        "timestamp": "2026-08-23T10:08:41.073Z",
         "sellPrice": null,
         "buyPrice": 10065327
       },
       "4": {
-        "timestamp": "2026-08-23T08:56:48.815Z",
+        "timestamp": "2026-08-23T10:08:41.073Z",
         "sellPrice": null,
         "buyPrice": 40423
       },
       "5": {
-        "timestamp": "2026-08-23T08:56:48.815Z",
+        "timestamp": "2026-08-23T10:08:41.073Z",
         "sellPrice": null,
         "buyPrice": 7074025
       }
@@ -2039,12 +2103,12 @@
     },
     "thetford": {
       "4": {
-        "timestamp": "2026-08-23T08:56:48.815Z",
+        "timestamp": "2026-08-23T10:08:41.073Z",
         "sellPrice": 14699978,
         "buyPrice": null
       },
       "5": {
-        "timestamp": "2026-08-23T08:56:48.815Z",
+        "timestamp": "2026-08-23T10:08:41.073Z",
         "sellPrice": 28000000,
         "buyPrice": null
       }
@@ -2070,6 +2134,13 @@
       "5": {
         "timestamp": "2026-08-21T10:11:47.517Z",
         "sellPrice": 25000000,
+        "buyPrice": null
+      }
+    },
+    "martlock": {
+      "5": {
+        "timestamp": "2026-08-23T10:08:41.073Z",
+        "sellPrice": 31950889,
         "buyPrice": null
       }
     }
