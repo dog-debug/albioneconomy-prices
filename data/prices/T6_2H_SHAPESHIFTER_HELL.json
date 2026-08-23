@@ -2528,32 +2528,112 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 50
+    },
+    {
+      "timestamp": "2026-08-23T17:37:47.404Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 285219
+    },
+    {
+      "timestamp": "2026-08-23T17:37:47.404Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 84018
+    },
+    {
+      "timestamp": "2026-08-23T17:37:47.404Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 61908
+    },
+    {
+      "timestamp": "2026-08-23T17:37:47.404Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 165825
+    },
+    {
+      "timestamp": "2026-08-23T17:37:47.404Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 139293
+    },
+    {
+      "timestamp": "2026-08-23T17:37:47.404Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 281999,
+      "buyPrice": 51
+    },
+    {
+      "timestamp": "2026-08-23T17:37:47.404Z",
+      "city": "bridgewatch",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 281998,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-23T17:37:47.404Z",
+      "city": "bridgewatch",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 285000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-23T17:37:47.404Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 399999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-23T17:37:47.404Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 233330,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-23T15:07:54.284Z",
+        "timestamp": "2026-08-23T17:37:47.404Z",
         "sellPrice": null,
         "buyPrice": 285219
       },
       "2": {
-        "timestamp": "2026-08-23T15:07:54.284Z",
+        "timestamp": "2026-08-23T17:37:47.404Z",
         "sellPrice": null,
         "buyPrice": 84018
       },
       "3": {
-        "timestamp": "2026-08-23T15:07:54.284Z",
+        "timestamp": "2026-08-23T17:37:47.404Z",
         "sellPrice": null,
         "buyPrice": 61908
       },
       "4": {
-        "timestamp": "2026-08-23T15:07:54.284Z",
+        "timestamp": "2026-08-23T17:37:47.404Z",
         "sellPrice": null,
         "buyPrice": 165825
       },
       "5": {
-        "timestamp": "2026-08-23T15:07:54.284Z",
+        "timestamp": "2026-08-23T17:37:47.404Z",
         "sellPrice": null,
         "buyPrice": 139293
       }
@@ -2572,8 +2652,8 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-22T04:00:43.249Z",
-        "sellPrice": 233331,
+        "timestamp": "2026-08-23T17:37:47.404Z",
+        "sellPrice": 233330,
         "buyPrice": null
       },
       "2": {
@@ -2594,9 +2674,24 @@
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-23T15:07:54.284Z",
-        "sellPrice": null,
-        "buyPrice": 50
+        "timestamp": "2026-08-23T17:37:47.404Z",
+        "sellPrice": 281999,
+        "buyPrice": 51
+      },
+      "2": {
+        "timestamp": "2026-08-23T17:37:47.404Z",
+        "sellPrice": 281998,
+        "buyPrice": null
+      },
+      "3": {
+        "timestamp": "2026-08-23T17:37:47.404Z",
+        "sellPrice": 285000,
+        "buyPrice": null
+      },
+      "4": {
+        "timestamp": "2026-08-23T17:37:47.404Z",
+        "sellPrice": 399999,
+        "buyPrice": null
       }
     }
   }
