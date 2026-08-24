@@ -80,29 +80,76 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 248999,
       "buyPrice": 10121
+    },
+    {
+      "timestamp": "2026-08-24T20:11:04.752Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 10048
+    },
+    {
+      "timestamp": "2026-08-24T20:11:04.752Z",
+      "city": "bridgewatch",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 309993,
+      "buyPrice": 10120
+    },
+    {
+      "timestamp": "2026-08-24T20:11:04.752Z",
+      "city": "bridgewatch",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 10121
+    },
+    {
+      "timestamp": "2026-08-24T20:11:04.752Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 248999,
+      "buyPrice": 10121
+    },
+    {
+      "timestamp": "2026-08-24T20:11:04.752Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 229998,
+      "buyPrice": null
     }
   ],
   "latest": {
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-24T16:25:16.306Z",
+        "timestamp": "2026-08-24T20:11:04.752Z",
         "sellPrice": null,
         "buyPrice": 10048
       },
       "2": {
-        "timestamp": "2026-08-24T16:25:16.306Z",
+        "timestamp": "2026-08-24T20:11:04.752Z",
         "sellPrice": 309993,
         "buyPrice": 10120
       },
       "3": {
-        "timestamp": "2026-08-24T16:25:16.306Z",
+        "timestamp": "2026-08-24T20:11:04.752Z",
         "sellPrice": null,
         "buyPrice": 10121
       },
       "4": {
-        "timestamp": "2026-08-24T16:25:16.306Z",
+        "timestamp": "2026-08-24T20:11:04.752Z",
         "sellPrice": 248999,
         "buyPrice": 10121
+      }
+    },
+    "caerleon": {
+      "4": {
+        "timestamp": "2026-08-24T20:11:04.752Z",
+        "sellPrice": 229998,
+        "buyPrice": null
       }
     }
   }
