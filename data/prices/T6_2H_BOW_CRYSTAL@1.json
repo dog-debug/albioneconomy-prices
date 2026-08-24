@@ -600,6 +600,62 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 1700000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-24T07:49:08.843Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1134
+    },
+    {
+      "timestamp": "2026-08-24T07:49:08.843Z",
+      "city": "brecilien",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 126036
+    },
+    {
+      "timestamp": "2026-08-24T07:49:08.843Z",
+      "city": "brecilien",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 126044
+    },
+    {
+      "timestamp": "2026-08-24T07:49:08.843Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 915032
+    },
+    {
+      "timestamp": "2026-08-24T07:49:08.843Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1130000,
+      "buyPrice": 915034
+    },
+    {
+      "timestamp": "2026-08-24T07:49:08.843Z",
+      "city": "forsterling",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1300000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-24T07:49:08.843Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1700000,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -612,17 +668,17 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-24T05:19:08.235Z",
+        "timestamp": "2026-08-24T07:49:08.843Z",
         "sellPrice": null,
         "buyPrice": 915032
       },
       "2": {
-        "timestamp": "2026-08-24T05:19:08.235Z",
+        "timestamp": "2026-08-24T07:49:08.843Z",
         "sellPrice": 1130000,
         "buyPrice": 915034
       },
       "3": {
-        "timestamp": "2026-08-24T05:19:08.235Z",
+        "timestamp": "2026-08-24T07:49:08.843Z",
         "sellPrice": 1300000,
         "buyPrice": null
       },
@@ -634,7 +690,7 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-24T05:19:08.235Z",
+        "timestamp": "2026-08-24T07:49:08.843Z",
         "sellPrice": 1700000,
         "buyPrice": null
       },
@@ -652,6 +708,23 @@
         "timestamp": "2026-08-21T12:47:04.775Z",
         "sellPrice": 1550000,
         "buyPrice": null
+      }
+    },
+    "brecilien": {
+      "1": {
+        "timestamp": "2026-08-24T07:49:08.843Z",
+        "sellPrice": null,
+        "buyPrice": 1134
+      },
+      "2": {
+        "timestamp": "2026-08-24T07:49:08.843Z",
+        "sellPrice": null,
+        "buyPrice": 126036
+      },
+      "4": {
+        "timestamp": "2026-08-24T07:49:08.843Z",
+        "sellPrice": null,
+        "buyPrice": 126044
       }
     }
   }
