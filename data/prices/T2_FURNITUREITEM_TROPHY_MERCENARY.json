@@ -248,6 +248,30 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 991,
       "buyPrice": 129
+    },
+    {
+      "timestamp": "2026-08-24T21:23:46.617Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 50,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-24T21:23:46.617Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 991,
+      "buyPrice": 129
+    },
+    {
+      "timestamp": "2026-08-24T21:23:46.617Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 680,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -260,16 +284,23 @@
     },
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-24T15:18:51.261Z",
+        "timestamp": "2026-08-24T21:23:46.617Z",
         "sellPrice": 50,
         "buyPrice": null
       }
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-24T15:18:51.261Z",
+        "timestamp": "2026-08-24T21:23:46.617Z",
         "sellPrice": 991,
         "buyPrice": 129
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-24T21:23:46.617Z",
+        "sellPrice": 680,
+        "buyPrice": null
       }
     }
   }
