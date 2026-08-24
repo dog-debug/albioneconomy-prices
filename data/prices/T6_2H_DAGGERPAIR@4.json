@@ -1704,24 +1704,96 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 35000000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-24T14:03:53.682Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1111605
+    },
+    {
+      "timestamp": "2026-08-24T14:03:53.682Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 4264521
+    },
+    {
+      "timestamp": "2026-08-24T14:03:53.682Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 4224099
+    },
+    {
+      "timestamp": "2026-08-24T14:03:53.682Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 5153805
+    },
+    {
+      "timestamp": "2026-08-24T14:03:53.682Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 10000000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-24T14:03:53.682Z",
+      "city": "bridgewatch",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 35000000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-24T14:03:53.682Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 8000000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-24T14:03:53.682Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 9200000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-24T14:03:53.682Z",
+      "city": "lymhurst",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 35000000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-24T06:26:58.366Z",
+        "timestamp": "2026-08-24T14:03:53.682Z",
         "sellPrice": null,
         "buyPrice": 1111605
       },
       "2": {
-        "timestamp": "2026-08-24T06:26:58.366Z",
+        "timestamp": "2026-08-24T14:03:53.682Z",
         "sellPrice": null,
-        "buyPrice": 3698613
+        "buyPrice": 4264521
       },
       "3": {
-        "timestamp": "2026-08-24T06:26:58.366Z",
+        "timestamp": "2026-08-24T14:03:53.682Z",
         "sellPrice": null,
-        "buyPrice": 4062411
+        "buyPrice": 4224099
       },
       "4": {
         "timestamp": "2026-08-23T01:51:49.810Z",
@@ -1729,7 +1801,7 @@
         "buyPrice": 4102833
       },
       "5": {
-        "timestamp": "2026-08-24T06:26:58.366Z",
+        "timestamp": "2026-08-24T14:03:53.682Z",
         "sellPrice": null,
         "buyPrice": 5153805
       }
@@ -1743,24 +1815,24 @@
     },
     "lymhurst": {
       "4": {
-        "timestamp": "2026-08-24T06:26:58.366Z",
+        "timestamp": "2026-08-24T14:03:53.682Z",
         "sellPrice": 9200000,
         "buyPrice": null
       },
       "5": {
-        "timestamp": "2026-08-24T06:26:58.366Z",
+        "timestamp": "2026-08-24T14:03:53.682Z",
         "sellPrice": 35000000,
         "buyPrice": null
       }
     },
     "bridgewatch": {
       "4": {
-        "timestamp": "2026-08-24T06:26:58.366Z",
+        "timestamp": "2026-08-24T14:03:53.682Z",
         "sellPrice": 10000000,
         "buyPrice": null
       },
       "5": {
-        "timestamp": "2026-08-24T06:26:58.366Z",
+        "timestamp": "2026-08-24T14:03:53.682Z",
         "sellPrice": 35000000,
         "buyPrice": null
       }
@@ -1769,6 +1841,13 @@
       "4": {
         "timestamp": "2026-08-21T06:24:57.946Z",
         "sellPrice": 8799999,
+        "buyPrice": null
+      }
+    },
+    "caerleon": {
+      "4": {
+        "timestamp": "2026-08-24T14:03:53.682Z",
+        "sellPrice": 8000000,
         "buyPrice": null
       }
     }
