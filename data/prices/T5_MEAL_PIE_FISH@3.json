@@ -544,12 +544,28 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 130000,
       "buyPrice": 512
+    },
+    {
+      "timestamp": "2026-08-24T19:02:58.849Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 130000,
+      "buyPrice": 512
+    },
+    {
+      "timestamp": "2026-08-24T19:02:58.849Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 200000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-24T17:42:39.821Z",
+        "timestamp": "2026-08-24T19:02:58.849Z",
         "sellPrice": 130000,
         "buyPrice": 512
       }
@@ -565,6 +581,13 @@
       "1": {
         "timestamp": "2026-08-24T14:03:53.682Z",
         "sellPrice": 100000,
+        "buyPrice": null
+      }
+    },
+    "martlock": {
+      "1": {
+        "timestamp": "2026-08-24T19:02:58.849Z",
+        "sellPrice": 200000,
         "buyPrice": null
       }
     }

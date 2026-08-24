@@ -568,13 +568,53 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 10000,
       "buyPrice": 3502
+    },
+    {
+      "timestamp": "2026-08-24T19:02:58.849Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 15998,
+      "buyPrice": 9819
+    },
+    {
+      "timestamp": "2026-08-24T19:02:58.849Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 7368,
+      "buyPrice": 8100
+    },
+    {
+      "timestamp": "2026-08-24T19:02:58.849Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 12997,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-24T19:02:58.849Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 18000,
+      "buyPrice": 2806
+    },
+    {
+      "timestamp": "2026-08-24T19:02:58.849Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 10000,
+      "buyPrice": 3502
     }
   ],
   "latest": {
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-19T22:51:48.094Z",
-        "sellPrice": 16998,
+        "timestamp": "2026-08-24T19:02:58.849Z",
+        "sellPrice": 12997,
         "buyPrice": null
       }
     },
@@ -587,23 +627,30 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-24T15:18:51.261Z",
+        "timestamp": "2026-08-24T19:02:58.849Z",
         "sellPrice": 10000,
         "buyPrice": 3502
       }
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-08-24T02:51:58.816Z",
-        "sellPrice": 16979,
+        "timestamp": "2026-08-24T19:02:58.849Z",
+        "sellPrice": 7368,
         "buyPrice": 8100
       }
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-24T15:18:51.261Z",
+        "timestamp": "2026-08-24T19:02:58.849Z",
         "sellPrice": 18000,
         "buyPrice": 2806
+      }
+    },
+    "brecilien": {
+      "1": {
+        "timestamp": "2026-08-24T19:02:58.849Z",
+        "sellPrice": 15998,
+        "buyPrice": 9819
       }
     }
   }
