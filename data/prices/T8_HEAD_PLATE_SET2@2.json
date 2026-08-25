@@ -4176,44 +4176,121 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 2000000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-25T12:47:33.506Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 323392
+    },
+    {
+      "timestamp": "2026-08-25T12:47:33.506Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1116713
+    },
+    {
+      "timestamp": "2026-08-25T12:47:33.506Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 429505
+    },
+    {
+      "timestamp": "2026-08-25T12:47:33.506Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 495194
+    },
+    {
+      "timestamp": "2026-08-25T12:47:33.506Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 80848
+    },
+    {
+      "timestamp": "2026-08-25T12:47:33.506Z",
+      "city": "caerleon",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1999998,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-25T12:47:33.506Z",
+      "city": "caerleon",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2000000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-25T12:47:33.506Z",
+      "city": "forsterling",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1995995,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-25T12:47:33.506Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 999896,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-25T09:02:34.396Z",
+        "timestamp": "2026-08-25T12:47:33.506Z",
         "sellPrice": null,
-        "buyPrice": 106113
+        "buyPrice": 323392
       },
       "2": {
-        "timestamp": "2026-08-25T09:02:34.396Z",
+        "timestamp": "2026-08-25T12:47:33.506Z",
         "sellPrice": null,
-        "buyPrice": 990388
+        "buyPrice": 1116713
       },
       "3": {
-        "timestamp": "2026-08-25T09:02:34.396Z",
+        "timestamp": "2026-08-25T12:47:33.506Z",
         "sellPrice": null,
-        "buyPrice": 404240
+        "buyPrice": 429505
       },
       "4": {
-        "timestamp": "2026-08-25T09:02:34.396Z",
+        "timestamp": "2026-08-25T12:47:33.506Z",
         "sellPrice": null,
         "buyPrice": 495194
       },
       "5": {
-        "timestamp": "2026-08-25T09:02:34.396Z",
+        "timestamp": "2026-08-25T12:47:33.506Z",
         "sellPrice": null,
         "buyPrice": 80848
       }
     },
     "caerleon": {
+      "2": {
+        "timestamp": "2026-08-25T12:47:33.506Z",
+        "sellPrice": 1999998,
+        "buyPrice": null
+      },
       "3": {
         "timestamp": "2026-08-22T20:07:33.987Z",
         "sellPrice": 1999999,
         "buyPrice": null
       },
       "5": {
-        "timestamp": "2026-08-25T09:02:34.396Z",
+        "timestamp": "2026-08-25T12:47:33.506Z",
         "sellPrice": 2000000,
         "buyPrice": null
       }
@@ -4252,8 +4329,8 @@
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-08-23T23:52:42.865Z",
-        "sellPrice": 999899,
+        "timestamp": "2026-08-25T12:47:33.506Z",
+        "sellPrice": 999896,
         "buyPrice": null
       }
     },
@@ -4303,6 +4380,13 @@
       "5": {
         "timestamp": "2026-08-22T20:07:33.987Z",
         "sellPrice": 1822219,
+        "buyPrice": null
+      }
+    },
+    "forsterling": {
+      "5": {
+        "timestamp": "2026-08-25T12:47:33.506Z",
+        "sellPrice": 1995995,
         "buyPrice": null
       }
     }
