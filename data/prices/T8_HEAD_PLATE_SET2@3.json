@@ -3552,32 +3552,120 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 3999998,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-25T23:53:35.856Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 2597242
+    },
+    {
+      "timestamp": "2026-08-25T23:53:35.856Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 2172790
+    },
+    {
+      "timestamp": "2026-08-25T23:53:35.856Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1040918
+    },
+    {
+      "timestamp": "2026-08-25T23:53:35.856Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1697808
+    },
+    {
+      "timestamp": "2026-08-25T23:53:35.856Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 192014
+    },
+    {
+      "timestamp": "2026-08-25T23:53:35.856Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2800000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-25T23:53:35.856Z",
+      "city": "forsterling",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3700000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-25T23:53:35.856Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2850000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-25T23:53:35.856Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2800000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-25T23:53:35.856Z",
+      "city": "martlock",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2400000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-25T23:53:35.856Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2690983,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-25T15:20:43.915Z",
+        "timestamp": "2026-08-25T23:53:35.856Z",
         "sellPrice": null,
-        "buyPrice": 859010
+        "buyPrice": 2597242
       },
       "2": {
-        "timestamp": "2026-08-25T15:20:43.915Z",
+        "timestamp": "2026-08-25T23:53:35.856Z",
         "sellPrice": null,
-        "buyPrice": 1526006
+        "buyPrice": 2172790
       },
       "3": {
-        "timestamp": "2026-08-25T15:20:43.915Z",
+        "timestamp": "2026-08-25T23:53:35.856Z",
         "sellPrice": null,
-        "buyPrice": 919646
+        "buyPrice": 1040918
       },
       "4": {
-        "timestamp": "2026-08-25T15:20:43.915Z",
+        "timestamp": "2026-08-25T23:53:35.856Z",
         "sellPrice": null,
-        "buyPrice": 1677596
+        "buyPrice": 1697808
       },
       "5": {
-        "timestamp": "2026-08-25T15:20:43.915Z",
+        "timestamp": "2026-08-25T23:53:35.856Z",
         "sellPrice": null,
         "buyPrice": 192014
       }
@@ -3617,8 +3705,18 @@
       }
     },
     "martlock": {
+      "1": {
+        "timestamp": "2026-08-25T23:53:35.856Z",
+        "sellPrice": 2800000,
+        "buyPrice": null
+      },
+      "3": {
+        "timestamp": "2026-08-25T23:53:35.856Z",
+        "sellPrice": 2400000,
+        "buyPrice": null
+      },
       "4": {
-        "timestamp": "2026-08-20T16:24:31.121Z",
+        "timestamp": "2026-08-25T23:53:35.856Z",
         "sellPrice": 2690983,
         "buyPrice": null
       }
@@ -3649,17 +3747,17 @@
     },
     "forsterling": {
       "2": {
-        "timestamp": "2026-08-25T15:20:43.915Z",
+        "timestamp": "2026-08-25T23:53:35.856Z",
         "sellPrice": 2800000,
         "buyPrice": null
       },
       "3": {
-        "timestamp": "2026-08-25T15:20:43.915Z",
+        "timestamp": "2026-08-25T23:53:35.856Z",
         "sellPrice": 3700000,
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-08-25T15:20:43.915Z",
+        "timestamp": "2026-08-25T23:53:35.856Z",
         "sellPrice": 2850000,
         "buyPrice": null
       }
