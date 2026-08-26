@@ -2272,6 +2272,22 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 1799997,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-26T23:37:40.370Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 841648
+    },
+    {
+      "timestamp": "2026-08-26T23:37:40.370Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 918628
     }
   ],
   "latest": {
@@ -2297,9 +2313,9 @@
         "buyPrice": 564520
       },
       "5": {
-        "timestamp": "2026-08-25T15:20:43.915Z",
+        "timestamp": "2026-08-26T23:37:40.370Z",
         "sellPrice": null,
-        "buyPrice": 836516
+        "buyPrice": 841648
       }
     },
     "forsterling": {
@@ -2343,6 +2359,13 @@
         "timestamp": "2026-08-23T02:51:46.825Z",
         "sellPrice": 2000000,
         "buyPrice": null
+      }
+    },
+    "caerleon": {
+      "1": {
+        "timestamp": "2026-08-26T23:37:40.370Z",
+        "sellPrice": null,
+        "buyPrice": 918628
       }
     }
   }
