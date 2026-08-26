@@ -4072,6 +4072,38 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 6882,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-26T04:03:51.577Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 4908
+    },
+    {
+      "timestamp": "2026-08-26T04:03:51.577Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 6865,
+      "buyPrice": 4924
+    },
+    {
+      "timestamp": "2026-08-26T04:03:51.577Z",
+      "city": "lymhurst",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 6967,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-26T04:03:51.577Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 12000,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -4143,18 +4175,18 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-24T15:18:51.261Z",
+        "timestamp": "2026-08-26T04:03:51.577Z",
         "sellPrice": null,
-        "buyPrice": 4900
-      },
-      "2": {
-        "timestamp": "2026-08-24T15:18:51.261Z",
-        "sellPrice": 5280,
         "buyPrice": 4908
       },
+      "2": {
+        "timestamp": "2026-08-26T04:03:51.577Z",
+        "sellPrice": 6865,
+        "buyPrice": 4924
+      },
       "3": {
-        "timestamp": "2026-08-24T15:18:51.261Z",
-        "sellPrice": 5281,
+        "timestamp": "2026-08-26T04:03:51.577Z",
+        "sellPrice": 6967,
         "buyPrice": null
       },
       "4": {
@@ -4240,6 +4272,11 @@
       }
     },
     "thetford": {
+      "1": {
+        "timestamp": "2026-08-26T04:03:51.577Z",
+        "sellPrice": 12000,
+        "buyPrice": null
+      },
       "3": {
         "timestamp": "2026-08-25T15:20:43.915Z",
         "sellPrice": 6882,
