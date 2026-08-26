@@ -2776,6 +2776,30 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 30912
+    },
+    {
+      "timestamp": "2026-08-26T02:53:18.772Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 7697,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-26T02:53:18.772Z",
+      "city": "brecilien",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 8485,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-26T02:53:18.772Z",
+      "city": "brecilien",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 8801,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -2890,13 +2914,18 @@
     },
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-24T10:18:28.713Z",
-        "sellPrice": 7997,
+        "timestamp": "2026-08-26T02:53:18.772Z",
+        "sellPrice": 7697,
+        "buyPrice": null
+      },
+      "2": {
+        "timestamp": "2026-08-26T02:53:18.772Z",
+        "sellPrice": 8485,
         "buyPrice": null
       },
       "3": {
-        "timestamp": "2026-08-24T10:18:28.713Z",
-        "sellPrice": 8802,
+        "timestamp": "2026-08-26T02:53:18.772Z",
+        "sellPrice": 8801,
         "buyPrice": null
       }
     }
