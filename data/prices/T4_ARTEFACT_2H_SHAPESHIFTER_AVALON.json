@@ -1656,12 +1656,36 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 29998,
       "buyPrice": 1303
+    },
+    {
+      "timestamp": "2026-08-26T12:47:39.081Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 12294,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-26T12:47:39.081Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 29998,
+      "buyPrice": 1303
+    },
+    {
+      "timestamp": "2026-08-26T12:47:39.081Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1198,
+      "buyPrice": null
     }
   ],
   "latest": {
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-26T11:24:08.783Z",
+        "timestamp": "2026-08-26T12:47:39.081Z",
         "sellPrice": 12294,
         "buyPrice": null
       }
@@ -1675,9 +1699,16 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-26T11:24:08.783Z",
+        "timestamp": "2026-08-26T12:47:39.081Z",
         "sellPrice": 29998,
         "buyPrice": 1303
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-26T12:47:39.081Z",
+        "sellPrice": 1198,
+        "buyPrice": null
       }
     }
   }
