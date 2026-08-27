@@ -2576,14 +2576,46 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 1700000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-27T23:13:01.025Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1556324
+    },
+    {
+      "timestamp": "2026-08-27T23:13:01.025Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1586642
+    },
+    {
+      "timestamp": "2026-08-27T23:13:01.025Z",
+      "city": "caerleon",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1600000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-27T23:13:01.025Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1700000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-27T10:47:57.487Z",
+        "timestamp": "2026-08-27T23:13:01.025Z",
         "sellPrice": null,
-        "buyPrice": 1071236
+        "buyPrice": 1556324
       },
       "2": {
         "timestamp": "2026-08-27T10:47:57.487Z",
@@ -2591,9 +2623,9 @@
         "buyPrice": 939858
       },
       "3": {
-        "timestamp": "2026-08-27T10:47:57.487Z",
+        "timestamp": "2026-08-27T23:13:01.025Z",
         "sellPrice": null,
-        "buyPrice": 1232932
+        "buyPrice": 1586642
       },
       "4": {
         "timestamp": "2026-08-27T10:47:57.487Z",
@@ -2657,12 +2689,12 @@
     },
     "caerleon": {
       "3": {
-        "timestamp": "2026-08-27T10:47:57.487Z",
+        "timestamp": "2026-08-27T23:13:01.025Z",
         "sellPrice": 1600000,
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-08-27T10:47:57.487Z",
+        "timestamp": "2026-08-27T23:13:01.025Z",
         "sellPrice": 1700000,
         "buyPrice": null
       }
