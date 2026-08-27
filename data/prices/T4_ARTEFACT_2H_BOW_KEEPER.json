@@ -1224,12 +1224,44 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 118657,
       "buyPrice": 93045
+    },
+    {
+      "timestamp": "2026-08-27T14:53:43.644Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 120904,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-27T14:53:43.644Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 133000,
+      "buyPrice": 112006
+    },
+    {
+      "timestamp": "2026-08-27T14:53:43.644Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 118657,
+      "buyPrice": 93045
+    },
+    {
+      "timestamp": "2026-08-27T14:53:43.644Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 113000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-27T13:35:24.857Z",
+        "timestamp": "2026-08-27T14:53:43.644Z",
         "sellPrice": 133000,
         "buyPrice": 112006
       }
@@ -1243,16 +1275,23 @@
     },
     "thetford": {
       "1": {
-        "timestamp": "2026-08-24T21:23:46.617Z",
-        "sellPrice": 122986,
-        "buyPrice": 95063
+        "timestamp": "2026-08-27T14:53:43.644Z",
+        "sellPrice": 113000,
+        "buyPrice": null
       }
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-27T13:35:24.857Z",
+        "timestamp": "2026-08-27T14:53:43.644Z",
         "sellPrice": 118657,
         "buyPrice": 93045
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-08-27T14:53:43.644Z",
+        "sellPrice": 120904,
+        "buyPrice": null
       }
     }
   }
