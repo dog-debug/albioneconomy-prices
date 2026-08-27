@@ -2800,14 +2800,38 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 545000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-27T00:56:42.824Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 641500
+    },
+    {
+      "timestamp": "2026-08-27T00:56:42.824Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 595312
+    },
+    {
+      "timestamp": "2026-08-27T00:56:42.824Z",
+      "city": "bridgewatch",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 545000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-26T09:03:32.920Z",
+        "timestamp": "2026-08-27T00:56:42.824Z",
         "sellPrice": null,
-        "buyPrice": 774932
+        "buyPrice": 641500
       },
       "2": {
         "timestamp": "2026-08-26T15:49:31.794Z",
@@ -2825,7 +2849,7 @@
         "buyPrice": 97508
       },
       "5": {
-        "timestamp": "2026-08-26T23:37:40.370Z",
+        "timestamp": "2026-08-27T00:56:42.824Z",
         "sellPrice": null,
         "buyPrice": 595312
       }
@@ -2861,7 +2885,7 @@
     },
     "bridgewatch": {
       "2": {
-        "timestamp": "2026-08-26T23:37:40.370Z",
+        "timestamp": "2026-08-27T00:56:42.824Z",
         "sellPrice": 545000,
         "buyPrice": null
       }
