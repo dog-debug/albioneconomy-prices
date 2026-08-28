@@ -3096,19 +3096,75 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 66972,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 16492
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 33852
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 129766
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 49999,
+      "buyPrice": 28
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 46866,
+      "buyPrice": 8245
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "forsterling",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 57998,
+      "buyPrice": 8300
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 89999,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-26T02:53:18.772Z",
+        "timestamp": "2026-08-28T06:20:26.083Z",
         "sellPrice": null,
-        "buyPrice": 36456
+        "buyPrice": 16492
       },
       "2": {
-        "timestamp": "2026-08-26T02:53:18.772Z",
+        "timestamp": "2026-08-28T06:20:26.083Z",
         "sellPrice": null,
-        "buyPrice": 15624
+        "buyPrice": 33852
       },
       "3": {
         "timestamp": "2026-08-27T13:35:24.857Z",
@@ -3121,7 +3177,7 @@
         "buyPrice": 38192
       },
       "5": {
-        "timestamp": "2026-08-27T13:35:24.857Z",
+        "timestamp": "2026-08-28T06:20:26.083Z",
         "sellPrice": null,
         "buyPrice": 129766
       }
@@ -3230,13 +3286,23 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-21T16:24:23.487Z",
-        "sellPrice": 39999,
-        "buyPrice": null
+        "timestamp": "2026-08-28T06:20:26.083Z",
+        "sellPrice": 49999,
+        "buyPrice": 28
       },
       "2": {
-        "timestamp": "2026-08-21T16:24:23.487Z",
-        "sellPrice": 40000,
+        "timestamp": "2026-08-28T06:20:26.083Z",
+        "sellPrice": 46866,
+        "buyPrice": 8245
+      },
+      "3": {
+        "timestamp": "2026-08-28T06:20:26.083Z",
+        "sellPrice": 57998,
+        "buyPrice": 8300
+      },
+      "4": {
+        "timestamp": "2026-08-28T06:20:26.083Z",
+        "sellPrice": 89999,
         "buyPrice": null
       }
     }

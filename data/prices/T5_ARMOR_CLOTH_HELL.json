@@ -3704,29 +3704,77 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 25944,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 14378
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 34839
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 36996,
+      "buyPrice": 17696
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 37992,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 14899,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "thetford",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 23000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-26T02:53:18.772Z",
+        "timestamp": "2026-08-28T06:20:26.083Z",
         "sellPrice": null,
-        "buyPrice": 35945
+        "buyPrice": 14378
       },
       "2": {
-        "timestamp": "2026-08-26T02:53:18.772Z",
+        "timestamp": "2026-08-28T06:20:26.083Z",
         "sellPrice": null,
-        "buyPrice": 25991
+        "buyPrice": 34839
       },
       "3": {
-        "timestamp": "2026-08-26T18:09:22.268Z",
-        "sellPrice": null,
-        "buyPrice": 39816
+        "timestamp": "2026-08-28T06:20:26.083Z",
+        "sellPrice": 36996,
+        "buyPrice": 17696
       },
       "4": {
-        "timestamp": "2026-08-26T02:53:18.772Z",
-        "sellPrice": null,
-        "buyPrice": 22120
+        "timestamp": "2026-08-28T06:20:26.083Z",
+        "sellPrice": 37992,
+        "buyPrice": null
       },
       "5": {
         "timestamp": "2026-08-26T18:09:22.268Z",
@@ -3843,6 +3891,18 @@
       "2": {
         "timestamp": "2026-08-27T13:35:24.857Z",
         "sellPrice": 25944,
+        "buyPrice": null
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-28T06:20:26.083Z",
+        "sellPrice": 14899,
+        "buyPrice": null
+      },
+      "2": {
+        "timestamp": "2026-08-28T06:20:26.083Z",
+        "sellPrice": 23000,
         "buyPrice": null
       }
     }

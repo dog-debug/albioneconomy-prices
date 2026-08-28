@@ -2256,24 +2256,104 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 109999,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 159840
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 97088
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 49136
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 70448
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 180000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 109997,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 98991,
+      "buyPrice": 21725
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "thetford",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 98999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "thetford",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 110000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-28T06:20:26.083Z",
+      "city": "thetford",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 138999,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-27T13:35:24.857Z",
+        "timestamp": "2026-08-28T06:20:26.083Z",
         "sellPrice": null,
         "buyPrice": 159840
       },
       "2": {
-        "timestamp": "2026-08-27T13:35:24.857Z",
+        "timestamp": "2026-08-28T06:20:26.083Z",
         "sellPrice": null,
-        "buyPrice": 58016
+        "buyPrice": 97088
       },
       "3": {
-        "timestamp": "2026-08-26T19:25:19.541Z",
+        "timestamp": "2026-08-28T06:20:26.083Z",
         "sellPrice": null,
-        "buyPrice": 159840
+        "buyPrice": 49136
       },
       "4": {
         "timestamp": "2026-08-26T19:25:19.541Z",
@@ -2281,7 +2361,7 @@
         "buyPrice": 161024
       },
       "5": {
-        "timestamp": "2026-08-27T13:35:24.857Z",
+        "timestamp": "2026-08-28T06:20:26.083Z",
         "sellPrice": null,
         "buyPrice": 70448
       }
@@ -2344,23 +2424,23 @@
     },
     "thetford": {
       "1": {
-        "timestamp": "2026-08-24T10:18:28.713Z",
-        "sellPrice": 98998,
+        "timestamp": "2026-08-28T06:20:26.083Z",
+        "sellPrice": 98991,
         "buyPrice": 21725
       },
       "2": {
-        "timestamp": "2026-08-24T10:18:28.713Z",
-        "sellPrice": 99000,
+        "timestamp": "2026-08-28T06:20:26.083Z",
+        "sellPrice": 98999,
         "buyPrice": null
       },
       "3": {
-        "timestamp": "2026-08-24T10:18:28.713Z",
+        "timestamp": "2026-08-28T06:20:26.083Z",
         "sellPrice": 110000,
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-08-24T10:18:28.713Z",
-        "sellPrice": 139000,
+        "timestamp": "2026-08-28T06:20:26.083Z",
+        "sellPrice": 138999,
         "buyPrice": null
       }
     },
@@ -2373,8 +2453,15 @@
     },
     "caerleon": {
       "4": {
-        "timestamp": "2026-08-27T13:35:24.857Z",
+        "timestamp": "2026-08-28T06:20:26.083Z",
         "sellPrice": 180000,
+        "buyPrice": null
+      }
+    },
+    "forsterling": {
+      "4": {
+        "timestamp": "2026-08-28T06:20:26.083Z",
+        "sellPrice": 109997,
         "buyPrice": null
       }
     }
