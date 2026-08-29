@@ -488,6 +488,14 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 10000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-29T13:49:41.369Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3749,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -509,6 +517,13 @@
       "1": {
         "timestamp": "2026-08-25T15:20:43.915Z",
         "sellPrice": 10000,
+        "buyPrice": null
+      }
+    },
+    "caerleon": {
+      "1": {
+        "timestamp": "2026-08-29T13:49:41.369Z",
+        "sellPrice": 3749,
         "buyPrice": null
       }
     }
