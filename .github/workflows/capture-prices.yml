@@ -1,13 +1,13 @@
-name: Capture Prices (Every 75 min)
+name: Capture Prices (Every 15 min)
 
 on:
   schedule:
-    # Run every exactly 75 minutes (20 runs/day)
-    # Times: 00:00, 01:15, 02:30, 03:45, 05:00, 06:15, 07:30, 08:45, 10:00, 11:15, 12:30, 13:45, 15:00, 16:15, 17:30, 18:45, 20:00, 21:15, 22:30, 23:45
-    - cron: '0 0,5,10,15,20 * * *'
-    - cron: '15 1,6,11,16,21 * * *'
-    - cron: '30 2,7,12,17,22 * * *'
-    - cron: '45 3,8,13,18,23 * * *'
+    # Run every 15 minutes (96 runs/day)
+    # Hardcoded: :00, :15, :30, :45 of every hour
+    - cron: '0 * * * *'
+    - cron: '15 * * * *'
+    - cron: '30 * * * *'
+    - cron: '45 * * * *'
   workflow_dispatch:  # Allow manual trigger
 
 permissions:
