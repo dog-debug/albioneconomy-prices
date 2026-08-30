@@ -528,17 +528,57 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 1250000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-30T01:34:04.993Z",
+      "city": "bridgewatch",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1399990,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-30T01:34:04.993Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2099988,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-30T01:34:04.993Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 125005
+    },
+    {
+      "timestamp": "2026-08-30T01:34:04.993Z",
+      "city": "caerleon",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1250000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-30T01:34:04.993Z",
+      "city": "martlock",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1300000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "caerleon": {
       "1": {
-        "timestamp": "2026-08-29T20:15:59.452Z",
+        "timestamp": "2026-08-30T01:34:04.993Z",
         "sellPrice": null,
         "buyPrice": 125005
       },
       "2": {
-        "timestamp": "2026-08-29T20:15:59.452Z",
+        "timestamp": "2026-08-30T01:34:04.993Z",
         "sellPrice": 1250000,
         "buyPrice": null
       }
@@ -568,6 +608,11 @@
       }
     },
     "martlock": {
+      "3": {
+        "timestamp": "2026-08-30T01:34:04.993Z",
+        "sellPrice": 1300000,
+        "buyPrice": null
+      },
       "4": {
         "timestamp": "2026-08-21T06:24:57.946Z",
         "sellPrice": 1300000,
@@ -578,6 +623,18 @@
       "4": {
         "timestamp": "2026-08-23T05:13:00.836Z",
         "sellPrice": 1380000,
+        "buyPrice": null
+      }
+    },
+    "bridgewatch": {
+      "3": {
+        "timestamp": "2026-08-30T01:34:04.993Z",
+        "sellPrice": 1399990,
+        "buyPrice": null
+      },
+      "4": {
+        "timestamp": "2026-08-30T01:34:04.993Z",
+        "sellPrice": 2099988,
         "buyPrice": null
       }
     }
