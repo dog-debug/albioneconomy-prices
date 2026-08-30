@@ -2344,6 +2344,14 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 150000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-30T19:47:40.855Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 163
     }
   ],
   "latest": {
@@ -2394,6 +2402,13 @@
         "timestamp": "2026-08-26T18:09:22.268Z",
         "sellPrice": 249889,
         "buyPrice": null
+      }
+    },
+    "blackmarket": {
+      "1": {
+        "timestamp": "2026-08-30T19:47:40.855Z",
+        "sellPrice": null,
+        "buyPrice": 163
       }
     }
   }
