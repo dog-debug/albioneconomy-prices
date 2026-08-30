@@ -2800,6 +2800,86 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 374881,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-30T00:53:18.668Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 103000
+    },
+    {
+      "timestamp": "2026-08-30T00:53:18.668Z",
+      "city": "brecilien",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 102514
+    },
+    {
+      "timestamp": "2026-08-30T00:53:18.668Z",
+      "city": "brecilien",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 150513
+    },
+    {
+      "timestamp": "2026-08-30T00:53:18.668Z",
+      "city": "brecilien",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 329997,
+      "buyPrice": 103517
+    },
+    {
+      "timestamp": "2026-08-30T00:53:18.668Z",
+      "city": "caerleon",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 270000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-30T00:53:18.668Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 75029
+    },
+    {
+      "timestamp": "2026-08-30T00:53:18.668Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 144465
+    },
+    {
+      "timestamp": "2026-08-30T00:53:18.668Z",
+      "city": "forsterling",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 309979,
+      "buyPrice": 200000
+    },
+    {
+      "timestamp": "2026-08-30T00:53:18.668Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 319995,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-30T00:53:18.668Z",
+      "city": "lymhurst",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 190226
     }
   ],
   "latest": {
@@ -2825,7 +2905,7 @@
         "buyPrice": null
       },
       "5": {
-        "timestamp": "2026-08-28T22:34:24.104Z",
+        "timestamp": "2026-08-30T00:53:18.668Z",
         "sellPrice": null,
         "buyPrice": 190226
       }
@@ -2842,8 +2922,8 @@
         "buyPrice": null
       },
       "3": {
-        "timestamp": "2026-08-29T12:38:14.044Z",
-        "sellPrice": 269997,
+        "timestamp": "2026-08-30T00:53:18.668Z",
+        "sellPrice": 270000,
         "buyPrice": null
       },
       "4": {
@@ -2910,24 +2990,46 @@
     },
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-29T12:38:14.044Z",
+        "timestamp": "2026-08-30T00:53:18.668Z",
         "sellPrice": null,
         "buyPrice": 103000
       },
       "2": {
-        "timestamp": "2026-08-29T12:38:14.044Z",
+        "timestamp": "2026-08-30T00:53:18.668Z",
         "sellPrice": null,
         "buyPrice": 102514
       },
       "3": {
-        "timestamp": "2026-08-29T12:38:14.044Z",
+        "timestamp": "2026-08-30T00:53:18.668Z",
         "sellPrice": null,
-        "buyPrice": 103513
+        "buyPrice": 150513
       },
       "4": {
-        "timestamp": "2026-08-29T12:38:14.044Z",
-        "sellPrice": 332986,
+        "timestamp": "2026-08-30T00:53:18.668Z",
+        "sellPrice": 329997,
         "buyPrice": 103517
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-08-30T00:53:18.668Z",
+        "sellPrice": null,
+        "buyPrice": 75029
+      },
+      "2": {
+        "timestamp": "2026-08-30T00:53:18.668Z",
+        "sellPrice": null,
+        "buyPrice": 144465
+      },
+      "3": {
+        "timestamp": "2026-08-30T00:53:18.668Z",
+        "sellPrice": 309979,
+        "buyPrice": 200000
+      },
+      "4": {
+        "timestamp": "2026-08-30T00:53:18.668Z",
+        "sellPrice": 319995,
+        "buyPrice": null
       }
     }
   }
