@@ -2088,12 +2088,28 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 3000,
       "buyPrice": 87
+    },
+    {
+      "timestamp": "2026-08-30T13:49:37.507Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 156
+    },
+    {
+      "timestamp": "2026-08-30T13:49:37.507Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2000,
+      "buyPrice": 91
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-29T23:49:44.394Z",
+        "timestamp": "2026-08-30T13:49:37.507Z",
         "sellPrice": null,
         "buyPrice": 156
       }
@@ -2114,9 +2130,9 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-08-29T23:49:44.394Z",
-        "sellPrice": 3000,
-        "buyPrice": 87
+        "timestamp": "2026-08-30T13:49:37.507Z",
+        "sellPrice": 2000,
+        "buyPrice": 91
       }
     },
     "caerleon": {
