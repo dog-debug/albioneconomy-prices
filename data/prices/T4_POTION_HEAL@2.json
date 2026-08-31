@@ -1560,12 +1560,28 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 223987,
       "buyPrice": 97
+    },
+    {
+      "timestamp": "2026-08-31T02:33:09.702Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 223987,
+      "buyPrice": 97
+    },
+    {
+      "timestamp": "2026-08-31T02:33:09.702Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 4505
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-31T02:18:18.327Z",
+        "timestamp": "2026-08-31T02:33:09.702Z",
         "sellPrice": 223987,
         "buyPrice": 97
       }
@@ -1582,6 +1598,13 @@
         "timestamp": "2026-08-29T13:49:41.369Z",
         "sellPrice": null,
         "buyPrice": 6807
+      }
+    },
+    "lymhurst": {
+      "1": {
+        "timestamp": "2026-08-31T02:33:09.702Z",
+        "sellPrice": null,
+        "buyPrice": 4505
       }
     }
   }
