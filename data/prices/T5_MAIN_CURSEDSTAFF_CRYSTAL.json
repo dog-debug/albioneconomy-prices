@@ -440,6 +440,46 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 455000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-31T16:24:07.546Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 899999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-31T16:24:07.546Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 257034
+    },
+    {
+      "timestamp": "2026-08-31T16:24:07.546Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 455000,
+      "buyPrice": 22
+    },
+    {
+      "timestamp": "2026-08-31T16:24:07.546Z",
+      "city": "lymhurst",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 22
+    },
+    {
+      "timestamp": "2026-08-31T16:24:07.546Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 22
     }
   ],
   "latest": {
@@ -463,15 +503,30 @@
       }
     },
     "lymhurst": {
+      "1": {
+        "timestamp": "2026-08-31T16:24:07.546Z",
+        "sellPrice": null,
+        "buyPrice": 257034
+      },
       "2": {
-        "timestamp": "2026-08-31T13:36:10.645Z",
+        "timestamp": "2026-08-31T16:24:07.546Z",
         "sellPrice": 455000,
-        "buyPrice": null
+        "buyPrice": 22
+      },
+      "3": {
+        "timestamp": "2026-08-31T16:24:07.546Z",
+        "sellPrice": null,
+        "buyPrice": 22
+      },
+      "4": {
+        "timestamp": "2026-08-31T16:24:07.546Z",
+        "sellPrice": null,
+        "buyPrice": 22
       }
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-31T13:36:10.645Z",
+        "timestamp": "2026-08-31T16:24:07.546Z",
         "sellPrice": 899999,
         "buyPrice": null
       }
