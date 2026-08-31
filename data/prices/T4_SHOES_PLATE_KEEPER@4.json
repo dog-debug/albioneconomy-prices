@@ -4856,12 +4856,36 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 255555,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-31T17:33:39.776Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 151308
+    },
+    {
+      "timestamp": "2026-08-31T17:33:39.776Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 57441
+    },
+    {
+      "timestamp": "2026-08-31T17:33:39.776Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 255555,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-31T16:13:28.194Z",
+        "timestamp": "2026-08-31T17:33:39.776Z",
         "sellPrice": null,
         "buyPrice": 151308
       },
@@ -4871,7 +4895,7 @@
         "buyPrice": 18213
       },
       "3": {
-        "timestamp": "2026-08-31T16:13:28.194Z",
+        "timestamp": "2026-08-31T17:33:39.776Z",
         "sellPrice": null,
         "buyPrice": 57441
       },
@@ -4888,7 +4912,7 @@
     },
     "caerleon": {
       "4": {
-        "timestamp": "2026-08-31T16:13:28.194Z",
+        "timestamp": "2026-08-31T17:33:39.776Z",
         "sellPrice": 255555,
         "buyPrice": null
       }
