@@ -344,6 +344,22 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 10000000,
       "buyPrice": 1750000
+    },
+    {
+      "timestamp": "2026-08-31T20:53:45.459Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 10000000,
+      "buyPrice": 1750000
+    },
+    {
+      "timestamp": "2026-08-31T20:53:45.459Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 12000000,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -363,9 +379,16 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-08-31T20:42:39.270Z",
+        "timestamp": "2026-08-31T20:53:45.459Z",
         "sellPrice": 10000000,
         "buyPrice": 1750000
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-08-31T20:53:45.459Z",
+        "sellPrice": 12000000,
+        "buyPrice": null
       }
     }
   }
