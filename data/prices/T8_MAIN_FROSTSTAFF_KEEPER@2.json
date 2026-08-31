@@ -5416,39 +5416,95 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 5500000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-31T19:54:09.709Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 2125992
+    },
+    {
+      "timestamp": "2026-08-31T19:54:09.709Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1497858
+    },
+    {
+      "timestamp": "2026-08-31T19:54:09.709Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 3092352
+    },
+    {
+      "timestamp": "2026-08-31T19:54:09.709Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 3333942
+    },
+    {
+      "timestamp": "2026-08-31T19:54:09.709Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 2931292
+    },
+    {
+      "timestamp": "2026-08-31T19:54:09.709Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 5500000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-08-31T19:54:09.709Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 7000000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-08-31T19:10:01.587Z",
+        "timestamp": "2026-08-31T19:54:09.709Z",
         "sellPrice": null,
-        "buyPrice": 1127420
+        "buyPrice": 2125992
       },
       "2": {
-        "timestamp": "2026-08-31T19:10:01.587Z",
+        "timestamp": "2026-08-31T19:54:09.709Z",
         "sellPrice": null,
-        "buyPrice": 1207950
+        "buyPrice": 1497858
       },
       "3": {
-        "timestamp": "2026-08-31T19:10:01.587Z",
+        "timestamp": "2026-08-31T19:54:09.709Z",
         "sellPrice": null,
-        "buyPrice": 3060140
+        "buyPrice": 3092352
       },
       "4": {
-        "timestamp": "2026-08-31T19:10:01.587Z",
+        "timestamp": "2026-08-31T19:54:09.709Z",
         "sellPrice": null,
         "buyPrice": 3333942
       },
       "5": {
-        "timestamp": "2026-08-31T19:10:01.587Z",
+        "timestamp": "2026-08-31T19:54:09.709Z",
         "sellPrice": null,
         "buyPrice": 2931292
       }
     },
     "caerleon": {
       "4": {
-        "timestamp": "2026-08-31T19:10:01.587Z",
+        "timestamp": "2026-08-31T19:54:09.709Z",
         "sellPrice": 5500000,
         "buyPrice": null
       }
@@ -5520,6 +5576,13 @@
       "4": {
         "timestamp": "2026-08-31T12:56:03.115Z",
         "sellPrice": 9300000,
+        "buyPrice": null
+      }
+    },
+    "forsterling": {
+      "4": {
+        "timestamp": "2026-08-31T19:54:09.709Z",
+        "sellPrice": 7000000,
         "buyPrice": null
       }
     }
