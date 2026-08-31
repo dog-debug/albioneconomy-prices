@@ -1320,12 +1320,28 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 72
+    },
+    {
+      "timestamp": "2026-08-31T14:30:55.801Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 72
+    },
+    {
+      "timestamp": "2026-08-31T14:30:55.801Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 15000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-08-31T14:25:35.572Z",
+        "timestamp": "2026-08-31T14:30:55.801Z",
         "sellPrice": null,
         "buyPrice": 72
       }
@@ -1340,6 +1356,13 @@
     "forsterling": {
       "1": {
         "timestamp": "2026-08-24T21:23:46.617Z",
+        "sellPrice": 15000,
+        "buyPrice": null
+      }
+    },
+    "martlock": {
+      "1": {
+        "timestamp": "2026-08-31T14:30:55.801Z",
         "sellPrice": 15000,
         "buyPrice": null
       }
