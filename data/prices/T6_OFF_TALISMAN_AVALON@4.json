@@ -2960,14 +2960,46 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 2800000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-01T03:47:51.001Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 648648
+    },
+    {
+      "timestamp": "2026-09-01T03:47:51.001Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 43659
+    },
+    {
+      "timestamp": "2026-09-01T03:47:51.001Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 24948
+    },
+    {
+      "timestamp": "2026-09-01T03:47:51.001Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2800000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-09-01T03:16:50.455Z",
+        "timestamp": "2026-09-01T03:47:51.001Z",
         "sellPrice": null,
-        "buyPrice": 642411
+        "buyPrice": 648648
       },
       "2": {
         "timestamp": "2026-08-31T23:33:43.809Z",
@@ -2975,9 +3007,9 @@
         "buyPrice": 205821
       },
       "3": {
-        "timestamp": "2026-08-29T23:49:44.394Z",
+        "timestamp": "2026-09-01T03:47:51.001Z",
         "sellPrice": null,
-        "buyPrice": 31185
+        "buyPrice": 43659
       },
       "4": {
         "timestamp": "2026-08-31T23:33:43.809Z",
@@ -2985,7 +3017,7 @@
         "buyPrice": 230769
       },
       "5": {
-        "timestamp": "2026-09-01T03:16:50.455Z",
+        "timestamp": "2026-09-01T03:47:51.001Z",
         "sellPrice": null,
         "buyPrice": 24948
       }
@@ -3018,7 +3050,7 @@
     },
     "forsterling": {
       "4": {
-        "timestamp": "2026-09-01T03:16:50.455Z",
+        "timestamp": "2026-09-01T03:47:51.001Z",
         "sellPrice": 2800000,
         "buyPrice": null
       }
