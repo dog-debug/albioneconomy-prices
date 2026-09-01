@@ -2800,12 +2800,36 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 3599,
       "buyPrice": 2919
+    },
+    {
+      "timestamp": "2026-09-01T18:29:51.191Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 4000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-01T18:29:51.191Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 6995,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-01T18:29:51.191Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3599,
+      "buyPrice": 2919
     }
   ],
   "latest": {
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-09-01T16:00:57.911Z",
+        "timestamp": "2026-09-01T18:29:51.191Z",
         "sellPrice": 4000,
         "buyPrice": null
       }
@@ -2819,7 +2843,7 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-09-01T16:00:57.911Z",
+        "timestamp": "2026-09-01T18:29:51.191Z",
         "sellPrice": 3599,
         "buyPrice": 2919
       }
@@ -2840,9 +2864,9 @@
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-09-01T16:00:57.911Z",
+        "timestamp": "2026-09-01T18:29:51.191Z",
         "sellPrice": 6995,
-        "buyPrice": 2501
+        "buyPrice": null
       }
     },
     "brecilien": {
