@@ -7048,17 +7048,57 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 264011
+    },
+    {
+      "timestamp": "2026-09-01T10:27:02.602Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 408017
+    },
+    {
+      "timestamp": "2026-09-01T10:27:02.602Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 144006
+    },
+    {
+      "timestamp": "2026-09-01T10:27:02.602Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 144006
+    },
+    {
+      "timestamp": "2026-09-01T10:27:02.602Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 264011
+    },
+    {
+      "timestamp": "2026-09-01T10:27:02.602Z",
+      "city": "bridgewatch",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 850000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-09-01T09:32:59.559Z",
+        "timestamp": "2026-09-01T10:27:02.602Z",
         "sellPrice": null,
         "buyPrice": 408017
       },
       "2": {
-        "timestamp": "2026-09-01T09:32:59.559Z",
+        "timestamp": "2026-09-01T10:27:02.602Z",
         "sellPrice": null,
         "buyPrice": 144006
       },
@@ -7068,12 +7108,12 @@
         "buyPrice": 48002
       },
       "4": {
-        "timestamp": "2026-09-01T09:32:59.559Z",
+        "timestamp": "2026-09-01T10:27:02.602Z",
         "sellPrice": null,
         "buyPrice": 144006
       },
       "5": {
-        "timestamp": "2026-09-01T09:32:59.559Z",
+        "timestamp": "2026-09-01T10:27:02.602Z",
         "sellPrice": null,
         "buyPrice": 264011
       }
@@ -7177,6 +7217,13 @@
       "4": {
         "timestamp": "2026-08-26T14:04:04.738Z",
         "sellPrice": 1254995,
+        "buyPrice": null
+      }
+    },
+    "bridgewatch": {
+      "2": {
+        "timestamp": "2026-09-01T10:27:02.602Z",
+        "sellPrice": 850000,
         "buyPrice": null
       }
     }
