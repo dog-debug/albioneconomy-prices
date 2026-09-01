@@ -6008,12 +6008,68 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 700002,
       "buyPrice": 332007
+    },
+    {
+      "timestamp": "2026-09-01T08:37:32.354Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 87244
+    },
+    {
+      "timestamp": "2026-09-01T08:37:32.354Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 331014
+    },
+    {
+      "timestamp": "2026-09-01T08:37:32.354Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 156526
+    },
+    {
+      "timestamp": "2026-09-01T08:37:32.354Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 700002,
+      "buyPrice": 324508
+    },
+    {
+      "timestamp": "2026-09-01T08:37:32.354Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 20
+    },
+    {
+      "timestamp": "2026-09-01T08:37:32.354Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 700002,
+      "buyPrice": 332007
+    },
+    {
+      "timestamp": "2026-09-01T08:37:32.354Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 700000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-09-01T08:18:38.927Z",
+        "timestamp": "2026-09-01T08:37:32.354Z",
         "sellPrice": null,
         "buyPrice": 87244
       },
@@ -6023,12 +6079,12 @@
         "buyPrice": 159092
       },
       "3": {
-        "timestamp": "2026-09-01T08:18:38.927Z",
+        "timestamp": "2026-09-01T08:37:32.354Z",
         "sellPrice": null,
         "buyPrice": 331014
       },
       "4": {
-        "timestamp": "2026-09-01T08:18:38.927Z",
+        "timestamp": "2026-09-01T08:37:32.354Z",
         "sellPrice": null,
         "buyPrice": 156526
       },
@@ -6040,17 +6096,17 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-09-01T08:18:38.927Z",
+        "timestamp": "2026-09-01T08:37:32.354Z",
         "sellPrice": 700002,
         "buyPrice": 324508
       },
       "2": {
-        "timestamp": "2026-09-01T08:18:38.927Z",
+        "timestamp": "2026-09-01T08:37:32.354Z",
         "sellPrice": null,
         "buyPrice": 20
       },
       "4": {
-        "timestamp": "2026-09-01T08:18:38.927Z",
+        "timestamp": "2026-09-01T08:37:32.354Z",
         "sellPrice": 700002,
         "buyPrice": 332007
       }
@@ -6083,6 +6139,13 @@
       "3": {
         "timestamp": "2026-09-01T05:23:32.341Z",
         "sellPrice": 719000,
+        "buyPrice": null
+      }
+    },
+    "lymhurst": {
+      "4": {
+        "timestamp": "2026-09-01T08:37:32.354Z",
+        "sellPrice": 700000,
         "buyPrice": null
       }
     }
