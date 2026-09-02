@@ -1032,14 +1032,35 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 850000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-02T13:46:20.122Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 34
+    },
+    {
+      "timestamp": "2026-09-02T13:46:20.122Z",
+      "city": "martlock",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 15000000,
+      "buyPrice": 43
     }
   ],
   "latest": {
     "martlock": {
+      "1": {
+        "timestamp": "2026-09-02T13:46:20.122Z",
+        "sellPrice": null,
+        "buyPrice": 34
+      },
       "2": {
-        "timestamp": "2026-09-02T01:51:24.139Z",
+        "timestamp": "2026-09-02T13:46:20.122Z",
         "sellPrice": 15000000,
-        "buyPrice": null
+        "buyPrice": 43
       }
     },
     "caerleon": {
