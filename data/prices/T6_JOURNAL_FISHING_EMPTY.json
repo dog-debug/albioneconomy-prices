@@ -2912,12 +2912,36 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 10999,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-02T03:38:47.928Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 17570,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-02T03:38:47.928Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 14492,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-02T03:38:47.928Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 13348,
+      "buyPrice": 1602
     }
   ],
   "latest": {
     "caerleon": {
       "1": {
-        "timestamp": "2026-09-02T02:45:43.614Z",
+        "timestamp": "2026-09-02T03:38:47.928Z",
         "sellPrice": 14492,
         "buyPrice": null
       }
@@ -2952,9 +2976,16 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-09-02T02:45:43.614Z",
+        "timestamp": "2026-09-02T03:38:47.928Z",
         "sellPrice": 13348,
         "buyPrice": 1602
+      }
+    },
+    "brecilien": {
+      "1": {
+        "timestamp": "2026-09-02T03:38:47.928Z",
+        "sellPrice": 17570,
+        "buyPrice": null
       }
     }
   }
