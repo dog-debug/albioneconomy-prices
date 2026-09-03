@@ -8544,32 +8544,104 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 379999,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-03T16:46:12.728Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 456000
+    },
+    {
+      "timestamp": "2026-09-03T16:46:12.728Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 378000
+    },
+    {
+      "timestamp": "2026-09-03T16:46:12.728Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 198000
+    },
+    {
+      "timestamp": "2026-09-03T16:46:12.728Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 186000
+    },
+    {
+      "timestamp": "2026-09-03T16:46:12.728Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 54000
+    },
+    {
+      "timestamp": "2026-09-03T16:46:12.728Z",
+      "city": "caerleon",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 330000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-03T16:46:12.728Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 180037
+    },
+    {
+      "timestamp": "2026-09-03T16:46:12.728Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 399998,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-03T16:46:12.728Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 379999,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-09-03T13:25:10.808Z",
+        "timestamp": "2026-09-03T16:46:12.728Z",
         "sellPrice": null,
-        "buyPrice": 420000
+        "buyPrice": 456000
       },
       "2": {
-        "timestamp": "2026-09-03T13:25:10.808Z",
+        "timestamp": "2026-09-03T16:46:12.728Z",
         "sellPrice": null,
-        "buyPrice": 348000
+        "buyPrice": 378000
       },
       "3": {
-        "timestamp": "2026-09-03T13:25:10.808Z",
+        "timestamp": "2026-09-03T16:46:12.728Z",
         "sellPrice": null,
         "buyPrice": 198000
       },
       "4": {
-        "timestamp": "2026-09-03T13:25:10.808Z",
+        "timestamp": "2026-09-03T16:46:12.728Z",
         "sellPrice": null,
         "buyPrice": 186000
       },
       "5": {
-        "timestamp": "2026-09-03T13:25:10.808Z",
+        "timestamp": "2026-09-03T16:46:12.728Z",
         "sellPrice": null,
         "buyPrice": 54000
       }
@@ -8632,7 +8704,7 @@
     },
     "thetford": {
       "1": {
-        "timestamp": "2026-09-03T13:25:10.808Z",
+        "timestamp": "2026-09-03T16:46:12.728Z",
         "sellPrice": 379999,
         "buyPrice": null
       },
@@ -8649,14 +8721,14 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-08-24T12:47:14.653Z",
+        "timestamp": "2026-09-03T16:46:12.728Z",
         "sellPrice": null,
-        "buyPrice": 179047
+        "buyPrice": 180037
       },
       "2": {
-        "timestamp": "2026-08-24T12:47:14.653Z",
-        "sellPrice": 379988,
-        "buyPrice": 21
+        "timestamp": "2026-09-03T16:46:12.728Z",
+        "sellPrice": 399998,
+        "buyPrice": null
       },
       "3": {
         "timestamp": "2026-08-24T12:47:14.653Z",
@@ -8670,6 +8742,11 @@
       }
     },
     "caerleon": {
+      "2": {
+        "timestamp": "2026-09-03T16:46:12.728Z",
+        "sellPrice": 330000,
+        "buyPrice": null
+      },
       "4": {
         "timestamp": "2026-09-02T02:53:04.299Z",
         "sellPrice": 450000,
