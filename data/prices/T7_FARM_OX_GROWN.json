@@ -12664,14 +12664,30 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 219894,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-04T09:16:11.947Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 219894,
+      "buyPrice": 150002
+    },
+    {
+      "timestamp": "2026-09-04T09:16:11.947Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 70016
     }
   ],
   "latest": {
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-09-04T07:56:07.689Z",
+        "timestamp": "2026-09-04T09:16:11.947Z",
         "sellPrice": 219894,
-        "buyPrice": null
+        "buyPrice": 150002
       }
     },
     "lymhurst": {
@@ -12697,9 +12713,9 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-09-03T19:43:16.598Z",
-        "sellPrice": 169990,
-        "buyPrice": null
+        "timestamp": "2026-09-04T09:16:11.947Z",
+        "sellPrice": null,
+        "buyPrice": 70016
       }
     },
     "caerleon": {
