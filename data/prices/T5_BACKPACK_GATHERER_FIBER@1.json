@@ -6072,17 +6072,41 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 45000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-05T08:28:25.993Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 316
+    },
+    {
+      "timestamp": "2026-09-05T08:28:25.993Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 316
+    },
+    {
+      "timestamp": "2026-09-05T08:28:25.993Z",
+      "city": "thetford",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 45000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-09-05T07:36:14.865Z",
+        "timestamp": "2026-09-05T08:28:25.993Z",
         "sellPrice": null,
         "buyPrice": 316
       },
       "2": {
-        "timestamp": "2026-09-05T07:36:14.865Z",
+        "timestamp": "2026-09-05T08:28:25.993Z",
         "sellPrice": null,
         "buyPrice": 316
       }
@@ -6142,7 +6166,7 @@
     },
     "thetford": {
       "2": {
-        "timestamp": "2026-09-05T07:36:14.865Z",
+        "timestamp": "2026-09-05T08:28:25.993Z",
         "sellPrice": 45000,
         "buyPrice": null
       }
