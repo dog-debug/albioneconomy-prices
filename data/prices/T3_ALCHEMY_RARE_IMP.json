@@ -8440,19 +8440,43 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 39990,
       "buyPrice": 18007
+    },
+    {
+      "timestamp": "2026-09-05T20:35:51.340Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 34938,
+      "buyPrice": 18008
+    },
+    {
+      "timestamp": "2026-09-05T20:35:51.340Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 31999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-05T20:35:51.340Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 39999,
+      "buyPrice": 18009
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-09-05T20:12:52.874Z",
+        "timestamp": "2026-09-05T20:35:51.340Z",
         "sellPrice": 34938,
         "buyPrice": 18008
       }
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-09-05T20:12:52.874Z",
+        "timestamp": "2026-09-05T20:35:51.340Z",
         "sellPrice": 31999,
         "buyPrice": null
       }
@@ -8466,9 +8490,9 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-09-05T20:12:52.874Z",
-        "sellPrice": 39990,
-        "buyPrice": 18007
+        "timestamp": "2026-09-05T20:35:51.340Z",
+        "sellPrice": 39999,
+        "buyPrice": 18009
       }
     },
     "martlock": {
