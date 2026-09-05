@@ -1424,6 +1424,46 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 560000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-05T03:16:18.660Z",
+      "city": "caerleon",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 508659,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-05T03:16:18.660Z",
+      "city": "caerleon",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 560000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-05T03:16:18.660Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 67
+    },
+    {
+      "timestamp": "2026-09-05T03:16:18.660Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 64
+    },
+    {
+      "timestamp": "2026-09-05T03:16:18.660Z",
+      "city": "forsterling",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 250000,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -1441,12 +1481,12 @@
     },
     "caerleon": {
       "2": {
-        "timestamp": "2026-09-05T02:40:16.284Z",
+        "timestamp": "2026-09-05T03:16:18.660Z",
         "sellPrice": 508659,
         "buyPrice": null
       },
       "5": {
-        "timestamp": "2026-09-05T02:40:16.284Z",
+        "timestamp": "2026-09-05T03:16:18.660Z",
         "sellPrice": 560000,
         "buyPrice": null
       }
@@ -1460,6 +1500,23 @@
       "5": {
         "timestamp": "2026-09-03T18:49:11.543Z",
         "sellPrice": 2000000,
+        "buyPrice": null
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-09-05T03:16:18.660Z",
+        "sellPrice": null,
+        "buyPrice": 67
+      },
+      "2": {
+        "timestamp": "2026-09-05T03:16:18.660Z",
+        "sellPrice": null,
+        "buyPrice": 64
+      },
+      "5": {
+        "timestamp": "2026-09-05T03:16:18.660Z",
+        "sellPrice": 250000,
         "buyPrice": null
       }
     }
