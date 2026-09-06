@@ -2216,10 +2216,31 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 500000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-06T23:37:13.321Z",
+      "city": "caerleon",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 360000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-06T23:37:13.321Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 500000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "caerleon": {
+      "2": {
+        "timestamp": "2026-09-06T23:37:13.321Z",
+        "sellPrice": 360000,
+        "buyPrice": null
+      },
       "4": {
         "timestamp": "2026-08-25T16:25:22.706Z",
         "sellPrice": 349998,
@@ -2264,7 +2285,7 @@
     },
     "lymhurst": {
       "4": {
-        "timestamp": "2026-09-06T23:13:24.151Z",
+        "timestamp": "2026-09-06T23:37:13.321Z",
         "sellPrice": 500000,
         "buyPrice": null
       }
