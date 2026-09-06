@@ -3272,12 +3272,28 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 1000000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-06T14:22:18.805Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 5053
+    },
+    {
+      "timestamp": "2026-09-06T14:22:18.805Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1000000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "2": {
-        "timestamp": "2026-09-06T13:36:20.733Z",
+        "timestamp": "2026-09-06T14:22:18.805Z",
         "sellPrice": null,
         "buyPrice": 5053
       }
@@ -3323,7 +3339,7 @@
         "buyPrice": 6820
       },
       "4": {
-        "timestamp": "2026-09-06T13:36:20.733Z",
+        "timestamp": "2026-09-06T14:22:18.805Z",
         "sellPrice": 1000000,
         "buyPrice": null
       }
