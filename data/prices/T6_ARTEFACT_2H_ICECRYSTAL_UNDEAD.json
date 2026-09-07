@@ -19272,12 +19272,28 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 59985,
       "buyPrice": 50001
+    },
+    {
+      "timestamp": "2026-09-07T09:22:05.477Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 59985,
+      "buyPrice": 50001
+    },
+    {
+      "timestamp": "2026-09-07T09:22:05.477Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 30000
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-09-07T08:59:21.709Z",
+        "timestamp": "2026-09-07T09:22:05.477Z",
         "sellPrice": 59985,
         "buyPrice": 50001
       }
@@ -19319,9 +19335,9 @@
     },
     "thetford": {
       "1": {
-        "timestamp": "2026-09-05T03:26:17.669Z",
-        "sellPrice": 38000,
-        "buyPrice": 25606
+        "timestamp": "2026-09-07T09:22:05.477Z",
+        "sellPrice": null,
+        "buyPrice": 30000
       }
     }
   }
