@@ -2744,12 +2744,28 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 999999,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-07T13:38:55.229Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 312
+    },
+    {
+      "timestamp": "2026-09-07T13:38:55.229Z",
+      "city": "forsterling",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 999999,
+      "buyPrice": null
     }
   ],
   "latest": {
     "caerleon": {
       "1": {
-        "timestamp": "2026-09-07T11:57:56.211Z",
+        "timestamp": "2026-09-07T13:38:55.229Z",
         "sellPrice": null,
         "buyPrice": 312
       },
@@ -2788,7 +2804,7 @@
         "buyPrice": 418017
       },
       "4": {
-        "timestamp": "2026-09-07T11:57:56.211Z",
+        "timestamp": "2026-09-07T13:38:55.229Z",
         "sellPrice": 999999,
         "buyPrice": null
       }
