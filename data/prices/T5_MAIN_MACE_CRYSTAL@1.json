@@ -3888,17 +3888,57 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 664999,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-07T06:49:54.017Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 108
+    },
+    {
+      "timestamp": "2026-09-07T06:49:54.017Z",
+      "city": "caerleon",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 664999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-07T06:49:54.017Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 489998,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-07T06:49:54.017Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 899997,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-07T06:49:54.017Z",
+      "city": "forsterling",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 969999,
+      "buyPrice": null
     }
   ],
   "latest": {
     "caerleon": {
       "1": {
-        "timestamp": "2026-09-07T04:42:51.692Z",
+        "timestamp": "2026-09-07T06:49:54.017Z",
         "sellPrice": null,
         "buyPrice": 108
       },
       "3": {
-        "timestamp": "2026-09-07T04:42:51.692Z",
+        "timestamp": "2026-09-07T06:49:54.017Z",
         "sellPrice": 664999,
         "buyPrice": null
       }
@@ -3948,13 +3988,18 @@
       }
     },
     "forsterling": {
+      "1": {
+        "timestamp": "2026-09-07T06:49:54.017Z",
+        "sellPrice": 489998,
+        "buyPrice": null
+      },
       "2": {
-        "timestamp": "2026-09-03T19:18:54.082Z",
-        "sellPrice": 899998,
+        "timestamp": "2026-09-07T06:49:54.017Z",
+        "sellPrice": 899997,
         "buyPrice": null
       },
       "3": {
-        "timestamp": "2026-09-03T19:18:54.082Z",
+        "timestamp": "2026-09-07T06:49:54.017Z",
         "sellPrice": 969999,
         "buyPrice": null
       }
