@@ -20176,34 +20176,90 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 1999999,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-09T04:19:22.821Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 15633
+    },
+    {
+      "timestamp": "2026-09-09T04:19:22.821Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 526311
+    },
+    {
+      "timestamp": "2026-09-09T04:19:22.821Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 713907
+    },
+    {
+      "timestamp": "2026-09-09T04:19:22.821Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 646164
+    },
+    {
+      "timestamp": "2026-09-09T04:19:22.821Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 734751
+    },
+    {
+      "timestamp": "2026-09-09T04:19:22.821Z",
+      "city": "caerleon",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1999999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-09T04:19:22.821Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2499999,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-09-09T02:35:27.606Z",
+        "timestamp": "2026-09-09T04:19:22.821Z",
         "sellPrice": null,
         "buyPrice": 15633
       },
       "2": {
-        "timestamp": "2026-09-09T02:35:27.606Z",
+        "timestamp": "2026-09-09T04:19:22.821Z",
         "sellPrice": null,
-        "buyPrice": 505467
+        "buyPrice": 526311
       },
       "3": {
-        "timestamp": "2026-09-09T02:35:27.606Z",
+        "timestamp": "2026-09-09T04:19:22.821Z",
         "sellPrice": null,
-        "buyPrice": 693063
+        "buyPrice": 713907
       },
       "4": {
-        "timestamp": "2026-09-09T02:35:27.606Z",
+        "timestamp": "2026-09-09T04:19:22.821Z",
         "sellPrice": null,
         "buyPrice": 646164
       },
       "5": {
-        "timestamp": "2026-09-09T02:35:27.606Z",
+        "timestamp": "2026-09-09T04:19:22.821Z",
         "sellPrice": null,
-        "buyPrice": 729540
+        "buyPrice": 734751
       }
     },
     "bridgewatch": {
@@ -20259,8 +20315,13 @@
     },
     "caerleon": {
       "3": {
-        "timestamp": "2026-09-09T02:35:27.606Z",
+        "timestamp": "2026-09-09T04:19:22.821Z",
         "sellPrice": 1999999,
+        "buyPrice": null
+      },
+      "4": {
+        "timestamp": "2026-09-09T04:19:22.821Z",
+        "sellPrice": 2499999,
         "buyPrice": null
       }
     },
