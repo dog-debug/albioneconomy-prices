@@ -4808,6 +4808,38 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 290000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-09T02:52:12.050Z",
+      "city": "forsterling",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 289991,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-09T02:52:12.050Z",
+      "city": "thetford",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 321000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-09T02:52:12.050Z",
+      "city": "thetford",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 321000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-09T02:52:12.050Z",
+      "city": "thetford",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 360000,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -4885,9 +4917,31 @@
       }
     },
     "forsterling": {
+      "2": {
+        "timestamp": "2026-09-09T02:52:12.050Z",
+        "sellPrice": 289991,
+        "buyPrice": null
+      },
       "3": {
         "timestamp": "2026-09-08T13:00:22.257Z",
         "sellPrice": 290000,
+        "buyPrice": null
+      }
+    },
+    "thetford": {
+      "2": {
+        "timestamp": "2026-09-09T02:52:12.050Z",
+        "sellPrice": 321000,
+        "buyPrice": null
+      },
+      "3": {
+        "timestamp": "2026-09-09T02:52:12.050Z",
+        "sellPrice": 321000,
+        "buyPrice": null
+      },
+      "4": {
+        "timestamp": "2026-09-09T02:52:12.050Z",
+        "sellPrice": 360000,
         "buyPrice": null
       }
     }
