@@ -6464,12 +6464,28 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 1545,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-09T15:50:48.362Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 117
+    },
+    {
+      "timestamp": "2026-09-09T15:50:48.362Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1545,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-09-09T15:17:37.835Z",
+        "timestamp": "2026-09-09T15:50:48.362Z",
         "sellPrice": null,
         "buyPrice": 117
       }
@@ -6504,7 +6520,7 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-09-09T15:17:37.835Z",
+        "timestamp": "2026-09-09T15:50:48.362Z",
         "sellPrice": 1545,
         "buyPrice": null
       }
