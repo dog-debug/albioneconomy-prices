@@ -2400,12 +2400,28 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 194982,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-09T03:58:51.084Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 194982,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-09T03:58:51.084Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1000000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-09-09T01:26:56.157Z",
+        "timestamp": "2026-09-09T03:58:51.084Z",
         "sellPrice": 194982,
         "buyPrice": null
       }
@@ -2436,6 +2452,13 @@
         "timestamp": "2026-09-01T20:35:51.021Z",
         "sellPrice": null,
         "buyPrice": 50155
+      }
+    },
+    "martlock": {
+      "1": {
+        "timestamp": "2026-09-09T03:58:51.084Z",
+        "sellPrice": 1000000,
+        "buyPrice": null
       }
     }
   }
