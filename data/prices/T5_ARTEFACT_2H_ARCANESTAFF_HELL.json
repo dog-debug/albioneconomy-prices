@@ -14120,6 +14120,14 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 1000
+    },
+    {
+      "timestamp": "2026-09-10T05:28:50.939Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 9999,
+      "buyPrice": 1536
     }
   ],
   "latest": {
@@ -14156,6 +14164,13 @@
         "timestamp": "2026-08-28T19:06:28.490Z",
         "sellPrice": 8784,
         "buyPrice": 1153
+      }
+    },
+    "forsterling": {
+      "1": {
+        "timestamp": "2026-09-10T05:28:50.939Z",
+        "sellPrice": 9999,
+        "buyPrice": 1536
       }
     }
   }
