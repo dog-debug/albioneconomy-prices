@@ -3720,14 +3720,30 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 76000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-10T18:32:24.299Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 632
+    },
+    {
+      "timestamp": "2026-09-10T18:32:24.299Z",
+      "city": "caerleon",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 76000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-09-10T15:29:17.982Z",
+        "timestamp": "2026-09-10T18:32:24.299Z",
         "sellPrice": null,
-        "buyPrice": 1264
+        "buyPrice": 632
       }
     },
     "brecilien": {
@@ -3754,7 +3770,7 @@
         "buyPrice": null
       },
       "3": {
-        "timestamp": "2026-09-10T15:29:17.982Z",
+        "timestamp": "2026-09-10T18:32:24.299Z",
         "sellPrice": 76000,
         "buyPrice": null
       }
