@@ -4360,19 +4360,43 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 2996,
       "buyPrice": 700
+    },
+    {
+      "timestamp": "2026-09-10T04:31:36.411Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 3941,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-10T04:31:36.411Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1089,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-10T04:31:36.411Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 700
     }
   ],
   "latest": {
     "caerleon": {
       "1": {
-        "timestamp": "2026-09-10T03:32:34.407Z",
+        "timestamp": "2026-09-10T04:31:36.411Z",
         "sellPrice": 3941,
         "buyPrice": null
       }
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-09-10T03:32:34.407Z",
+        "timestamp": "2026-09-10T04:31:36.411Z",
         "sellPrice": 1089,
         "buyPrice": null
       }
@@ -4400,8 +4424,8 @@
     },
     "thetford": {
       "1": {
-        "timestamp": "2026-09-10T03:32:34.407Z",
-        "sellPrice": 2996,
+        "timestamp": "2026-09-10T04:31:36.411Z",
+        "sellPrice": null,
         "buyPrice": 700
       }
     },
