@@ -7584,6 +7584,46 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 37961543,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-10T15:17:15.008Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1256666
+    },
+    {
+      "timestamp": "2026-09-10T15:17:15.008Z",
+      "city": "brecilien",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 3
+    },
+    {
+      "timestamp": "2026-09-10T15:17:15.008Z",
+      "city": "brecilien",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 3145667
+    },
+    {
+      "timestamp": "2026-09-10T15:17:15.008Z",
+      "city": "brecilien",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 32499999,
+      "buyPrice": 1
+    },
+    {
+      "timestamp": "2026-09-10T15:17:15.008Z",
+      "city": "martlock",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 37961543,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -7622,10 +7662,25 @@
       }
     },
     "brecilien": {
+      "1": {
+        "timestamp": "2026-09-10T15:17:15.008Z",
+        "sellPrice": null,
+        "buyPrice": 1256666
+      },
+      "2": {
+        "timestamp": "2026-09-10T15:17:15.008Z",
+        "sellPrice": null,
+        "buyPrice": 3
+      },
+      "3": {
+        "timestamp": "2026-09-10T15:17:15.008Z",
+        "sellPrice": null,
+        "buyPrice": 3145667
+      },
       "4": {
-        "timestamp": "2026-09-10T03:53:17.236Z",
+        "timestamp": "2026-09-10T15:17:15.008Z",
         "sellPrice": 32499999,
-        "buyPrice": null
+        "buyPrice": 1
       }
     },
     "bridgewatch": {
@@ -7649,7 +7704,7 @@
     },
     "martlock": {
       "4": {
-        "timestamp": "2026-09-10T14:16:08.748Z",
+        "timestamp": "2026-09-10T15:17:15.008Z",
         "sellPrice": 37961543,
         "buyPrice": null
       }
