@@ -11344,13 +11344,53 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 19485,
       "buyPrice": 12978
+    },
+    {
+      "timestamp": "2026-09-11T14:42:49.835Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 15936,
+      "buyPrice": 13530
+    },
+    {
+      "timestamp": "2026-09-11T14:42:49.835Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 19945,
+      "buyPrice": 13114
+    },
+    {
+      "timestamp": "2026-09-11T14:42:49.835Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 15941,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-11T14:42:49.835Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 15969,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-11T14:42:49.835Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 19485,
+      "buyPrice": 12978
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-09-11T13:29:55.042Z",
-        "sellPrice": 19946,
+        "timestamp": "2026-09-11T14:42:49.835Z",
+        "sellPrice": 19945,
         "buyPrice": 13114
       }
     },
@@ -11363,7 +11403,7 @@
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-09-11T13:29:55.042Z",
+        "timestamp": "2026-09-11T14:42:49.835Z",
         "sellPrice": 15969,
         "buyPrice": null
       }
@@ -11384,16 +11424,23 @@
     },
     "thetford": {
       "1": {
-        "timestamp": "2026-09-11T13:29:55.042Z",
+        "timestamp": "2026-09-11T14:42:49.835Z",
         "sellPrice": 19485,
         "buyPrice": 12978
       }
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-09-11T13:29:55.042Z",
+        "timestamp": "2026-09-11T14:42:49.835Z",
         "sellPrice": 15941,
         "buyPrice": null
+      }
+    },
+    "blackmarket": {
+      "1": {
+        "timestamp": "2026-09-11T14:42:49.835Z",
+        "sellPrice": 15936,
+        "buyPrice": 13530
       }
     }
   }

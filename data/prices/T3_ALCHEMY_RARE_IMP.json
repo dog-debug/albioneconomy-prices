@@ -11760,13 +11760,53 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 40926,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-11T14:42:49.835Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 29495,
+      "buyPrice": 20022
+    },
+    {
+      "timestamp": "2026-09-11T14:42:49.835Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 44500,
+      "buyPrice": 18115
+    },
+    {
+      "timestamp": "2026-09-11T14:42:49.835Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 29494,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-11T14:42:49.835Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 44996,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-11T14:42:49.835Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 40926,
+      "buyPrice": null
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-09-11T13:29:55.042Z",
-        "sellPrice": 44993,
+        "timestamp": "2026-09-11T14:42:49.835Z",
+        "sellPrice": 44500,
         "buyPrice": 18115
       }
     },
@@ -11786,14 +11826,14 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-09-11T13:29:55.042Z",
+        "timestamp": "2026-09-11T14:42:49.835Z",
         "sellPrice": 44996,
         "buyPrice": null
       }
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-09-11T13:29:55.042Z",
+        "timestamp": "2026-09-11T14:42:49.835Z",
         "sellPrice": 40926,
         "buyPrice": null
       }
@@ -11807,9 +11847,16 @@
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-09-11T13:29:55.042Z",
-        "sellPrice": 29492,
+        "timestamp": "2026-09-11T14:42:49.835Z",
+        "sellPrice": 29494,
         "buyPrice": null
+      }
+    },
+    "blackmarket": {
+      "1": {
+        "timestamp": "2026-09-11T14:42:49.835Z",
+        "sellPrice": 29495,
+        "buyPrice": 20022
       }
     }
   }
