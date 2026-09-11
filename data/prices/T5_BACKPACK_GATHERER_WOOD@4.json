@@ -312,17 +312,77 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 21000000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-11T21:52:16.613Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1044
+    },
+    {
+      "timestamp": "2026-09-11T21:52:16.613Z",
+      "city": "lymhurst",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 19999999,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-11T21:52:16.613Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1001
+    },
+    {
+      "timestamp": "2026-09-11T21:52:16.613Z",
+      "city": "thetford",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1112
+    },
+    {
+      "timestamp": "2026-09-11T21:52:16.613Z",
+      "city": "thetford",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 16000000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "thetford": {
+      "1": {
+        "timestamp": "2026-09-11T21:52:16.613Z",
+        "sellPrice": null,
+        "buyPrice": 1001
+      },
+      "2": {
+        "timestamp": "2026-09-11T21:52:16.613Z",
+        "sellPrice": null,
+        "buyPrice": 1112
+      },
       "4": {
-        "timestamp": "2026-09-10T01:13:18.339Z",
-        "sellPrice": 20000000,
+        "timestamp": "2026-09-11T21:52:16.613Z",
+        "sellPrice": 16000000,
         "buyPrice": null
       }
     },
     "lymhurst": {
+      "1": {
+        "timestamp": "2026-09-11T21:52:16.613Z",
+        "sellPrice": null,
+        "buyPrice": 1044
+      },
+      "3": {
+        "timestamp": "2026-09-11T21:52:16.613Z",
+        "sellPrice": 19999999,
+        "buyPrice": null
+      },
       "4": {
         "timestamp": "2026-09-10T03:53:17.236Z",
         "sellPrice": 21000000,
