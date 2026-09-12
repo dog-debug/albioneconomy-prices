@@ -14192,6 +14192,30 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 31990,
       "buyPrice": 27301
+    },
+    {
+      "timestamp": "2026-09-12T09:52:26.189Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 29967,
+      "buyPrice": 26502
+    },
+    {
+      "timestamp": "2026-09-12T09:52:26.189Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 33991,
+      "buyPrice": 33025
+    },
+    {
+      "timestamp": "2026-09-12T09:52:26.189Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 27301
     }
   ],
   "latest": {
@@ -14218,15 +14242,15 @@
     },
     "brecilien": {
       "1": {
-        "timestamp": "2026-09-12T09:28:41.571Z",
+        "timestamp": "2026-09-12T09:52:26.189Z",
         "sellPrice": 29967,
         "buyPrice": 26502
       }
     },
     "thetford": {
       "1": {
-        "timestamp": "2026-09-12T09:28:41.571Z",
-        "sellPrice": 31990,
+        "timestamp": "2026-09-12T09:52:26.189Z",
+        "sellPrice": null,
         "buyPrice": 27301
       }
     },
@@ -14239,7 +14263,7 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-09-12T09:28:41.571Z",
+        "timestamp": "2026-09-12T09:52:26.189Z",
         "sellPrice": 33991,
         "buyPrice": 33025
       }
