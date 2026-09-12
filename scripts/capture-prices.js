@@ -130,10 +130,10 @@ async function capturePrices() {
         pricesData[itemId].push(priceRow);
       }
       console.log(`✅ [${chunkNum}/${totalChunks}] Fetched ${chunk.length} items`);
-      await delay(1000); // 1 req/sec = 60 req/min (well under 180 limit)
+      await delay(200); // ~5 req/sec per server = 300 req/min (under 180/min API limit but distributed)
     } catch (e) {
       console.warn(`[${chunkNum}/${totalChunks}] Failed:`, e.message);
-      await delay(2000);
+      await delay(500); // Shorter backoff for faster retry
     }
   }
 
