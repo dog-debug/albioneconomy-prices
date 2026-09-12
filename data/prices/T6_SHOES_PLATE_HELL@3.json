@@ -25328,39 +25328,111 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 699996,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-12T22:36:49.926Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 439317
+    },
+    {
+      "timestamp": "2026-09-12T22:36:49.926Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 464184
+    },
+    {
+      "timestamp": "2026-09-12T22:36:49.926Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 74601
+    },
+    {
+      "timestamp": "2026-09-12T22:36:49.926Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 276300
+    },
+    {
+      "timestamp": "2026-09-12T22:36:49.926Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 27630
+    },
+    {
+      "timestamp": "2026-09-12T22:36:49.926Z",
+      "city": "brecilien",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 433328,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-12T22:36:49.926Z",
+      "city": "brecilien",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 649000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-12T22:36:49.926Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 650000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-12T22:36:49.926Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 699996,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-09-12T09:28:41.571Z",
+        "timestamp": "2026-09-12T22:36:49.926Z",
         "sellPrice": null,
-        "buyPrice": 149202
+        "buyPrice": 439317
       },
       "2": {
-        "timestamp": "2026-09-12T09:28:41.571Z",
+        "timestamp": "2026-09-12T22:36:49.926Z",
         "sellPrice": null,
-        "buyPrice": 342612
+        "buyPrice": 464184
       },
       "3": {
-        "timestamp": "2026-09-12T09:28:41.571Z",
+        "timestamp": "2026-09-12T22:36:49.926Z",
         "sellPrice": null,
-        "buyPrice": 63549
+        "buyPrice": 74601
       },
       "4": {
-        "timestamp": "2026-09-12T09:28:41.571Z",
+        "timestamp": "2026-09-12T22:36:49.926Z",
         "sellPrice": null,
-        "buyPrice": 273537
+        "buyPrice": 276300
       },
       "5": {
-        "timestamp": "2026-09-12T09:28:41.571Z",
+        "timestamp": "2026-09-12T22:36:49.926Z",
         "sellPrice": null,
         "buyPrice": 27630
       }
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-09-12T09:28:41.571Z",
+        "timestamp": "2026-09-12T22:36:49.926Z",
         "sellPrice": 650000,
         "buyPrice": null
       },
@@ -25370,7 +25442,7 @@
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-09-12T09:28:41.571Z",
+        "timestamp": "2026-09-12T22:36:49.926Z",
         "sellPrice": 699996,
         "buyPrice": null
       },
@@ -25460,13 +25532,18 @@
     },
     "brecilien": {
       "3": {
-        "timestamp": "2026-09-10T05:16:40.002Z",
-        "sellPrice": 477777,
+        "timestamp": "2026-09-12T22:36:49.926Z",
+        "sellPrice": 433328,
         "buyPrice": null
       },
       "4": {
         "timestamp": "2026-09-03T17:21:33.115Z",
         "sellPrice": 791773,
+        "buyPrice": null
+      },
+      "5": {
+        "timestamp": "2026-09-12T22:36:49.926Z",
+        "sellPrice": 649000,
         "buyPrice": null
       }
     },
