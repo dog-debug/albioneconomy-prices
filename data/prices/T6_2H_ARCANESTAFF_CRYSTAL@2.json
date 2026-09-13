@@ -5752,6 +5752,54 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 1800000,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-13T03:32:41.402Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 345559
+    },
+    {
+      "timestamp": "2026-09-13T03:32:41.402Z",
+      "city": "bridgewatch",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 18
+    },
+    {
+      "timestamp": "2026-09-13T03:32:41.402Z",
+      "city": "bridgewatch",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1588885,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-13T03:32:41.402Z",
+      "city": "bridgewatch",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1699999,
+      "buyPrice": 875000
+    },
+    {
+      "timestamp": "2026-09-13T03:32:41.402Z",
+      "city": "caerleon",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1799997,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-13T03:32:41.402Z",
+      "city": "caerleon",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1800000,
+      "buyPrice": null
     }
   ],
   "latest": {
@@ -5808,7 +5856,7 @@
     },
     "caerleon": {
       "2": {
-        "timestamp": "2026-09-12T23:13:42.101Z",
+        "timestamp": "2026-09-13T03:32:41.402Z",
         "sellPrice": 1799997,
         "buyPrice": null
       },
@@ -5818,16 +5866,31 @@
         "buyPrice": null
       },
       "4": {
-        "timestamp": "2026-09-12T23:13:42.101Z",
+        "timestamp": "2026-09-13T03:32:41.402Z",
         "sellPrice": 1800000,
         "buyPrice": null
       }
     },
     "bridgewatch": {
-      "4": {
-        "timestamp": "2026-09-06T19:46:07.129Z",
-        "sellPrice": 1588888,
+      "1": {
+        "timestamp": "2026-09-13T03:32:41.402Z",
+        "sellPrice": null,
+        "buyPrice": 345559
+      },
+      "2": {
+        "timestamp": "2026-09-13T03:32:41.402Z",
+        "sellPrice": null,
+        "buyPrice": 18
+      },
+      "3": {
+        "timestamp": "2026-09-13T03:32:41.402Z",
+        "sellPrice": 1588885,
         "buyPrice": null
+      },
+      "4": {
+        "timestamp": "2026-09-13T03:32:41.402Z",
+        "sellPrice": 1699999,
+        "buyPrice": 875000
       }
     }
   }
