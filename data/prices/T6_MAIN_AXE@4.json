@@ -20520,32 +20520,80 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 3183180
+    },
+    {
+      "timestamp": "2026-09-13T15:38:35.210Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 5502354
+    },
+    {
+      "timestamp": "2026-09-13T15:38:35.210Z",
+      "city": "blackmarket",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 5532670
+    },
+    {
+      "timestamp": "2026-09-13T15:38:35.210Z",
+      "city": "blackmarket",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1242956
+    },
+    {
+      "timestamp": "2026-09-13T15:38:35.210Z",
+      "city": "blackmarket",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 1530958
+    },
+    {
+      "timestamp": "2026-09-13T15:38:35.210Z",
+      "city": "blackmarket",
+      "quality": 5,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 3183180
+    },
+    {
+      "timestamp": "2026-09-13T15:38:35.210Z",
+      "city": "brecilien",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 6000000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-09-13T08:42:36.862Z",
+        "timestamp": "2026-09-13T15:38:35.210Z",
         "sellPrice": null,
-        "buyPrice": 4107818
+        "buyPrice": 5502354
       },
       "2": {
-        "timestamp": "2026-09-13T08:42:36.862Z",
+        "timestamp": "2026-09-13T15:38:35.210Z",
         "sellPrice": null,
-        "buyPrice": 5032456
+        "buyPrice": 5532670
       },
       "3": {
-        "timestamp": "2026-09-13T08:42:36.862Z",
+        "timestamp": "2026-09-13T15:38:35.210Z",
         "sellPrice": null,
-        "buyPrice": 1136850
+        "buyPrice": 1242956
       },
       "4": {
-        "timestamp": "2026-09-13T08:42:36.862Z",
+        "timestamp": "2026-09-13T15:38:35.210Z",
         "sellPrice": null,
-        "buyPrice": 1500642
+        "buyPrice": 1530958
       },
       "5": {
-        "timestamp": "2026-09-13T08:42:36.862Z",
+        "timestamp": "2026-09-13T15:38:35.210Z",
         "sellPrice": null,
         "buyPrice": 3183180
       }
@@ -20649,6 +20697,13 @@
       "3": {
         "timestamp": "2026-09-06T20:45:59.086Z",
         "sellPrice": 4599999,
+        "buyPrice": null
+      }
+    },
+    "brecilien": {
+      "4": {
+        "timestamp": "2026-09-13T15:38:35.210Z",
+        "sellPrice": 6000000,
         "buyPrice": null
       }
     }
