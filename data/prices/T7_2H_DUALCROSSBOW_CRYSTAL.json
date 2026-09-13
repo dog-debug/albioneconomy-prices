@@ -3832,22 +3832,62 @@
       "server": "west.albion-online-data.com",
       "sellPrice": null,
       "buyPrice": 700075
+    },
+    {
+      "timestamp": "2026-09-13T19:23:41.407Z",
+      "city": "brecilien",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 6300000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-13T19:23:41.407Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 351012
+    },
+    {
+      "timestamp": "2026-09-13T19:23:41.407Z",
+      "city": "lymhurst",
+      "quality": 2,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 352000
+    },
+    {
+      "timestamp": "2026-09-13T19:23:41.407Z",
+      "city": "lymhurst",
+      "quality": 4,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 700075
+    },
+    {
+      "timestamp": "2026-09-13T19:23:41.407Z",
+      "city": "thetford",
+      "quality": 3,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 6500000,
+      "buyPrice": null
     }
   ],
   "latest": {
     "lymhurst": {
       "1": {
-        "timestamp": "2026-09-13T11:51:40.712Z",
+        "timestamp": "2026-09-13T19:23:41.407Z",
         "sellPrice": null,
         "buyPrice": 351012
       },
       "2": {
-        "timestamp": "2026-09-13T11:51:40.712Z",
+        "timestamp": "2026-09-13T19:23:41.407Z",
         "sellPrice": null,
         "buyPrice": 352000
       },
       "4": {
-        "timestamp": "2026-09-13T11:51:40.712Z",
+        "timestamp": "2026-09-13T19:23:41.407Z",
         "sellPrice": null,
         "buyPrice": 700075
       }
@@ -3885,8 +3925,15 @@
         "buyPrice": null
       },
       "3": {
-        "timestamp": "2026-09-05T17:45:17.843Z",
+        "timestamp": "2026-09-13T19:23:41.407Z",
         "sellPrice": 6500000,
+        "buyPrice": null
+      }
+    },
+    "brecilien": {
+      "2": {
+        "timestamp": "2026-09-13T19:23:41.407Z",
+        "sellPrice": 6300000,
         "buyPrice": null
       }
     }
