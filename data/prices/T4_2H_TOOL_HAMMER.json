@@ -11848,14 +11848,30 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 2640,
       "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-14T16:17:50.207Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 632
+    },
+    {
+      "timestamp": "2026-09-14T16:17:50.207Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2655,
+      "buyPrice": 1172
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-09-14T12:59:49.415Z",
+        "timestamp": "2026-09-14T16:17:50.207Z",
         "sellPrice": null,
-        "buyPrice": 79
+        "buyPrice": 632
       }
     },
     "forsterling": {
@@ -11874,9 +11890,9 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-09-14T12:59:49.415Z",
-        "sellPrice": 2640,
-        "buyPrice": null
+        "timestamp": "2026-09-14T16:17:50.207Z",
+        "sellPrice": 2655,
+        "buyPrice": 1172
       }
     },
     "thetford": {
