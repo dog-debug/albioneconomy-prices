@@ -52040,12 +52040,36 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 10001,
       "buyPrice": 10000
+    },
+    {
+      "timestamp": "2026-09-15T18:42:54.330Z",
+      "city": "brecilien",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 9046,
+      "buyPrice": 8990
+    },
+    {
+      "timestamp": "2026-09-15T18:42:54.330Z",
+      "city": "caerleon",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 10001,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-15T18:42:54.330Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 1000000,
+      "buyPrice": 10000
     }
   ],
   "latest": {
     "brecilien": {
       "1": {
-        "timestamp": "2026-09-15T18:32:24.293Z",
+        "timestamp": "2026-09-15T18:42:54.330Z",
         "sellPrice": 9046,
         "buyPrice": 8990
       }
@@ -52066,14 +52090,14 @@
     },
     "martlock": {
       "1": {
-        "timestamp": "2026-09-15T18:32:24.293Z",
-        "sellPrice": 10001,
+        "timestamp": "2026-09-15T18:42:54.330Z",
+        "sellPrice": 1000000,
         "buyPrice": 10000
       }
     },
     "caerleon": {
       "1": {
-        "timestamp": "2026-09-15T18:32:24.293Z",
+        "timestamp": "2026-09-15T18:42:54.330Z",
         "sellPrice": 10001,
         "buyPrice": null
       }
