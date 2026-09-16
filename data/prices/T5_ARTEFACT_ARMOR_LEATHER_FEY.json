@@ -7392,14 +7392,46 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 340000,
       "buyPrice": 220031
+    },
+    {
+      "timestamp": "2026-09-16T07:43:59.167Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 350000,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-16T07:43:59.167Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 389995,
+      "buyPrice": 305367
+    },
+    {
+      "timestamp": "2026-09-16T07:43:59.167Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 345000,
+      "buyPrice": 220040
+    },
+    {
+      "timestamp": "2026-09-16T07:43:59.167Z",
+      "city": "thetford",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 400000,
+      "buyPrice": 300007
     }
   ],
   "latest": {
     "forsterling": {
       "1": {
-        "timestamp": "2026-09-14T20:16:56.732Z",
-        "sellPrice": 374998,
-        "buyPrice": null
+        "timestamp": "2026-09-16T07:43:59.167Z",
+        "sellPrice": 389995,
+        "buyPrice": 305367
       }
     },
     "caerleon": {
@@ -7411,14 +7443,14 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-09-16T05:30:53.145Z",
-        "sellPrice": 340000,
-        "buyPrice": 220031
+        "timestamp": "2026-09-16T07:43:59.167Z",
+        "sellPrice": 345000,
+        "buyPrice": 220040
       }
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-09-16T05:30:53.145Z",
+        "timestamp": "2026-09-16T07:43:59.167Z",
         "sellPrice": 350000,
         "buyPrice": null
       }
@@ -7435,6 +7467,13 @@
         "timestamp": "2026-09-15T18:42:54.330Z",
         "sellPrice": 379994,
         "buyPrice": null
+      }
+    },
+    "thetford": {
+      "1": {
+        "timestamp": "2026-09-16T07:43:59.167Z",
+        "sellPrice": 400000,
+        "buyPrice": 300007
       }
     }
   }
