@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const zlib = require('zlib');
 const { execSync } = require('child_process');
 
 // AODP servers
@@ -10,78 +11,84 @@ const AODP_SERVERS = [
   'east.albion-online-data.com',
 ];
 
-// City abbreviations
-const CITY_ABBREVIATIONS = {
-  'Caerleon': 'caerleon',
-  'Bridgewatch': 'bridgewatch',
-  'Martlock': 'martlock',
-  'Thetford': 'thetford',
-  'Fort Sterling': 'forsterling',
-  'Lymhurst': 'lymhurst',
-  'Brecilien': 'brecilien',
-  'Black Market': 'blackmarket',
-};
-
-async function fetchAodpPrices(server, itemIds) {
+function fetchHistory(server, itemIds) {
   return new Promise((resolve, reject) => {
-    const itemList = itemIds.join(',');
-    const url = `https://${server}/api/v2/stats/prices/${itemList}.json`;
-    https.get(url, { timeout: 10000 }, (res) => {
-      let data = '';
-      res.on('data', (chunk) => { data += chunk; });
+    const url = `https://${server}/api/v2/stats/history/${itemIds.join(',')}.json?time_scale=1`;
+    const req = https.get(url, { headers: { 'Accept-Encoding': 'gzip' } }, (res) => {
+      const rawChunks = [];
+      res.on('data', (c) => rawChunks.push(Buffer.isBuffer(c) ? c : Buffer.from(c)));
       res.on('end', () => {
-        try {
-          resolve(JSON.parse(data));
-        } catch (e) {
-          reject(e);
+        const buf = Buffer.concat(rawChunks);
+        const decode = (b) => {
+          const text = b.toString('utf8');
+          if (res.statusCode === 429 || text.startsWith('Throttled')) {
+            const err = new Error('Throttled');
+            err.throttled = true;
+            return reject(err);
+          }
+          try { resolve(JSON.parse(text)); }
+          catch (e) { reject(e); }
+        };
+        if (res.headers['content-encoding'] === 'gzip') {
+          zlib.gunzip(buf, (err, d) => err ? reject(err) : decode(d));
+        } else {
+          decode(buf);
         }
       });
-    }).on('error', reject);
+      res.on('error', reject);
+    });
+    req.setTimeout(15000, () => req.destroy(new Error('Request timeout')));
+    req.on('error', reject);
   });
 }
 
-function formatPrice(price) {
-  // DEPRECATED: Keeping for reference but no longer used
-  // App now uses raw numbers directly for calculations
-  if (price >= 1000000) {
-    const m = price / 1000000;
-    const formatted = m.toFixed(1);
-    return formatted.endsWith('.0') ? formatted.slice(0, -2) : formatted + 'M';
+// Retries forever every 6s on throttle or timeout
+async function fetchWithRetry(server, itemIds) {
+  let attempt = 0;
+  while (true) {
+    try {
+      return await fetchHistory(server, itemIds);
+    } catch (e) {
+      if (e.throttled || e.message === 'Request timeout') {
+        attempt++;
+        console.warn(`  ⏳ Throttled/timeout (attempt ${attempt}) — retrying in 6s...`);
+        await delay(6000);
+        continue;
+      }
+      throw e;
+    }
   }
-  if (price >= 1000) {
-    const k = price / 1000;
-    const formatted = k.toFixed(1);
-    return formatted.endsWith('.0') ? formatted.slice(0, -2) : formatted + 'K';
-  }
-  return String(Math.round(price));
 }
 
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function validatePrice(price, fieldName, itemId, city) {
-  // Return null if price is falsy (null, undefined, 0)
-  if (!price) return null;
-  
-  // Check if price is a valid number
-  if (!Number.isFinite(price)) {
-    console.warn(`⚠️  Invalid ${fieldName} for ${itemId} in ${city}: ${price} (not a valid number)`);
-    return null;
+// Builds chunks keeping item list under the 4096-char URL limit
+function buildChunks(itemIds, baseUrl) {
+  const maxItemsLen = 4096 - baseUrl.length - '.json?time_scale=1'.length;
+  const chunks = [];
+  let current = [];
+  let currentLen = 0;
+  for (const id of itemIds) {
+    const addLen = current.length === 0 ? id.length : id.length + 1;
+    if (currentLen + addLen > maxItemsLen && current.length > 0) {
+      chunks.push(current);
+      current = [id];
+      currentLen = id.length;
+    } else {
+      current.push(id);
+      currentLen += addLen;
+    }
   }
-  
-  // Reject negative prices
-  if (price < 0) {
-    console.warn(`⚠️  Negative ${fieldName} for ${itemId} in ${city}: ${price} (rejected)`);
-    return null;
-  }
-  
-  return price;
+  if (current.length > 0) chunks.push(current);
+  return chunks;
 }
 
 async function capturePrices() {
   const runTimestamp = new Date().toISOString();
   const primaryServer = AODP_SERVERS[0];
+  const startTime = Date.now();
 
   console.log(`🕐 Starting price capture at ${runTimestamp}`);
 
@@ -111,30 +118,30 @@ async function capturePrices() {
   const itemIdArray = Array.from(allItemIds);
   console.log(`📦 Loaded ${itemIdArray.length} unique items from items.json`);
 
-  // Fetch prices in chunks (AODP has 250 item limit per request)
+  // Fetch 5 chunks concurrently, 5s between batches; chunk size respects 4096-char URL limit
   const pricesData = {};
-  const chunkSize = 250;
-  const totalChunks = Math.ceil(itemIdArray.length / chunkSize);
+  let genuineErrors = 0;
+  const historyBase = `https://${primaryServer}/api/v2/stats/history/`;
+  const chunks = buildChunks(itemIdArray, historyBase);
+  const totalChunks = chunks.length;
+  const concurrency = process.env.CONCURRENCY ? parseInt(process.env.CONCURRENCY, 10) : 5;
 
-  for (let i = 0; i < itemIdArray.length; i += chunkSize) {
-    const chunkNum = Math.floor(i / chunkSize) + 1;
-    const chunk = itemIdArray.slice(i, i + chunkSize);
-    
-    try {
-      const prices = await fetchAodpPrices(primaryServer, chunk);
-      for (const priceRow of prices) {
-        const itemId = priceRow.item_id;
-        if (!pricesData[itemId]) {
-          pricesData[itemId] = [];
-        }
-        pricesData[itemId].push(priceRow);
+  for (let i = 0; i < chunks.length; i += concurrency) {
+    const batch = chunks.slice(i, i + concurrency);
+    const batchResults = await Promise.allSettled(batch.map((chunk) => fetchWithRetry(primaryServer, chunk)));
+    for (let j = 0; j < batchResults.length; j++) {
+      const result = batchResults[j];
+      if (result.status === 'rejected') {
+        console.error(`[${i + j + 1}/${totalChunks}] Genuine error: ${result.reason.message}`);
+        genuineErrors++;
+        continue;
       }
-      console.log(`✅ [${chunkNum}/${totalChunks}] Fetched ${chunk.length} items`);
-      await delay(200); // ~5 req/sec per server = 300 req/min (under 180/min API limit but distributed)
-    } catch (e) {
-      console.warn(`[${chunkNum}/${totalChunks}] Failed:`, e.message);
-      await delay(500); // Shorter backoff for faster retry
+      for (const row of result.value) {
+        if (!pricesData[row.item_id]) pricesData[row.item_id] = [];
+        pricesData[row.item_id].push(row);
+      }
     }
+    console.log(`✅ [${Math.min(i + concurrency, totalChunks)}/${totalChunks}] Fetched`);
   }
 
   if (Object.keys(pricesData).length === 0) {
@@ -142,9 +149,8 @@ async function capturePrices() {
     process.exit(1);
   }
 
-  console.log(`✅ Fetched prices for ${Object.keys(pricesData).length} items`);
+  console.log(`✅ Fetched history for ${Object.keys(pricesData).length} items`);
 
-  // Write to local data/prices/ directory
   const dataDir = path.join(__dirname, '..', 'data', 'prices');
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
@@ -153,87 +159,45 @@ async function capturePrices() {
   let writtenCount = 0;
   const changeLog = [];
 
-  for (const [itemId, priceRows] of Object.entries(pricesData)) {
+  for (const [itemId, itemRows] of Object.entries(pricesData)) {
     const filePath = path.join(dataDir, `${itemId}.json`);
-    let itemData = { itemId, priceHistory: [] };
+    let existing = [];
 
-    // Load existing data
     if (fs.existsSync(filePath)) {
       try {
-        itemData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        if (!Array.isArray(itemData.priceHistory)) {
-          itemData.priceHistory = [];
-        }
+        const raw = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        // Accept new array format; discard legacy object format
+        existing = Array.isArray(raw) ? raw : [];
       } catch (e) {
         console.warn(`Could not parse ${itemId}.json, starting fresh`);
       }
     }
 
-    let hasNewData = false;
-
-    for (const row of priceRows) {
-      // Validate prices before using them
-      const sellPrice = validatePrice(row.sell_price_min, 'sellPrice', itemId, row.city);
-      const buyPrice = validatePrice(row.buy_price_max, 'buyPrice', itemId, row.city);
-
-      // Skip if both prices are invalid/null
-      if (sellPrice === null && buyPrice === null) {
-        continue;
+    const entryMap = new Map(existing.map((e) => [`${e.city}|${e.quality}`, e]));
+    let addedPoints = 0;
+    for (const row of itemRows) {
+      const key = `${row.city}|${row.quality}`;
+      let cityEntry = entryMap.get(key);
+      if (!cityEntry) {
+        cityEntry = { city: row.city, quality: row.quality, data: [] };
+        existing.push(cityEntry);
+        entryMap.set(key, cityEntry);
       }
-
-      hasNewData = true;
-      const city = CITY_ABBREVIATIONS[row.city] || row.city.toLowerCase();
-      const quality = row.quality;
-
-      const newEntry = {
-        timestamp: runTimestamp,
-        city,
-        quality,
-        server: primaryServer,
-        sellPrice: sellPrice,
-        buyPrice: buyPrice,
-      };
-
-      const existingEntry = itemData.priceHistory.find(
-        h => h.timestamp === runTimestamp && h.city === city && h.quality === quality && h.server === primaryServer
-      );
-
-      if (!existingEntry) {
-        const lastEntry = [...itemData.priceHistory]
-          .reverse()
-          .find(h => h.city === city && h.quality === quality && h.server === primaryServer);
-
-        if (lastEntry && (lastEntry.sellPrice !== newEntry.sellPrice || lastEntry.buyPrice !== newEntry.buyPrice)) {
-          changeLog.push({
-            timestamp: runTimestamp,
-            itemId,
-            city,
-            quality,
-            oldSellPrice: lastEntry.sellPrice,
-            newSellPrice: newEntry.sellPrice,
-            oldBuyPrice: lastEntry.buyPrice,
-            newBuyPrice: newEntry.buyPrice,
-          });
+      const existingTs = new Set(cityEntry.data.map((d) => d.timestamp));
+      for (const dp of (row.data || [])) {
+        if (!existingTs.has(dp.timestamp)) {
+          cityEntry.data.push(dp);
+          existingTs.add(dp.timestamp);
+          addedPoints++;
         }
-
-        itemData.priceHistory.push(newEntry);
-
-        // Update latest prices (raw numbers only)
-        if (!itemData.latest) itemData.latest = {};
-        if (!itemData.latest[city]) itemData.latest[city] = {};
-        
-        itemData.latest[city][quality] = {
-          timestamp: runTimestamp,
-          sellPrice: newEntry.sellPrice,
-          buyPrice: newEntry.buyPrice,
-        };
       }
     }
 
-    if (hasNewData) {
+    if (addedPoints > 0) {
       try {
-        fs.writeFileSync(filePath, JSON.stringify(itemData, null, 2));
+        fs.writeFileSync(filePath, JSON.stringify(existing));
         writtenCount++;
+        changeLog.push({ itemId, newPoints: addedPoints });
       } catch (e) {
         console.warn(`Failed to write ${itemId}.json:`, e.message);
       }
@@ -243,7 +207,7 @@ async function capturePrices() {
   console.log(`✅ Written ${writtenCount} item price files`);
 
   // Write changelog
-  if (changeLog.length > 0) {
+  {
     const changeLogPath = path.join(dataDir, 'CHANGELOG.json');
     let changeLogData = { lastUpdate: runTimestamp, changes: [] };
 
@@ -259,15 +223,15 @@ async function capturePrices() {
     }
 
     changeLogData.lastUpdate = runTimestamp;
-    changeLogData.changes.push(...changeLog);
+    changeLogData.changes.push({ timestamp: runTimestamp, itemsWritten: writtenCount, changes: changeLog });
 
-    if (changeLogData.changes.length > 1000) {
-      changeLogData.changes = changeLogData.changes.slice(-1000);
+    if (changeLogData.changes.length > 200) {
+      changeLogData.changes = changeLogData.changes.slice(-200);
     }
 
     try {
       fs.writeFileSync(changeLogPath, JSON.stringify(changeLogData, null, 2));
-      console.log(`📝 Logged ${changeLog.length} price changes`);
+      console.log(`📝 Logged ${changeLog.length} item changes`);
     } catch (e) {
       console.warn('Failed to write CHANGELOG.json:', e.message);
     }
@@ -292,8 +256,8 @@ async function capturePrices() {
     console.error('❌ Git error:', e.message);
   }
 
-  console.log(`✅ Complete! Updated ${writtenCount} items, ${changeLog.length} price changes`);
-  process.exit(0);
+  console.log(`✅ Complete! Updated ${writtenCount} items, ${changeLog.length} price changes — ${((Date.now() - startTime) / 1000).toFixed(1)}s`);
+  process.exit(genuineErrors > 0 ? 1 : 0);
 }
 
 capturePrices().catch((e) => {
