@@ -1744,19 +1744,51 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 499974,
       "buyPrice": 200105
+    },
+    {
+      "timestamp": "2026-09-16T14:32:54.046Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 580927,
+      "buyPrice": null
+    },
+    {
+      "timestamp": "2026-09-16T14:32:54.046Z",
+      "city": "forsterling",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 499985,
+      "buyPrice": 221021
+    },
+    {
+      "timestamp": "2026-09-16T14:32:54.046Z",
+      "city": "lymhurst",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 499974,
+      "buyPrice": 200105
+    },
+    {
+      "timestamp": "2026-09-16T14:32:54.046Z",
+      "city": "martlock",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 221568
     }
   ],
   "latest": {
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-09-16T07:43:59.167Z",
+        "timestamp": "2026-09-16T14:32:54.046Z",
         "sellPrice": 580927,
         "buyPrice": null
       }
     },
     "forsterling": {
       "1": {
-        "timestamp": "2026-09-16T07:43:59.167Z",
+        "timestamp": "2026-09-16T14:32:54.046Z",
         "sellPrice": 499985,
         "buyPrice": 221021
       }
@@ -1777,7 +1809,7 @@
     },
     "lymhurst": {
       "1": {
-        "timestamp": "2026-09-16T07:43:59.167Z",
+        "timestamp": "2026-09-16T14:32:54.046Z",
         "sellPrice": 499974,
         "buyPrice": 200105
       }
@@ -1787,6 +1819,13 @@
         "timestamp": "2026-09-04T18:16:48.888Z",
         "sellPrice": 449976,
         "buyPrice": 300020
+      }
+    },
+    "martlock": {
+      "1": {
+        "timestamp": "2026-09-16T14:32:54.046Z",
+        "sellPrice": null,
+        "buyPrice": 221568
       }
     }
   }
