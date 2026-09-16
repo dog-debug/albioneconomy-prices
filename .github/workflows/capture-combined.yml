@@ -1,0 +1,62 @@
+name: Capture Combined (All servers, all data)
+
+on:
+  schedule:
+    # Hourly at :03 — skips hour 10 UTC (all servers maintain at 10:00 UTC)
+    - cron: '3 0-9,11-23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture-combined:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            scripts
+            lib/albion_data
+            data/prices
+            albion prices/daily
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Configure git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+      - name: Run combined capture (ALL 4 operations)
+        run: |
+          echo "=== Combined Albion Economy Capture ===" >&2
+          echo "Starting all 4 capture operations..." >&2
+          echo "- History (West, East, EU)" >&2
+          echo "- Gold (West, East, EU)" >&2
+          echo "Rate limits: 150 API calls/min, 500/5min" >&2
+          echo "Concurrency: 2 per operation to avoid throttling" >&2
+          echo "============================================" >&2
+          node scripts/capture-combined.js
+
+      - name: Push any uncommitted changes
+        if: always()
+        run: |
+          git status --porcelain || true
+          git diff --stat || true
+
+      - name: Report status
+        if: success()
+        run: echo "✅ All 4 capture operations completed successfully"
+
+      - name: Report failure
+        if: failure()
+        run: |
+          echo "❌ Combined capture workflow failed"
+          exit 1
