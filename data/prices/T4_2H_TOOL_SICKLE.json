@@ -13680,14 +13680,30 @@
       "server": "west.albion-online-data.com",
       "sellPrice": 3775,
       "buyPrice": 1516
+    },
+    {
+      "timestamp": "2026-09-16T05:30:53.145Z",
+      "city": "blackmarket",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": null,
+      "buyPrice": 790
+    },
+    {
+      "timestamp": "2026-09-16T05:30:53.145Z",
+      "city": "bridgewatch",
+      "quality": 1,
+      "server": "west.albion-online-data.com",
+      "sellPrice": 2500,
+      "buyPrice": null
     }
   ],
   "latest": {
     "blackmarket": {
       "1": {
-        "timestamp": "2026-09-15T22:27:49.079Z",
+        "timestamp": "2026-09-16T05:30:53.145Z",
         "sellPrice": null,
-        "buyPrice": 553
+        "buyPrice": 790
       }
     },
     "brecilien": {
@@ -13720,9 +13736,9 @@
     },
     "bridgewatch": {
       "1": {
-        "timestamp": "2026-09-15T22:27:49.079Z",
-        "sellPrice": 3775,
-        "buyPrice": 1516
+        "timestamp": "2026-09-16T05:30:53.145Z",
+        "sellPrice": 2500,
+        "buyPrice": null
       }
     },
     "forsterling": {
