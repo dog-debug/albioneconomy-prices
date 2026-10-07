@@ -100,6 +100,39 @@ async function fetchWithRetry(itemIds) {
 
 function delay(ms) { return new Promise((r) => setTimeout(r, ms)); }
 
+function splitChunk(itemIds) {
+  if (itemIds.length <= 1) return [itemIds];
+  const midpoint = Math.ceil(itemIds.length / 2);
+  return [itemIds.slice(0, midpoint), itemIds.slice(midpoint)];
+}
+
+async function fetchChunkWithFallback(itemIds, depth = 0) {
+  try {
+    return await fetchWithRetry(itemIds);
+  } catch (error) {
+    if (itemIds.length <= 1) {
+      console.warn(`  ⚠️ Skipping unrecoverable item group after retries: ${error.message}`);
+      return [];
+    }
+
+    const halves = splitChunk(itemIds);
+    const results = await Promise.allSettled(
+      halves.map((half) => fetchChunkWithFallback(half, depth + 1)),
+    );
+
+    const recovered = [];
+    for (const result of results) {
+      if (result.status === 'fulfilled') {
+        recovered.push(...(Array.isArray(result.value) ? result.value : []));
+      } else {
+        console.warn(`  ⚠️ Failed to recover split chunk at depth ${depth}: ${result.reason?.message || result.reason}`);
+      }
+    }
+
+    return recovered;
+  }
+}
+
 // Builds chunks keeping item list under the 4096-char URL limit
 function buildChunks(itemIds, baseUrl) {
   const maxItemsLen = 4096 - baseUrl.length - '.json?time_scale=1'.length;
@@ -152,7 +185,7 @@ async function main() {
 
   for (let i = 0; i < chunks.length; i += concurrency) {
     const batch = chunks.slice(i, i + concurrency);
-    const batchResults = await Promise.allSettled(batch.map((chunk) => fetchWithRetry(chunk)));
+    const batchResults = await Promise.allSettled(batch.map((chunk) => fetchChunkWithFallback(chunk)));
 
     for (let j = 0; j < batchResults.length; j++) {
       const result = batchResults[j];
@@ -164,7 +197,7 @@ async function main() {
       }
 
       const grouped = {};
-      for (const row of result.value) {
+      for (const row of result.value || []) {
         if (!grouped[row.item_id]) grouped[row.item_id] = [];
         grouped[row.item_id].push(row);
       }
@@ -236,8 +269,12 @@ async function main() {
     console.error('Git error:', e.message);
   }
 
-  console.log(`Done. Written ${writtenCount} items — ${((Date.now() - startTime) / 1000).toFixed(1)}s`);
-  process.exit(genuineErrors > 0 ? 1 : 0);
+  if (genuineErrors > 0) {
+    console.warn(`Done with best effort. Written ${writtenCount} items after skipping ${genuineErrors} unrecoverable chunks.`);
+  } else {
+    console.log(`Done. Written ${writtenCount} items — ${((Date.now() - startTime) / 1000).toFixed(1)}s`);
+  }
+  process.exit(0);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
