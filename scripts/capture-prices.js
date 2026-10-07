@@ -11,6 +11,36 @@ const AODP_SERVERS = [
   'east.albion-online-data.com',
 ];
 
+function parsePositiveInt(value, fallback) {
+  const parsed = Number.parseInt(value, 10);
+  return Number.isInteger(parsed) && parsed > 0 ? parsed : fallback;
+}
+
+function isRetryableError(error) {
+  if (!error) return false;
+  const message = String(error.message || error).toLowerCase();
+  const code = error.code ? String(error.code).toLowerCase() : '';
+  const httpStatus = Number(error.httpStatus);
+
+  return Boolean(error.throttled)
+    || (Number.isInteger(httpStatus) && httpStatus >= 500)
+    || message.includes('throttl')
+    || message.includes('timeout')
+    || message.includes('econnreset')
+    || message.includes('econnaborted')
+    || message.includes('socket hang up')
+    || message.includes('temporar')
+    || message.includes('network')
+    || message.includes('parse error')
+    || message.includes('unexpected end of')
+    || message.includes('unexpected eof')
+    || code === 'econnreset'
+    || code === 'econnaborted'
+    || code === 'enotfound'
+    || code === 'eai_again'
+    || code === 'timedout';
+}
+
 function fetchHistory(server, itemIds) {
   return new Promise((resolve, reject) => {
     const url = `https://${server}/api/v2/stats/history/${itemIds.join(',')}.json?time_scale=1`;
@@ -21,9 +51,10 @@ function fetchHistory(server, itemIds) {
         const buf = Buffer.concat(rawChunks);
         const decode = (b) => {
           const text = b.toString('utf8');
-          if (res.statusCode === 429 || text.startsWith('Throttled')) {
-            const err = new Error('Throttled');
-            err.throttled = true;
+          if (res.statusCode === 429 || res.statusCode >= 500 || text.startsWith('Throttled')) {
+            const err = new Error(`HTTP ${res.statusCode} response`);
+            err.httpStatus = res.statusCode;
+            err.throttled = res.statusCode === 429 || text.startsWith('Throttled');
             return reject(err);
           }
           try { resolve(JSON.parse(text)); }
@@ -42,22 +73,28 @@ function fetchHistory(server, itemIds) {
   });
 }
 
-// Retries forever every 6s on throttle or timeout
 async function fetchWithRetry(server, itemIds) {
+  const maxRetries = parsePositiveInt(process.env.MAX_RETRIES, 8);
   let attempt = 0;
-  while (true) {
+  let lastError;
+
+  while (attempt <= maxRetries) {
     try {
       return await fetchHistory(server, itemIds);
     } catch (e) {
-      if (e.throttled || e.message === 'Request timeout') {
-        attempt++;
-        console.warn(`  ⏳ Throttled/timeout (attempt ${attempt}) — retrying in 6s...`);
-        await delay(6000);
-        continue;
+      lastError = e;
+      if (!isRetryableError(e) || attempt >= maxRetries) {
+        throw e;
       }
-      throw e;
+
+      attempt++;
+      const backoffMs = Math.min(6000 * attempt, 30000);
+      console.warn(`  ⏳ Retryable request failure (attempt ${attempt}/${maxRetries}) — retrying in ${backoffMs}ms...`);
+      await delay(backoffMs);
     }
   }
+
+  throw lastError;
 }
 
 function delay(ms) {
@@ -124,7 +161,7 @@ async function capturePrices() {
   const historyBase = `https://${primaryServer}/api/v2/stats/history/`;
   const chunks = buildChunks(itemIdArray, historyBase);
   const totalChunks = chunks.length;
-  const concurrency = process.env.CONCURRENCY ? parseInt(process.env.CONCURRENCY, 10) : 5;
+  const concurrency = parsePositiveInt(process.env.CONCURRENCY, 5);
 
   for (let i = 0; i < chunks.length; i += concurrency) {
     const batch = chunks.slice(i, i + concurrency);
