@@ -2,6 +2,11 @@
 const { spawn } = require('child_process');
 const path = require('path');
 
+function parsePositiveInt(value, fallback) {
+  const parsed = Number.parseInt(value, 10);
+  return Number.isInteger(parsed) && parsed > 0 ? parsed : fallback;
+}
+
 const startTime = Date.now();
 
 // Detailed logging wrapper
@@ -14,7 +19,11 @@ function runScript(script, env = {}) {
   return new Promise((resolve, reject) => {
     log('INFO', `Starting ${script}...`);
     // For combined runs, reduce concurrency to 2 to avoid overwhelming rate limits
-    const envWithConcurrency = { ...env, CONCURRENCY: '2' };
+    const envWithConcurrency = {
+      ...env,
+      CONCURRENCY: String(parsePositiveInt(env.CONCURRENCY || process.env.CONCURRENCY, 2)),
+      MAX_RETRIES: String(parsePositiveInt(process.env.MAX_RETRIES, 8))
+    };
     const proc = spawn('node', [path.join(__dirname, script)], {
       stdio: 'inherit',
       env: { ...process.env, ...envWithConcurrency }
