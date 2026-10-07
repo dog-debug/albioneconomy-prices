@@ -10,6 +10,36 @@ const SERVERS = [
   { name: 'eu', url: 'https://europe.albion-online-data.com' }
 ];
 
+function parsePositiveInt(value, fallback) {
+  const parsed = Number.parseInt(value, 10);
+  return Number.isInteger(parsed) && parsed > 0 ? parsed : fallback;
+}
+
+function isRetryableError(error) {
+  if (!error) return false;
+  const message = String(error.message || error).toLowerCase();
+  const code = error.code ? String(error.code).toLowerCase() : '';
+  const httpStatus = Number(error.httpStatus);
+
+  return Boolean(error.throttled)
+    || (Number.isInteger(httpStatus) && httpStatus >= 500)
+    || message.includes('throttl')
+    || message.includes('timeout')
+    || message.includes('econnreset')
+    || message.includes('econnaborted')
+    || message.includes('socket hang up')
+    || message.includes('temporar')
+    || message.includes('network')
+    || message.includes('parse error')
+    || message.includes('unexpected end of')
+    || message.includes('unexpected eof')
+    || code === 'econnreset'
+    || code === 'econnaborted'
+    || code === 'enotfound'
+    || code === 'eai_again'
+    || code === 'timedout';
+}
+
 function fetchGold(serverUrl) {
   return new Promise((resolve, reject) => {
     const url = `${serverUrl}/api/v2/stats/gold.json?count=1000`;
@@ -20,9 +50,10 @@ function fetchGold(serverUrl) {
         const buf = Buffer.concat(rawChunks);
         const decode = (b) => {
           const text = b.toString('utf8');
-          if (res.statusCode === 429 || text.startsWith('Throttled')) {
-            const err = new Error('Throttled');
-            err.throttled = true;
+          if (res.statusCode === 429 || res.statusCode >= 500 || text.startsWith('Throttled')) {
+            const err = new Error(`HTTP ${res.statusCode} response`);
+            err.httpStatus = res.statusCode;
+            err.throttled = res.statusCode === 429 || text.startsWith('Throttled');
             return reject(err);
           }
           try { resolve(JSON.parse(text)); }
@@ -50,20 +81,23 @@ async function captureServer(server) {
   fs.mkdirSync(outDir, { recursive: true });
 
   let goldData;
+  const maxRetries = parsePositiveInt(process.env.MAX_RETRIES, 8);
   let goldAttempt = 0;
-  while (true) {
+
+  while (goldAttempt <= maxRetries) {
     try {
       goldData = await fetchGold(url);
       break;
     } catch (e) {
-      if (e.throttled || e.message === 'Request timeout') {
-        goldAttempt++;
-        console.warn(`  ⏳ [${name}] Throttled/timeout (attempt ${goldAttempt}) — retrying in 6s...`);
-        await new Promise((r) => setTimeout(r, 6000));
-        continue;
+      if (!isRetryableError(e) || goldAttempt >= maxRetries) {
+        console.error(`  ❌ [${name}] Failed to fetch gold:`, e.message);
+        throw e;
       }
-      console.error(`  ❌ [${name}] Failed to fetch gold:`, e.message);
-      throw e;
+
+      goldAttempt++;
+      const backoffMs = Math.min(6000 * goldAttempt, 30000);
+      console.warn(`  ⏳ [${name}] Retryable fetch failure (attempt ${goldAttempt}/${maxRetries}) — retrying in ${backoffMs}ms...`);
+      await new Promise((r) => setTimeout(r, backoffMs));
     }
   }
 
