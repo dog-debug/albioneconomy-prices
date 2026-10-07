@@ -7,6 +7,36 @@ const { execSync } = require('child_process');
 const SERVER_URL = process.env.SERVER_URL;
 const SERVER_NAME = process.env.SERVER_NAME;
 
+function parsePositiveInt(value, fallback) {
+  const parsed = Number.parseInt(value, 10);
+  return Number.isInteger(parsed) && parsed > 0 ? parsed : fallback;
+}
+
+function isRetryableError(error) {
+  if (!error) return false;
+  const message = String(error.message || error).toLowerCase();
+  const code = error.code ? String(error.code).toLowerCase() : '';
+  const httpStatus = Number(error.httpStatus);
+
+  return Boolean(error.throttled)
+    || (Number.isInteger(httpStatus) && httpStatus >= 500)
+    || message.includes('throttl')
+    || message.includes('timeout')
+    || message.includes('econnreset')
+    || message.includes('econnaborted')
+    || message.includes('socket hang up')
+    || message.includes('temporar')
+    || message.includes('network')
+    || message.includes('parse error')
+    || message.includes('unexpected end of')
+    || message.includes('unexpected eof')
+    || code === 'econnreset'
+    || code === 'econnaborted'
+    || code === 'enotfound'
+    || code === 'eai_again'
+    || code === 'timedout';
+}
+
 if (!SERVER_URL || !SERVER_NAME) {
   console.error('Missing SERVER_URL or SERVER_NAME env vars');
   process.exit(1);
@@ -22,9 +52,10 @@ function fetchGold() {
         const buf = Buffer.concat(rawChunks);
         const decode = (b) => {
           const text = b.toString('utf8');
-          if (res.statusCode === 429 || text.startsWith('Throttled')) {
-            const err = new Error('Throttled');
-            err.throttled = true;
+          if (res.statusCode === 429 || res.statusCode >= 500 || text.startsWith('Throttled')) {
+            const err = new Error(`HTTP ${res.statusCode} response`);
+            err.httpStatus = res.statusCode;
+            err.throttled = res.statusCode === 429 || text.startsWith('Throttled');
             return reject(err);
           }
           try { resolve(JSON.parse(text)); }
@@ -51,20 +82,23 @@ async function main() {
   fs.mkdirSync(outDir, { recursive: true });
 
   let goldData;
+  const maxRetries = parsePositiveInt(process.env.MAX_RETRIES, 8);
   let goldAttempt = 0;
-  while (true) {
+
+  while (goldAttempt <= maxRetries) {
     try {
       goldData = await fetchGold();
       break;
     } catch (e) {
-      if (e.throttled || e.message === 'Request timeout') {
-        goldAttempt++;
-        console.warn(`Throttled/timeout (attempt ${goldAttempt}) — retrying in 6s...`);
-        await new Promise((r) => setTimeout(r, 6000));
-        continue;
+      if (!isRetryableError(e) || goldAttempt >= maxRetries) {
+        console.error('Failed to fetch gold:', e.message);
+        process.exit(1);
       }
-      console.error('Failed to fetch gold:', e.message);
-      process.exit(1);
+
+      goldAttempt++;
+      const backoffMs = Math.min(6000 * goldAttempt, 30000);
+      console.warn(`Retryable fetch failure (attempt ${goldAttempt}/${maxRetries}) — retrying in ${backoffMs}ms...`);
+      await new Promise((r) => setTimeout(r, backoffMs));
     }
   }
 
