@@ -73,8 +73,19 @@ function fetchHistory(server, itemIds) {
   });
 }
 
+function getRetrySettings() {
+  return {
+    maxRetries: parsePositiveInt(process.env.MAX_RETRIES, 3),
+    maxSplitDepth: parsePositiveInt(process.env.MAX_SPLIT_DEPTH, 4),
+    minSplitSize: parsePositiveInt(process.env.MIN_SPLIT_SIZE, 16),
+    baseDelayMs: parsePositiveInt(process.env.RETRY_BASE_DELAY_MS, 1500),
+    maxDelayMs: parsePositiveInt(process.env.RETRY_MAX_DELAY_MS, 8000),
+  };
+}
+
 async function fetchWithRetry(server, itemIds) {
-  const maxRetries = parsePositiveInt(process.env.MAX_RETRIES, 8);
+  const retrySettings = getRetrySettings();
+  const maxRetries = retrySettings.maxRetries;
   let attempt = 0;
   let lastError;
 
@@ -88,7 +99,7 @@ async function fetchWithRetry(server, itemIds) {
       }
 
       attempt++;
-      const backoffMs = Math.min(6000 * attempt, 30000);
+      const backoffMs = Math.min(retrySettings.baseDelayMs * (2 ** (attempt - 1)), retrySettings.maxDelayMs);
       console.warn(`  ⏳ Retryable request failure (attempt ${attempt}/${maxRetries}) — retrying in ${backoffMs}ms...`);
       await delay(backoffMs);
     }
@@ -108,11 +119,13 @@ function splitChunk(itemIds) {
 }
 
 async function fetchChunkWithFallback(server, itemIds, depth = 0) {
+  const retrySettings = getRetrySettings();
+
   try {
     return await fetchWithRetry(server, itemIds);
   } catch (error) {
-    if (itemIds.length <= 1) {
-      console.warn(`  ⚠️ Skipping unrecoverable item group after retries: ${error.message}`);
+    if (itemIds.length <= retrySettings.minSplitSize || depth >= retrySettings.maxSplitDepth) {
+      console.warn(`  ⚠️ Skipping unrecoverable item group (${itemIds.length} items) after ${depth} split(s): ${error.message}`);
       return [];
     }
 
