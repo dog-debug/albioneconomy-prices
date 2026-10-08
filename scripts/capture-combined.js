@@ -22,7 +22,11 @@ function runScript(script, env = {}) {
     const envWithConcurrency = {
       ...env,
       CONCURRENCY: String(parsePositiveInt(env.CONCURRENCY || process.env.CONCURRENCY, 2)),
-      MAX_RETRIES: String(parsePositiveInt(process.env.MAX_RETRIES, 8))
+      MAX_RETRIES: String(parsePositiveInt(process.env.MAX_RETRIES, 3)),
+      MAX_SPLIT_DEPTH: String(parsePositiveInt(process.env.MAX_SPLIT_DEPTH, 4)),
+      MIN_SPLIT_SIZE: String(parsePositiveInt(process.env.MIN_SPLIT_SIZE, 16)),
+      RETRY_BASE_DELAY_MS: String(parsePositiveInt(process.env.RETRY_BASE_DELAY_MS, 1500)),
+      RETRY_MAX_DELAY_MS: String(parsePositiveInt(process.env.RETRY_MAX_DELAY_MS, 8000))
     };
     const proc = spawn('node', [path.join(__dirname, script)], {
       stdio: 'inherit',
